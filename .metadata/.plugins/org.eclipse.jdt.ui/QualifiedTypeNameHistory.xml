@@ -2,4 +2,7 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="org.w3c.dom.Element"/>
 <fullyQualifiedTypeName name="ro.helator.ie.util.DocumentUtil"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="ro.helator.ie.util.GeneralStringConstants"/>
+<fullyQualifiedTypeName name="ro.helator.ie.util.XSDUtil"/>
 </qualifiedTypeNameHistroy>

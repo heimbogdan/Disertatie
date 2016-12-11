@@ -24,16 +24,16 @@ public class WSDLUtil {
 	public static final String WSDL_FILENAME = "WebServiceDefinition.wsdl";
 	public static final String WSDL_SCHEMANAME = "schema_?.xsd";
 	
-	public static void getWsdlAndSave(String URL, String name) throws MalformedURLException, IOException, ParserConfigurationException{
+	public static void getWsdlAndSave(String URL) throws MalformedURLException, IOException, ParserConfigurationException{
 		String wsdl = getWsdlAsString(URL);
 		Document doc = FileUtil.convertStringToDocument(liniarizeWSDL(wsdl));
-//		List<Document> list = extractExternalSchemas(doc);
-		String folder = WSDL_FOLDER.replace("?", name);
+		String folder = WSDL_FOLDER.replace("?", getWsdlName(URL));
 		FileUtil.writeFile(new File(folder + WSDL_FILENAME), FileUtil.convertDocumentToString(doc, false, false));
-//		for(Document schema : list){
-//			FileUtil.writeFile(new File(folder + WSDL_SCHEMANAME.replace("?", (list.indexOf(schema) + 1) + "")),
-//					FileUtil.convertDocumentToString(schema, true, true));
-//		}
+		
+		List<String> schemasLocation = getExternalSchemasLocations(doc, URL);
+		for(String schemaLocation : schemasLocation){
+			XSDUtil.getXsdAndSave(schemaLocation, folder);
+		}
 	}
 	
 	public static String getWsdlAsString(String  URL) throws MalformedURLException, IOException{
@@ -59,18 +59,18 @@ public class WSDLUtil {
 		return formatedUrl;
 	}
 	
-	public static List<Document> extractExternalSchemas(Document doc) throws ParserConfigurationException{
+	public static List<String> getExternalSchemasLocations(Document doc, String url) throws ParserConfigurationException{
 		Element root = doc.getDocumentElement();
-		return extractExternalSchemas(root);
+		return getExternalSchemasLocations(root, url);
 	}
 	
-	public static List<Document> extractExternalSchemas(Element root) throws ParserConfigurationException{
-		List<Document> schemas = new ArrayList<Document>();
-		extractExternalSchemas(root, schemas);
+	public static List<String> getExternalSchemasLocations(Element root, String url) throws ParserConfigurationException{
+		List<String> schemas = new ArrayList<String>();
+		getExternalSchemasLocations(root, schemas, url);
 		return schemas;
 	}
 	
-	private static void extractExternalSchemas(Element root, List<Document> schemas) throws ParserConfigurationException{
+	private static void getExternalSchemasLocations(Element root, List<String> schemas, String url) throws ParserConfigurationException{
 		NodeList nodes = root.getChildNodes();
 		int size = nodes.getLength();
 		for(int i = 0; i < size; i++){
@@ -81,9 +81,9 @@ public class WSDLUtil {
 				String localName = arr[arr.length-1];
 				if(localName.equals("import")){
 					String location = DocumentUtil.getAttributeValue(node, "schemaLocation");
-					
+					schemas.add(XSDUtil.createLocation(url, location));
 				} else if(node instanceof Element){
-					extractExternalSchemas((Element) node, schemas);
+					getExternalSchemasLocations((Element) node, schemas, url);
 				}
 			}
 		}
@@ -93,5 +93,9 @@ public class WSDLUtil {
 		return wsdl.replaceAll("> +<", "><");
 	}
 	
-	
+	public static String getWsdlName(String URL){
+		int index = URL.lastIndexOf("/");
+		return URL.substring(index).replace(WSDL_EXTENSION, "")
+				.replace(WSDL_EXTENSION.toUpperCase(), "");
+	}
 }
