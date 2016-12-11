@@ -1,0 +1,28 @@
+package ro.helator.ie.util;
+
+import java.io.InputStream;
+import java.net.URL;
+import java.net.URLConnection;
+
+public class XSDUtil {
+
+	public static final String XSD_EXTENSION = ".xsd";
+	
+	public static void getXsdAndSave(String URL){
+		
+	}
+	
+	public static String getXsdAsString(String  URL){
+		URL url = new URL(formatURL(URL));
+		URLConnection connection = url.openConnection();
+		InputStream in = connection.getInputStream();
+	}
+	
+	private static String formatURL(String  URL){
+		String formatedUrl = URL;
+		if(!URL.toLowerCase().endsWith(XSD_EXTENSION)){
+			formatedUrl += XSD_EXTENSION;
+		}
+		return formatedUrl;
+	}
+}
