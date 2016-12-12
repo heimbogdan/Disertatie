@@ -9,6 +9,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.StringReader;
 import java.io.StringWriter;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.UUID;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -128,5 +132,20 @@ public class FileUtil {
 		}
 		file.getParentFile().mkdirs();
 		file.createNewFile();
+	}
+	
+public static String getFileAsString(String  URL) throws MalformedURLException, IOException{
+		
+		URL url = new URL(URL);
+		URLConnection connection = url.openConnection();
+		InputStream in = connection.getInputStream();
+		
+		File file = new File(GeneralStringConstants.TEMP_FOLDER + UUID.randomUUID().toString());
+		FileUtil.createNewFile(file);
+		FileUtil.writeToFileFromInputStream(in, file);
+		
+		String content = FileUtil.readFile(file);
+		file.delete();
+		return content;
 	}
 }

@@ -1,0 +1,291 @@
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.iib.bpmwave.ro/customer/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="customer" targetNamespace="http://www.iib.bpmwave.ro/customer/">
+    <wsdl:documentation>
+        <wsdl:appinfo source="WMQI_APPINFO">
+            <MRWSDLAppInfo imported="true">
+                <generatedXSD location="customer_InlineSchema1.xsd"/>
+                <binding hasEncoding="false" imported="true" name="customerSOAP" originalBindingStyle="document"/>
+            </MRWSDLAppInfo>
+        </wsdl:appinfo>
+    </wsdl:documentation>
+    <wsdl:types>
+        <xsd:schema>
+            <xsd:import namespace="http://www.iib.bpmwave.ro/customer/" schemaLocation="./schema_1.xsd"/>
+        </xsd:schema>
+    </wsdl:types>
+    <wsdl:message name="getAccountBalancesRequest">
+        <wsdl:part element="tns:accountBalanceRequest" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getAccountBalancesResponse">
+        <wsdl:part element="tns:accountBalanceResponse" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getCustomerEnquiryOp01Request">
+        <wsdl:part element="tns:customerEnquiry01Request" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getCustomerEnquiryOp01Response">
+        <wsdl:part element="tns:customerEnquiry01Response" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getCustomerEnquiryOp04Request">
+        <wsdl:part element="tns:customerEnquiry04Request" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getCustomerEnquiryOp04Response">
+        <wsdl:part element="tns:customerEnquiry04Response" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getCustomerAmendRequest">
+        <wsdl:part element="tns:customerAmendRequest" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getCustomerAmendResponse">
+        <wsdl:part element="tns:customerAmendResponse" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="updateCustomerAmendRequest">
+        <wsdl:part element="tns:updateCustAmendRequest" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="updateCustomerAmendResponse">
+        <wsdl:part element="tns:updateCustAmendResponse" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="searchByIdRequest">
+        <wsdl:part element="tns:searchByIdRequest" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="searchByIdResponse">
+        <wsdl:part element="tns:searchByIdResponse" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="updateProfessionAndFactaRequest">
+        <wsdl:part element="tns:updateProfessionAndFactaRequest" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="updateProfessionAndFactaResponse">
+        <wsdl:part element="tns:updateProfessionAndFactaResponse" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="linkAccountsToCifRequest">
+        <wsdl:part element="tns:linkAccountsToCifRequest" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="linkAccountsToCifResponse">
+        <wsdl:part element="tns:linkAccountsToCifResponse" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="setATMFlagRequest">
+        <wsdl:part element="tns:setATMFlagRequest" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="setATMFlagResponse">
+        <wsdl:part element="tns:setATMFlagResponse" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="smsSubscriptionRequest">
+        <wsdl:part element="tns:smsSubscriptionRequest" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="smsSubscriptionResponse">
+        <wsdl:part element="tns:smsSubscriptionResponse" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="createCifRequest">
+        <wsdl:part element="tns:cifCreationRequest" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="createCifResponse">
+        <wsdl:part element="tns:cifCreationResponse" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getAccountAmendRequest">
+        <wsdl:part element="tns:getAccountAmendRequest" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getAccountAmendResponse">
+        <wsdl:part element="tns:getAccountAmendResponse" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="updateAccountAmendRequest">
+        <wsdl:part element="tns:updateAccountAmendRequest" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="updateAccountAmendResponse">
+        <wsdl:part element="tns:updateAccountAmendResponse" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getProfessionAndFactaRequest">
+        <wsdl:part element="tns:getProfessionAndFatcaRequest" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getProfessionAndFactaResponse">
+        <wsdl:part element="tns:getProfessionAndFatcaResponse" name="parameters"/>
+    </wsdl:message>
+    <wsdl:portType name="customer">
+        <wsdl:operation name="getAccountBalances">
+            <wsdl:input message="tns:getAccountBalancesRequest"/>
+            <wsdl:output message="tns:getAccountBalancesResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerEnquiryOp01">
+            <wsdl:input message="tns:getCustomerEnquiryOp01Request"/>
+            <wsdl:output message="tns:getCustomerEnquiryOp01Response"/>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerEnquiryOp04">
+            <wsdl:input message="tns:getCustomerEnquiryOp04Request"/>
+            <wsdl:output message="tns:getCustomerEnquiryOp04Response"/>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerAmend">
+            <wsdl:input message="tns:getCustomerAmendRequest"/>
+            <wsdl:output message="tns:getCustomerAmendResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="updateCustomerAmend">
+            <wsdl:input message="tns:updateCustomerAmendRequest"/>
+            <wsdl:output message="tns:updateCustomerAmendResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="searchById">
+            <wsdl:input message="tns:searchByIdRequest"/>
+            <wsdl:output message="tns:searchByIdResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="updateProfessionAndFacta">
+            <wsdl:input message="tns:updateProfessionAndFactaRequest"/>
+            <wsdl:output message="tns:updateProfessionAndFactaResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="getProfessionAndFacta">
+            <wsdl:input message="tns:getProfessionAndFactaRequest"/>
+            <wsdl:output message="tns:getProfessionAndFactaResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="linkAccountsToCif">
+            <wsdl:input message="tns:linkAccountsToCifRequest"/>
+            <wsdl:output message="tns:linkAccountsToCifResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="setATMFlag">
+            <wsdl:input message="tns:setATMFlagRequest"/>
+            <wsdl:output message="tns:setATMFlagResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="smsSubscription">
+            <wsdl:input message="tns:smsSubscriptionRequest"/>
+            <wsdl:output message="tns:smsSubscriptionResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="createCif">
+            <wsdl:input message="tns:createCifRequest"/>
+            <wsdl:output message="tns:createCifResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="getAccountAmend">
+            <wsdl:input message="tns:getAccountAmendRequest"/>
+            <wsdl:output message="tns:getAccountAmendResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="updateAccountAmend">
+            <wsdl:input message="tns:updateAccountAmendRequest"/>
+            <wsdl:output message="tns:updateAccountAmendResponse"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="customerSOAP" type="tns:customer">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="getAccountBalances">
+            <soap:operation soapAction="http://www.iib.bpmwave.ro/customer/getAccountBalances"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerEnquiryOp01">
+            <soap:operation soapAction="http://www.iib.bpmwave.ro/customer/getCustomerEnquiryOp01"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerEnquiryOp04">
+            <soap:operation soapAction="http://www.iib.bpmwave.ro/customer/getCustomerEnquiryOp04"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerAmend">
+            <soap:operation soapAction="http://www.iib.bpmwave.ro/customer/getCustomerAmend"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="updateCustomerAmend">
+            <soap:operation soapAction="http://www.iib.bpmwave.ro/customer/updateCustomerAmend"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="searchById">
+            <soap:operation soapAction="http://www.iib.bpmwave.ro/customer/searchById"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="updateProfessionAndFacta">
+            <soap:operation soapAction="http://www.iib.bpmwave.ro/customer/updateProfessionAndFacta"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getProfessionAndFacta">
+            <soap:operation soapAction="http://www.iib.bpmwave.ro/customer/getProfessionAndFacta"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="linkAccountsToCif">
+            <soap:operation soapAction="http://www.iib.bpmwave.ro/customer/linkAccountsToCif"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="setATMFlag">
+            <soap:operation soapAction="http://www.iib.bpmwave.ro/customer/setATMFlag"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="smsSubscription">
+            <soap:operation soapAction="http://www.iib.bpmwave.ro/customer/smsSubscription"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="createCif">
+            <soap:operation soapAction="http://www.iib.bpmwave.ro/customer/smsSubscription"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getAccountAmend">
+            <soap:operation soapAction="http://www.iib.bpmwave.ro/customer/getAccountAmend"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="updateAccountAmend">
+            <soap:operation soapAction="http://www.iib.bpmwave.ro/customer/updateAccountAmend"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="customer">
+        <wsdl:port binding="tns:customerSOAP" name="customerSOAP">
+            <soap:address location="http://iib-cluster.hq.edata.ro:7800/customerService"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

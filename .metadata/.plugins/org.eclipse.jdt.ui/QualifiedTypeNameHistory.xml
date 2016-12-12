@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="org.w3c.dom.Element"/>
-<fullyQualifiedTypeName name="ro.helator.ie.util.DocumentUtil"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-<fullyQualifiedTypeName name="ro.helator.ie.util.GeneralStringConstants"/>
 <fullyQualifiedTypeName name="ro.helator.ie.util.XSDUtil"/>
+<fullyQualifiedTypeName name="ro.helator.ie.util.DocumentUtil"/>
+<fullyQualifiedTypeName name="java.util.UUID"/>
+<fullyQualifiedTypeName name="ro.helator.ie.util.GeneralStringConstants"/>
+<fullyQualifiedTypeName name="ro.helator.ie.util.WSDLUtil"/>
+<fullyQualifiedTypeName name="ro.helator.ie.util.FileUtil"/>
 </qualifiedTypeNameHistroy>

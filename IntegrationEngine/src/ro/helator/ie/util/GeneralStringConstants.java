@@ -24,6 +24,7 @@ public class GeneralStringConstants {
 	public static final String ROOT_FOLDER = "./";
 	//	S
 	//	T
+	public static final String TEMP_FOLDER = "./tmp/";
 	//	U
 	//	V
 	//	W

@@ -38,4 +38,8 @@ public class DocumentUtil {
 	public static String getAttributeValue(Node node, String attribute){
 		return ((Element) node).getAttribute(attribute);
 	}
+	
+	public static void setAttributeValue(Node node, String attribute, String value){
+		((Element) node).setAttribute(attribute, value);
+	}
 }
