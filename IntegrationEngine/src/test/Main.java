@@ -10,9 +10,7 @@ public class Main {
 			
 			// to do 
 			String[] urls = new String[3];
-			urls[0] = "http://iib-cluster.hq.edata.ro:7800/accountService";
-			urls[1] = "http://iib-cluster.hq.edata.ro:7800/customerService";
-			urls[2] = "http://iib-cluster.hq.edata.ro:7800/bancsMiscService";
+			
 			for(String url : urls){
 				WSDLUtil.getWsdlAndSave(url);
 				String wsdl = WSDLUtil.liniarizeWSDL(FileUtil.getFileAsString(WSDLUtil.formatURL(url)));
