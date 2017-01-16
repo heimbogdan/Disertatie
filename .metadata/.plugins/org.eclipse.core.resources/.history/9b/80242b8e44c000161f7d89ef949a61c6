@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<xsd:schema xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.iib.bpmwave.ro/bancsMisc/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsd1="http://bancs.iib.bpmwave.ro" targetNamespace="http://www.iib.bpmwave.ro/bancsMisc/">	<xsd:import namespace="http://bancs.iib.bpmwave.ro" schemaLocation="http://iib-cluster.hq.edata.ro:7800/bancsMiscService?xsd=xsd1"/>		<xsd:element name="bancsMiscRequest" type="xsd1:bancsMiscRequest"/>	<xsd:element name="bancsMiscResponse" type="xsd1:bancsMiscResponse"/>	<xsd:element name="generalErrorResponse" type="xsd1:GeneralTransactionErrorResponse"/>	<xsd:element name="generalSuccessResponse" type="xsd1:GeneralTransactionSuccessResponse"/>		<xsd:element name="loginRequest" type="xsd1:LoginRequest"/>
-    <xsd:element name="loginResponse" type="xsd1:LoginResponse"/>
-    <xsd:element name="logoutRequest" type="xsd1:LogoutRequest"/>
-    <xsd:element name="logoutResponse" type="xsd1:LogoutResponse"/>
-    <xsd:element name="getExchangeRateRequest" type="xsd1:GetExchangeRateRequestType"/>	<xsd:element name="getExchangeRateResponse" type="xsd1:GetExchangeRateResponseType"/>
-    <xsd:element name="getFDRateRequest" type="xsd1:GetFDRateRequestType"/>
-    <xsd:element name="getFDRateResponse" type="xsd1:GetFDRateResponseType"/>
-</xsd:schema>

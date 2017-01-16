@@ -1,0 +1,16 @@
+package ro.helator.ie.util;
+
+import javax.xml.parsers.ParserConfigurationException;
+
+import ro.helator.ie.util.xsl.XSLDocument;
+
+public class XSLUtil {
+
+	public static XSLDocument createXSLDocument() throws ParserConfigurationException{
+		return new XSLDocument("temp");
+	}
+	
+	public static XSLDocument createXSLDocument(String fileName) throws ParserConfigurationException{
+		return new XSLDocument(fileName);
+	}
+}

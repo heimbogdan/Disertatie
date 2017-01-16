@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "title": "JBoss Tools",
-  "timestamp": 1481542110002,
+  "timestamp": 1484590170865,
   "ttl": 0,
   "helpUrl": "https://aer.ctrlflow.com/redhat/help",
   "feedbackUrl": "http://ctrlflow.com/automated-error-reporting",
@@ -46,7 +46,7 @@
     "tern.*"
   ],
   "requiredPackages": [
-    "com.ctrlflow.*",
+    "com.ctrlflow.aer.*",
     "com.jboss.*",
     "org.drools.*",
     "org.fusesource.*",

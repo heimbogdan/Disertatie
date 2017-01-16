@@ -1,0 +1,5 @@
+package ro.helator.ie.util.xsl;
+
+public class XSDContextElement {
+
+}
