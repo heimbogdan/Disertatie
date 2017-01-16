@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;IntegrationEngine/wsdl&apos; to &apos;test&apos;" description="Rename resource &apos;wsdl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="wsdl" name="test" stamp="1484591110250" updateReferences="true"/>
+</session>

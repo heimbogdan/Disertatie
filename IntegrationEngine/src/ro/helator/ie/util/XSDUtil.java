@@ -152,17 +152,16 @@ public class XSDUtil {
 	public static List<XSDContextElement> getElementsFromXSD(Document doc){
 		List<XSDContextElement> elements = new ArrayList<XSDContextElement>();
 		Element root = doc.getDocumentElement();
-		getLocalNameByType(root, XSD_ELEMENT, elements);
-		getLocalNameByType(root, XSD_COMPLEXTYPE, elements);
+		getLocalNameByType(root, elements);
 		return elements;
 	}
 	
-	private static void getLocalNameByType(Element root, String type, List<XSDContextElement> list){
+	private static void getLocalNameByType(Element root, List<XSDContextElement> list){
 		NodeList nodeList = root.getChildNodes();
 		int length = nodeList.getLength();
 		for(int i = 0; i < length; i++){
 			Node node = nodeList.item(i);
-			if(node.getLocalName().equals(XSD_ELEMENT) || node.getLocalName().equals(XSD_COMPLEXTYPE)){
+			if(node instanceof Element && (node.getLocalName().equals(XSD_ELEMENT) || node.getLocalName().equals(XSD_COMPLEXTYPE))){
 				list.add(new XSDContextElement(node.getAttributes()
 						.getNamedItem(XSD_ATRIBUTE_NAME).getNodeValue(), node.getLocalName()));
 			}
