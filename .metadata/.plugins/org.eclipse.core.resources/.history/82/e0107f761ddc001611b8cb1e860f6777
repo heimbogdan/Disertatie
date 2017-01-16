@@ -7,7 +7,6 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
 import org.w3c.dom.Document;
-import org.w3c.dom.Element;
 
 public class XSLDocument {
 
@@ -16,7 +15,7 @@ public class XSLDocument {
 	private Document inDoc, outDoc;
 	private List<String> inNamespaces;
 	private List<String> outNamespaces;
-	private Element inElement, outElement;
+	private String inElement, outElement;
 	
 	private XSLDocument(String fileName) throws ParserConfigurationException{
 		DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
@@ -40,11 +39,11 @@ public class XSLDocument {
 		return outDoc;
 	}
 	
-	public void setInElement(Element element){
+	public void setInElement(String element){
 		this.inElement = element;
 	}
 	
-	public void setOutElement(Element element){
+	public void setOutElement(String element){
 		this.outElement = element;
 	}
 }

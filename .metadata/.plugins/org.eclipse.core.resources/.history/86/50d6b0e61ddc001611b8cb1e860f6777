@@ -149,20 +149,21 @@ public class XSDUtil {
 		return namespaces;
 	}
 	
-	public static List<Element> getElementsAndComplexTypesFromXSD(Document doc){
-		List<Element> elements = new ArrayList<Element>();
+	public static List<XSDContextElement> getElementsAndComplexTypesFromXSD(Document doc){
+		List<XSDContextElement> elements = new ArrayList<XSDContextElement>();
 		Element root = doc.getDocumentElement();
 		getLocalNameByType(root, elements);
 		return elements;
 	}
 	
-	private static void getLocalNameByType(Element root, List<Element> list){
+	private static void getLocalNameByType(Element root, List<XSDContextElement> list){
 		NodeList nodeList = root.getChildNodes();
 		int length = nodeList.getLength();
 		for(int i = 0; i < length; i++){
 			Node node = nodeList.item(i);
 			if(node instanceof Element && (node.getLocalName().equals(XSD_ELEMENT) || node.getLocalName().equals(XSD_COMPLEXTYPE))){
-				list.add((Element) node);
+				list.add(new XSDContextElement(node.getAttributes()
+						.getNamedItem(XSD_ATRIBUTE_NAME).getNodeValue(), node.getLocalName()));
 			}
 		}
 	}

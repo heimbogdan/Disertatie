@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.w3c.dom.Element"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="ro.helator.ie.util.DocumentUtil"/>
 <fullyQualifiedTypeName name="java.util.UUID"/>
 <fullyQualifiedTypeName name="ro.helator.ie.util.GeneralStringConstants"/>
 <fullyQualifiedTypeName name="ro.helator.ie.util.WSDLUtil"/>
 <fullyQualifiedTypeName name="ro.helator.ie.util.FileUtil"/>
-<fullyQualifiedTypeName name="ro.helator.ie.util.xsl.XSLDocument"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="org.w3c.dom.NamedNodeMap"/>
 <fullyQualifiedTypeName name="ro.helator.ie.util.XSDUtil"/>
@@ -19,5 +16,9 @@
 <fullyQualifiedTypeName name="org.w3c.dom.Document"/>
 <fullyQualifiedTypeName name="org.w3c.dom.Node"/>
 <fullyQualifiedTypeName name="org.w3c.dom.NodeList"/>
+<fullyQualifiedTypeName name="ro.helator.ie.util.XSLUtil"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="ro.helator.ie.util.xsl.XSDContextElement"/>
+<fullyQualifiedTypeName name="ro.helator.ie.util.xsl.XSLDocument"/>
+<fullyQualifiedTypeName name="org.w3c.dom.Element"/>
 </qualifiedTypeNameHistroy>
