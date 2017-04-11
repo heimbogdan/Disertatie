@@ -9,11 +9,8 @@ import javax.xml.parsers.ParserConfigurationException;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
-
-import ro.helator.ie.util.xsl.XSDContextElement;
 
 public class XSDUtil {
 
@@ -55,9 +52,9 @@ public class XSDUtil {
 			throws IOException, ParserConfigurationException {
 		String xsd = FileUtil.getFileAsString(URL);
 		Document doc = FileUtil.convertStringToDocument(liniarizeXSD(xsd));
-
-		FileUtil.writeFile(new File(dir + name), FileUtil.convertDocumentToString(doc, true, true));
 		List<String> schemasLocation = getExternalSchemasLocations(doc, URL, name);
+		FileUtil.writeFile(new File(dir + name), FileUtil.convertDocumentToString(doc, true, true));
+		
 		for (String schemaLocation : schemasLocation) {
 			getXsdAndSave(schemaLocation, dir,
 					name.replace(".xsd", "_" + (schemasLocation.indexOf(schemaLocation) + 1) + ".xsd"));
@@ -135,7 +132,8 @@ public class XSDUtil {
 					String location = DocumentUtil.getAttributeValue(node, "schemaLocation");
 					schemas.add(XSDUtil.createLocation(url, location));
 					DocumentUtil.setAttributeValue(node, "schemaLocation",
-							GeneralStringConstants.ROOT_FOLDER + nameXSD);
+							GeneralStringConstants.ROOT_FOLDER + nameXSD.replace(XSD_EXTENSION, 
+									"_" + schemas.size() + XSD_EXTENSION));
 				} else if (node instanceof Element) {
 					getExternalSchemasLocations((Element) node, schemas, url, nameXSD);
 				}
@@ -145,23 +143,24 @@ public class XSDUtil {
 
 	public static List<String> getListOfNamespaces(Document doc) {
 		List<String> namespaces = new ArrayList<String>();
-		
+
 		return namespaces;
 	}
-	
-	public static List<Element> getElementsAndComplexTypesFromXSD(Document doc){
+
+	public static List<Element> getElementsAndComplexTypesFromXSD(Document doc) {
 		List<Element> elements = new ArrayList<Element>();
 		Element root = doc.getDocumentElement();
 		getLocalNameByType(root, elements);
 		return elements;
 	}
-	
-	private static void getLocalNameByType(Element root, List<Element> list){
+
+	private static void getLocalNameByType(Element root, List<Element> list) {
 		NodeList nodeList = root.getChildNodes();
 		int length = nodeList.getLength();
-		for(int i = 0; i < length; i++){
+		for (int i = 0; i < length; i++) {
 			Node node = nodeList.item(i);
-			if(node instanceof Element && (node.getLocalName().equals(XSD_ELEMENT) || node.getLocalName().equals(XSD_COMPLEXTYPE))){
+			if (node instanceof Element
+					&& (node.getLocalName().equals(XSD_ELEMENT) || node.getLocalName().equals(XSD_COMPLEXTYPE))) {
 				list.add((Element) node);
 			}
 		}

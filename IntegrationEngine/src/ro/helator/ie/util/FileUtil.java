@@ -70,7 +70,7 @@ public class FileUtil {
             transformer = tf.newTransformer();
             // below code to remove XML declaration
             transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, xmlDeclaration ? "no" : "yes");
-            transformer.setOutputProperty(OutputKeys.STANDALONE, standalone ? "yes" : "no");
+//            transformer.setOutputProperty(OutputKeys.STANDALONE, standalone ? "yes" : "no");
             transformer.setOutputProperty(OutputKeys.METHOD, "xml");
             transformer.setOutputProperty(OutputKeys.INDENT, "yes");
             transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");

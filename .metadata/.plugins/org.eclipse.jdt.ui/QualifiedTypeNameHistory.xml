@@ -21,4 +21,9 @@
 <fullyQualifiedTypeName name="ro.helator.ie.util.xsl.XSDContextElement"/>
 <fullyQualifiedTypeName name="ro.helator.ie.util.xsl.XSLDocument"/>
 <fullyQualifiedTypeName name="org.w3c.dom.Element"/>
+<fullyQualifiedTypeName name="javax.xml.XMLConstants"/>
+<fullyQualifiedTypeName name="javax.xml.validation.SchemaFactory"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="javax.xml.validation.Schema"/>
+<fullyQualifiedTypeName name="javax.xml.crypto.dsig.keyinfo.X509Data"/>
 </qualifiedTypeNameHistroy>

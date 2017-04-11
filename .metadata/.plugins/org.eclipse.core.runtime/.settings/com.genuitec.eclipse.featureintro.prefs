@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-features.shown=devsearch|lint|slack|welcome
+features.shown=angular2|devsearch|lint|livepreview|slack|welcome
