@@ -95,24 +95,13 @@
 			<artifactId>gson</artifactId>
 			<version>2.8.0</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.hierynomus/sshj -->
+		<!-- https://mvnrepository.com/artifact/net.java.linoleum/jcterm -->
 		<dependency>
-			<groupId>com.hierynomus</groupId>
-			<artifactId>sshj</artifactId>
-			<version>0.20.0</version>
+			<groupId>net.java.linoleum</groupId>
+			<artifactId>jcterm</artifactId>
+			<version>0.0.11</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/net.sf.expectit/expectit-core -->
-		<dependency>
-			<groupId>net.sf.expectit</groupId>
-			<artifactId>expectit-core</artifactId>
-			<version>0.3.0</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.fusesource.jansi/jansi -->
-		<dependency>
-			<groupId>org.fusesource.jansi</groupId>
-			<artifactId>jansi</artifactId>
-			<version>1.15</version>
-		</dependency>
+
 
 	</dependencies>
 	<build>

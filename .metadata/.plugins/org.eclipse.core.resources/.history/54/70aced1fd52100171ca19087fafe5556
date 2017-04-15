@@ -1,0 +1,5 @@
+package ro.helator.dia.util;
+
+public class Console {
+
+}

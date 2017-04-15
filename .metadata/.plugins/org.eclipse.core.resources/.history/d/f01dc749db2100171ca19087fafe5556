@@ -1,0 +1,19 @@
+package ro.helator.dia.screen.controller.tab;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import org.springframework.stereotype.Component;
+
+import ro.helator.dia.screen.BaseScreenController;
+
+
+@Component
+public class SSHConsoleController extends BaseScreenController {
+
+	@Override
+	public void initialize(URL arg0, ResourceBundle arg1) {
+		
+	}
+
+}

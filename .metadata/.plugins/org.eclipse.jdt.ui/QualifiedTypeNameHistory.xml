@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javafx.scene.control.TableColumn"/>
-<fullyQualifiedTypeName name="javafx.scene.control.cell.PropertyValueFactory"/>
-<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
-<fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
-<fullyQualifiedTypeName name="java.io.File"/>
-<fullyQualifiedTypeName name="javafx.event.ActionEvent"/>
 <fullyQualifiedTypeName name="javafx.scene.control.ButtonType"/>
 <fullyQualifiedTypeName name="javafx.scene.layout.GridPane"/>
 <fullyQualifiedTypeName name="javafx.geometry.Insets"/>
@@ -22,7 +16,6 @@
 <fullyQualifiedTypeName name="ro.helator.dia.factory.PopupFactory"/>
 <fullyQualifiedTypeName name="javafx.stage.Modality"/>
 <fullyQualifiedTypeName name="java.util.Optional"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="ro.helator.dia.util.Constants"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="javafx.stage.WindowEvent"/>
@@ -36,10 +29,6 @@
 <fullyQualifiedTypeName name="javafx.scene.input.KeyCombination"/>
 <fullyQualifiedTypeName name="javafx.scene.input.KeyCombination.ModifierValue"/>
 <fullyQualifiedTypeName name="javafx.collections.ObservableList"/>
-<fullyQualifiedTypeName name="javafx.scene.layout.AnchorPane"/>
-<fullyQualifiedTypeName name="javafx.fxml.FXML"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
-<fullyQualifiedTypeName name="javafx.scene.control.TextArea"/>
 <fullyQualifiedTypeName name="net.schmizz.sshj.SSHClient"/>
 <fullyQualifiedTypeName name="ro.helator.dia.server.Server"/>
 <fullyQualifiedTypeName name="net.schmizz.sshj.connection.channel.direct.Session"/>
@@ -56,8 +45,19 @@
 <fullyQualifiedTypeName name="org.fusesource.jansi.AnsiConsole"/>
 <fullyQualifiedTypeName name="net.sf.expectit.echo.EchoAdapters"/>
 <fullyQualifiedTypeName name="net.sf.expectit.echo.EchoOutput"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.io.Console"/>
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javafx.scene.control.TextArea"/>
+<fullyQualifiedTypeName name="java.io.PrintStream"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="ro.helator.dia.util.Console"/>
+<fullyQualifiedTypeName name="com.jcraft.jcterm.JCTermSwingFrame"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+<fullyQualifiedTypeName name="javafx.fxml.FXML"/>
+<fullyQualifiedTypeName name="javafx.scene.layout.AnchorPane"/>
 </qualifiedTypeNameHistroy>

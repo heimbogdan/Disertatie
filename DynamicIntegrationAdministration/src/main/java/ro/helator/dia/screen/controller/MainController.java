@@ -12,10 +12,13 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
+import javafx.scene.control.TextArea;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 import ro.helator.dia.factory.Toast;
 import ro.helator.dia.screen.BaseScreenController;
+import ro.helator.dia.util.Console;
+
 import static ro.helator.dia.util.Constants.*;
 
 @Component
@@ -28,11 +31,13 @@ public class MainController extends BaseScreenController {
 	@FXML
 	private TabPane tabPane;
 	
+	@FXML
+	private TextArea console;
+	
 	
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
-		// TODO Auto-generated method stub
-
+		Console.getInstance().setOutput(console);
 	}
 	
 	private void loadTabPane(String name){

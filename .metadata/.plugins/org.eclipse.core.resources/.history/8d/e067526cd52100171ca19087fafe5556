@@ -1,0 +1,30 @@
+package ro.helator.dia.util;
+
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.PrintStream;
+
+public class Console extends OutputStream {
+
+	private static Console _instance;
+	
+	private Console(){
+		
+	}
+	
+	public static Console getInstance(){
+		if(_instance == null){
+			_instance = new Console();
+		}
+		return _instance;
+	}
+	
+	
+	@Override
+	public void write(int b) throws IOException {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

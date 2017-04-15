@@ -1,0 +1,9 @@
+package ro.helator.dia.util;
+
+import java.io.OutputStream;
+import java.io.PrintStream;
+
+public class Console extends OutputStream {
+	
+
+}
