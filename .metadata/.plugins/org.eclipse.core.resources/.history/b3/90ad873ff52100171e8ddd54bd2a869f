@@ -1,0 +1,110 @@
+package ro.helator.dia.app;
+
+import java.awt.BorderLayout;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.io.PrintStream;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.sshtools.terminal.emulation.TerminalBufferListener;
+import com.sshtools.terminal.emulation.TerminalEmulation;
+import com.sshtools.terminal.emulation.TerminalEmulationListener;
+import com.sshtools.terminal.vt.TerminalUtil;
+import com.sshtools.terminal.vt.swing.SwingScrollBar;
+import com.sshtools.terminal.vt.swing.SwingTerminalPanel;
+
+import javafx.application.Application;
+import javafx.application.Platform;
+import javafx.stage.Stage;
+import ro.helator.dia.config.AppContextConfig;
+import ro.helator.dia.screen.ScreensContoller;
+
+/**
+ * 
+ * @author bogdan.heim
+ *
+ */
+public class Main extends Application {
+
+	private static final Logger log = Logger.getLogger(Main.class);
+
+	@SuppressWarnings("resource")
+	@Override
+	public void start(Stage stage) {
+		try {
+			PropertyConfigurator.configure("./config/log.properties");
+			log.info("Application started!");
+			AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppContextConfig.class);
+			ScreensContoller bean = context.getBean(ScreensContoller.class);
+			bean.init(stage);
+			bean.loadScreen("/fxml/Main.fxml");
+		} catch (Exception e) {
+			log.error(e);
+
+		}
+	}
+
+	public static void main(String[] args) {
+		final JFrame frame = new JFrame();
+		frame.addWindowListener(new WindowAdapter() {
+			public void windowClosing(WindowEvent evt) {
+				System.exit(0);
+			}
+		});
+
+		// Create a terminal
+		SwingTerminalPanel stp = new SwingTerminalPanel();
+		TerminalEmulation e = new TerminalEmulation("vt100");
+		stp.init(new TerminalEmulation("vt100"));
+		stp.getVDUBuffer().addTerminalEmulationListener(new TerminalEmulationListener() {
+			
+			@Override
+			public void windowTitleChanged(String paramString) {
+				frame.setTitle("Terminal Components - " + paramString);
+				
+			}
+
+			@Override
+			public void screenResize(int paramInt1, int paramInt2, boolean paramBoolean) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+		});
+
+		// Build the main panel
+		JPanel main = new JPanel(new BorderLayout());
+		main.add(stp, BorderLayout.CENTER);
+
+		// Scrollbar
+		SwingScrollBar bar = new SwingScrollBar();
+		bar.init(e);
+		main.add(new SwingScrollBar(), BorderLayout.EAST);
+
+		// Build the window
+		frame.getContentPane().setLayout(new BorderLayout());
+		frame.getContentPane().add(main, BorderLayout.CENTER);
+
+		// Size and show the frame
+		frame.pack();
+		frame.setVisible(true);
+//		PrintStream console = new PrintStream(ro.helator.dia.util.Console.getInstance());
+//		System.setOut(console);
+//		System.setErr(console);
+//		launch(args);
+	}
+
+	@Override
+	public void stop() throws Exception {
+		log.info("exit");
+		System.out.println("exit");
+		Platform.exit();
+		System.exit(0);
+	}
+}

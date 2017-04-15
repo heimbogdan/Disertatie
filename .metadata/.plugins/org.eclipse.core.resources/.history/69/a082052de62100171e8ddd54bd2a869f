@@ -1,0 +1,14 @@
+package com.jcraft.jcterm;
+
+import com.jcraft.jsch.Session;
+
+public class JSchSessionAdapter extends JSchSession {
+
+	private String key = null;
+	private Session session = null;
+	
+	private JSchSessionAdapter(Session paramSession, String paramString) {
+		this.session = paramSession;
+		this.key = paramString;
+	}
+}

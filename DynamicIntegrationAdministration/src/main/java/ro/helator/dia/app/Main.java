@@ -1,31 +1,24 @@
 package ro.helator.dia.app;
 
-import java.io.BufferedReader;
-import java.io.Console;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.ObjectOutputStream;
+import java.awt.BorderLayout;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.io.PrintStream;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
 
-import org.apache.camel.util.component.ApiMethodHelper.MatchType;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.springframework.beans.factory.config.YamlProcessor.MatchStatus;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.jcraft.jcterm.JCTermSwingFrame;
+import com.terminalfx.AppStarter;
 
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.stage.Stage;
 import ro.helator.dia.config.AppContextConfig;
 import ro.helator.dia.screen.ScreensContoller;
-import ro.helator.dia.server.Server;
 
 /**
  * 
@@ -53,7 +46,6 @@ public class Main extends Application {
 	}
 
 	public static void main(String[] args) {
-		JCTermSwingFrame.main(args);
 //		PrintStream console = new PrintStream(ro.helator.dia.util.Console.getInstance());
 //		System.setOut(console);
 //		System.setErr(console);

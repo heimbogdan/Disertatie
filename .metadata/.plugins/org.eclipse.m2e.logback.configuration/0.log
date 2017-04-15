@@ -3206,3 +3206,880 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact javafx:jfxrt:
 2017-04-15 16:00:46,855 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
 2017-04-15 16:00:46,856 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-04-15 16:00:46,857 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 16:59:03,792 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 16:59:03,821 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 16:59:03,825 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 16:59:03,825 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:03:48,226 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:03:48,227 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:03:48,229 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:03:48,230 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:06:53,599 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:06:53,599 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:06:53,601 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:06:53,602 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:08:57,454 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:08:57,456 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:08:57,462 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:08:57,463 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:09:27,587 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:09:27,588 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:09:27,590 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:09:27,591 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:10:33,838 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:10:33,838 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:10:33,839 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:10:33,840 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:10:46,248 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:10:46,248 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:10:46,250 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:10:46,250 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:10:57,353 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:10:57,353 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:10:57,356 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:10:57,356 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:12:15,707 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:12:15,708 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:12:15,710 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:12:15,710 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:12:35,505 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:12:35,506 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:12:35,507 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:12:35,508 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:13:50,706 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:13:50,706 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:13:50,708 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:13:50,709 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:16:54,606 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:16:54,606 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:16:54,608 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:16:54,608 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:16:58,866 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:16:58,866 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:16:58,868 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:16:58,868 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:17:04,409 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:17:04,410 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:17:04,414 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:17:04,414 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:17:37,155 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:17:37,155 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:17:37,160 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:17:37,160 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:19:24,151 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:19:24,151 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:19:24,155 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:19:24,156 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:20:05,004 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:20:05,005 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:20:05,006 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:20:05,007 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:21:08,140 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:21:08,140 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:21:08,142 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:21:08,143 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:21:25,078 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:21:25,078 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:21:25,080 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:21:25,080 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:21:37,673 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:21:37,673 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:21:37,675 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:21:37,675 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:21:51,642 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:21:51,643 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:21:51,645 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:21:51,645 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:22:35,649 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:22:35,649 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:22:35,651 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:22:35,651 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:22:53,420 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:22:53,420 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:22:53,421 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:22:53,422 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:23:47,765 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:23:47,766 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:23:47,767 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:23:47,767 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:24:02,603 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:24:02,604 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:24:02,606 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:24:02,606 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:24:13,403 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:24:13,403 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:24:13,404 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:24:13,404 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:25:37,719 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:25:37,719 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:25:37,720 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:25:37,720 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:27:27,568 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:27:27,568 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:27:27,569 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:27:27,569 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:27:43,272 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:27:43,272 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:27:43,274 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:27:43,274 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:27:48,249 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:27:48,249 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:27:48,250 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:27:48,251 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:29:01,617 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:29:01,617 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:29:01,618 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:29:01,619 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:29:28,468 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:29:28,468 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:29:28,470 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:29:28,471 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:42:29,190 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:42:29,190 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:42:29,191 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:42:29,191 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:42:36,683 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:42:36,684 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:42:36,685 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:42:36,685 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:43:01,142 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 17:43:03,321 [Worker-32] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal/2.1.3/terminal-2.1.3.pom
+2017-04-15 17:43:03,888 [Worker-32] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sshtools/terminal/2.1.3/terminal-2.1.3.pom
+2017-04-15 17:43:03,897 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.sshtools:terminal:jar:2.1.3 is missing, no dependency information available
+2017-04-15 17:43:04,493 [Worker-32] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal/2.1.3/terminal-2.1.3.jar
+2017-04-15 17:43:04,936 [Worker-32] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sshtools/terminal/2.1.3/terminal-2.1.3.jar
+2017-04-15 17:43:05,912 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:43:05,913 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:43:05,915 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:43:05,915 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:43:13,561 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.sshtools:terminal:jar:2.1.3 is missing, no dependency information available
+2017-04-15 17:43:13,620 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:43:13,620 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:43:13,622 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:43:13,622 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:43:16,124 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:43:16,124 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:43:16,125 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:43:16,126 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:43:21,237 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:43:21,237 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:43:21,239 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:43:21,239 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:44:31,081 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 17:44:31,778 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/public-releases/com/sshtools/terminal/2.1.3/terminal-2.1.3.pom
+2017-04-15 17:44:31,874 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal/2.1.3/terminal-2.1.3.pom
+2017-04-15 17:44:32,905 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal-group/2.1.3/terminal-group-2.1.3.pom
+2017-04-15 17:44:33,085 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/public-releases/com/sshtools/terminal-group/2.1.3/terminal-group-2.1.3.pom
+2017-04-15 17:44:33,176 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal-group/2.1.3/terminal-group-2.1.3.pom
+2017-04-15 17:44:33,639 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/ui/2.1.1/ui-2.1.1.pom
+2017-04-15 17:44:33,715 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/ui/2.1.1/ui-2.1.1.pom
+2017-04-15 17:44:34,003 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sshtools/ui/2.1.1/ui-2.1.1.pom
+2017-04-15 17:44:34,264 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sshtools/ui/2.1.1/ui-2.1.1.pom
+2017-04-15 17:44:34,719 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/commons-codec/commons-codec/1.8/commons-codec-1.8.pom
+2017-04-15 17:44:34,891 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/commons-codec/commons-codec/1.8/commons-codec-1.8.pom
+2017-04-15 17:44:34,938 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.pom
+2017-04-15 17:44:35,007 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.pom
+2017-04-15 17:44:35,431 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/org/apache/commons/commons-parent/28/commons-parent-28.pom
+2017-04-15 17:44:35,556 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/org/apache/commons/commons-parent/28/commons-parent-28.pom
+2017-04-15 17:44:35,602 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
+2017-04-15 17:44:35,715 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
+2017-04-15 17:44:36,252 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/commons-net/commons-net/3.3/commons-net-3.3.pom
+2017-04-15 17:44:36,453 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/commons-net/commons-net/3.3/commons-net-3.3.pom
+2017-04-15 17:44:36,503 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-net/commons-net/3.3/commons-net-3.3.pom
+2017-04-15 17:44:36,562 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-net/commons-net/3.3/commons-net-3.3.pom
+2017-04-15 17:44:36,984 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/org/apache/commons/commons-parent/30/commons-parent-30.pom
+2017-04-15 17:44:37,138 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/org/apache/commons/commons-parent/30/commons-parent-30.pom
+2017-04-15 17:44:37,214 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/30/commons-parent-30.pom
+2017-04-15 17:44:37,370 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/30/commons-parent-30.pom
+2017-04-15 17:44:37,805 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+2017-04-15 17:44:38,063 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+2017-04-15 17:44:38,167 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+2017-04-15 17:44:38,257 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+2017-04-15 17:44:38,752 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/org/apache/commons/commons-parent/17/commons-parent-17.pom
+2017-04-15 17:44:38,921 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/org/apache/commons/commons-parent/17/commons-parent-17.pom
+2017-04-15 17:44:38,975 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/17/commons-parent-17.pom
+2017-04-15 17:44:39,029 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/17/commons-parent-17.pom
+2017-04-15 17:44:39,451 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/org/apache/apache/7/apache-7.pom
+2017-04-15 17:44:39,594 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/org/apache/apache/7/apache-7.pom
+2017-04-15 17:44:39,650 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/apache/7/apache-7.pom
+2017-04-15 17:44:39,710 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/apache/7/apache-7.pom
+2017-04-15 17:44:40,132 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/commons-logging/commons-logging/1.1.2/commons-logging-1.1.2.pom
+2017-04-15 17:44:40,299 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/commons-logging/commons-logging/1.1.2/commons-logging-1.1.2.pom
+2017-04-15 17:44:40,343 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.2/commons-logging-1.1.2.pom
+2017-04-15 17:44:40,403 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.2/commons-logging-1.1.2.pom
+2017-04-15 17:44:40,826 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/virtualsession/2.1.1/virtualsession-2.1.1.pom
+2017-04-15 17:44:40,983 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/virtualsession/2.1.1/virtualsession-2.1.1.pom
+2017-04-15 17:44:41,028 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sshtools/virtualsession/2.1.1/virtualsession-2.1.1.pom
+2017-04-15 17:44:41,204 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sshtools/virtualsession/2.1.1/virtualsession-2.1.1.pom
+2017-04-15 17:44:41,646 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/appframework/2.1.1/appframework-2.1.1.pom
+2017-04-15 17:44:41,775 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/appframework/2.1.1/appframework-2.1.1.pom
+2017-04-15 17:44:41,822 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sshtools/appframework/2.1.1/appframework-2.1.1.pom
+2017-04-15 17:44:42,002 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sshtools/appframework/2.1.1/appframework-2.1.1.pom
+2017-04-15 17:44:42,439 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/be/cyberelf/nanoxml/lite/2.2.3/lite-2.2.3.pom
+2017-04-15 17:44:42,569 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/be/cyberelf/nanoxml/lite/2.2.3/lite-2.2.3.pom
+2017-04-15 17:44:42,615 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/be/cyberelf/nanoxml/lite/2.2.3/lite-2.2.3.pom
+2017-04-15 17:44:42,676 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/be/cyberelf/nanoxml/lite/2.2.3/lite-2.2.3.pom
+2017-04-15 17:44:43,134 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/ui/2.1.1/ui-2.1.1.jar
+2017-04-15 17:44:43,544 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/commons-net/commons-net/3.3/commons-net-3.3.jar
+2017-04-15 17:44:43,944 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+2017-04-15 17:44:44,368 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/virtualsession/2.1.1/virtualsession-2.1.1.jar
+2017-04-15 17:44:44,777 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/be/cyberelf/nanoxml/lite/2.2.3/lite-2.2.3.jar
+2017-04-15 17:44:45,112 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/public-releases/com/sshtools/terminal/2.1.3/terminal-2.1.3.jar
+2017-04-15 17:44:45,350 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal/2.1.3/terminal-2.1.3.jar
+2017-04-15 17:44:45,413 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/ui/2.1.1/ui-2.1.1.jar
+2017-04-15 17:44:45,584 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/commons-net/commons-net/3.3/commons-net-3.3.jar
+2017-04-15 17:44:45,729 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+2017-04-15 17:44:45,866 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/virtualsession/2.1.1/virtualsession-2.1.1.jar
+2017-04-15 17:44:46,024 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/be/cyberelf/nanoxml/lite/2.2.3/lite-2.2.3.jar
+2017-04-15 17:44:46,234 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sshtools/ui/2.1.1/ui-2.1.1.jar
+2017-04-15 17:44:46,739 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sshtools/ui/2.1.1/ui-2.1.1.jar
+2017-04-15 17:44:46,787 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-net/commons-net/3.3/commons-net-3.3.jar
+2017-04-15 17:44:46,965 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-net/commons-net/3.3/commons-net-3.3.jar
+2017-04-15 17:44:47,005 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+2017-04-15 17:44:47,127 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+2017-04-15 17:44:47,177 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sshtools/virtualsession/2.1.1/virtualsession-2.1.1.jar
+2017-04-15 17:44:47,382 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sshtools/virtualsession/2.1.1/virtualsession-2.1.1.jar
+2017-04-15 17:44:47,438 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/be/cyberelf/nanoxml/lite/2.2.3/lite-2.2.3.jar
+2017-04-15 17:44:47,525 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/be/cyberelf/nanoxml/lite/2.2.3/lite-2.2.3.jar
+2017-04-15 17:44:48,689 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:44:48,689 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:44:48,692 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:44:48,692 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:44:55,810 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 17:44:56,992 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:44:56,992 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:44:56,995 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:44:56,995 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:46:28,717 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:46:28,718 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:46:28,720 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:46:28,720 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:46:37,799 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:46:37,799 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:46:37,800 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:46:37,800 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:46:42,920 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:46:42,920 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:46:42,922 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:46:42,922 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:49:47,655 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:49:47,655 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:49:47,656 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:49:47,656 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:53:07,894 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:53:07,894 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:53:07,895 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:53:07,896 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:53:20,220 [Worker-41] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 17:53:21,418 [Worker-41] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal-swing/2.1.3/terminal-swing-2.1.3.pom
+2017-04-15 17:53:21,626 [Worker-41] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/public-releases/com/sshtools/terminal-swing/2.1.3/terminal-swing-2.1.3.pom
+2017-04-15 17:53:21,712 [Worker-41] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal-swing/2.1.3/terminal-swing-2.1.3.pom
+2017-04-15 17:53:22,146 [Worker-41] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal-components/2.1.3/terminal-components-2.1.3.pom
+2017-04-15 17:53:22,273 [Worker-41] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/public-releases/com/sshtools/terminal-components/2.1.3/terminal-components-2.1.3.pom
+2017-04-15 17:53:22,422 [Worker-41] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal-components/2.1.3/terminal-components-2.1.3.pom
+2017-04-15 17:53:22,899 [Worker-41] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal-common-awt/2.1.3/terminal-common-awt-2.1.3.pom
+2017-04-15 17:53:23,027 [Worker-41] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/public-releases/com/sshtools/terminal-common-awt/2.1.3/terminal-common-awt-2.1.3.pom
+2017-04-15 17:53:23,115 [Worker-41] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal-common-awt/2.1.3/terminal-common-awt-2.1.3.pom
+2017-04-15 17:53:23,921 [Worker-41] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal-swing/2.1.3/terminal-swing-2.1.3.jar
+2017-04-15 17:53:24,332 [Worker-41] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal-common-awt/2.1.3/terminal-common-awt-2.1.3.jar
+2017-04-15 17:53:24,496 [Worker-41] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/public-releases/com/sshtools/terminal-swing/2.1.3/terminal-swing-2.1.3.jar
+2017-04-15 17:53:24,906 [Worker-41] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal-swing/2.1.3/terminal-swing-2.1.3.jar
+2017-04-15 17:53:25,032 [Worker-41] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/public-releases/com/sshtools/terminal-common-awt/2.1.3/terminal-common-awt-2.1.3.jar
+2017-04-15 17:53:25,166 [Worker-41] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal-common-awt/2.1.3/terminal-common-awt-2.1.3.jar
+2017-04-15 17:53:25,802 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:53:25,802 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:53:25,805 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:53:25,805 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:53:30,898 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:53:30,898 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:53:30,899 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:53:30,900 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:56:12,198 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:56:12,198 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:56:12,199 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:56:12,199 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:56:14,634 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:56:14,635 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:56:14,636 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:56:14,636 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:59:38,907 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:59:38,907 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:59:38,908 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:59:38,908 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 17:59:43,616 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:59:43,616 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 17:59:43,617 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 17:59:43,618 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:00:09,070 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:00:09,070 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:00:09,071 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:00:09,071 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:00:41,854 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:00:41,854 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:00:41,857 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:00:41,857 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:01:26,677 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:01:26,677 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:01:26,678 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:01:26,678 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:48:01,079 [Worker-65] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 18:48:02,782 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal-components/2.1.3/terminal-components-2.1.3.jar
+2017-04-15 18:48:02,919 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal-components/2.1.3/terminal-components-2.1.3.jar
+2017-04-15 18:48:03,577 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sshtools/terminal-components/2.1.3/terminal-components-2.1.3.jar
+2017-04-15 18:48:04,127 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:48:04,127 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:48:04,129 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:48:04,130 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:48:33,664 [Worker-66] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 18:48:33,933 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:48:33,933 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:48:33,935 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:48:33,935 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:48:49,823 [Worker-43] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-04-15 18:48:50,160 [Worker-43] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 18:48:50,513 [Worker-43] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DynamicIntegrationAdministration/src/main/java
+2017-04-15 18:48:50,514 [Worker-43] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DynamicIntegrationAdministration/src/test/java
+2017-04-15 18:48:51,344 [Worker-43] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-04-15 18:48:53,850 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:48:53,851 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:48:53,853 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:48:53,853 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:49:18,641 [Worker-67] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 18:49:19,573 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal-swt/2.1.3/terminal-swt-2.1.3.pom
+2017-04-15 18:49:19,913 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/public-releases/com/sshtools/terminal-swt/2.1.3/terminal-swt-2.1.3.pom
+2017-04-15 18:49:20,002 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal-swt/2.1.3/terminal-swt-2.1.3.pom
+2017-04-15 18:49:20,427 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/virtualsession-swt/2.1.1/virtualsession-swt-2.1.1.pom
+2017-04-15 18:49:20,540 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/virtualsession-swt/2.1.1/virtualsession-swt-2.1.1.pom
+2017-04-15 18:49:20,828 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sshtools/virtualsession-swt/2.1.1/virtualsession-swt-2.1.1.pom
+2017-04-15 18:49:21,062 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sshtools/virtualsession-swt/2.1.1/virtualsession-swt-2.1.1.pom
+2017-04-15 18:49:21,508 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/org/eclipse/swt/org.eclipse.swt.win32.win32.x86_64/4.3/org.eclipse.swt.win32.win32.x86_64-4.3.pom
+2017-04-15 18:49:21,668 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/org/eclipse/swt/org.eclipse.swt.win32.win32.x86_64/4.3/org.eclipse.swt.win32.win32.x86_64-4.3.pom
+2017-04-15 18:49:21,719 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/swt/org.eclipse.swt.win32.win32.x86_64/4.3/org.eclipse.swt.win32.win32.x86_64-4.3.pom
+2017-04-15 18:49:21,791 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/swt/org.eclipse.swt.win32.win32.x86_64/4.3/org.eclipse.swt.win32.win32.x86_64-4.3.pom
+2017-04-15 18:49:22,255 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal-swt/2.1.3/terminal-swt-2.1.3.jar
+2017-04-15 18:49:22,756 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/virtualsession-swt/2.1.1/virtualsession-swt-2.1.1.jar
+2017-04-15 18:49:23,169 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/org/eclipse/swt/org.eclipse.swt.win32.win32.x86_64/4.3/org.eclipse.swt.win32.win32.x86_64-4.3.jar
+2017-04-15 18:49:23,399 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/public-releases/com/sshtools/terminal-swt/2.1.3/terminal-swt-2.1.3.jar
+2017-04-15 18:49:23,615 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal-swt/2.1.3/terminal-swt-2.1.3.jar
+2017-04-15 18:49:23,734 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/virtualsession-swt/2.1.1/virtualsession-swt-2.1.1.jar
+2017-04-15 18:49:23,920 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/org/eclipse/swt/org.eclipse.swt.win32.win32.x86_64/4.3/org.eclipse.swt.win32.win32.x86_64-4.3.jar
+2017-04-15 18:49:24,036 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sshtools/virtualsession-swt/2.1.1/virtualsession-swt-2.1.1.jar
+2017-04-15 18:49:24,300 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sshtools/virtualsession-swt/2.1.1/virtualsession-swt-2.1.1.jar
+2017-04-15 18:49:24,368 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/swt/org.eclipse.swt.win32.win32.x86_64/4.3/org.eclipse.swt.win32.win32.x86_64-4.3.jar
+2017-04-15 18:49:24,992 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/swt/org.eclipse.swt.win32.win32.x86_64/4.3/org.eclipse.swt.win32.win32.x86_64-4.3.jar
+2017-04-15 18:49:25,483 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:49:25,483 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:49:25,485 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:49:25,485 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:49:28,216 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:49:28,217 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:49:28,218 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:49:28,218 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:49:56,664 [Worker-72] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 18:49:57,001 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:49:57,001 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:49:57,003 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:49:57,003 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:50:01,609 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:50:01,610 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:50:01,611 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:50:01,611 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:50:36,342 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:50:36,342 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:50:36,343 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:50:36,344 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:54:58,942 [Worker-72] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 18:54:59,769 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal-group/2.1.3/terminal-group-2.1.3.jar
+2017-04-15 18:55:00,177 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal-group/2.1.3/terminal-group-2.1.3.jar
+2017-04-15 18:55:00,671 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sshtools/terminal-group/2.1.3/terminal-group-2.1.3.jar
+2017-04-15 18:55:01,135 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:55:01,135 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:55:01,137 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:55:01,138 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:55:09,569 [Worker-72] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 18:55:09,824 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal-native/2.1.3/terminal-native-2.1.3.pom
+2017-04-15 18:55:10,051 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/public-releases/com/sshtools/terminal-native/2.1.3/terminal-native-2.1.3.pom
+2017-04-15 18:55:10,165 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal-native/2.1.3/terminal-native-2.1.3.pom
+2017-04-15 18:55:10,217 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal-native/2.1.3/terminal-native-2.1.3.pom
+2017-04-15 18:55:10,250 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/pty4j/pty4j/0.5-SSHTOOLS-SNAPSHOT/maven-metadata.xml
+2017-04-15 18:55:10,509 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/public-releases/com/sshtools/terminal-native/2.1.3/terminal-native-2.1.3.pom
+2017-04-15 18:55:10,534 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/opensource-snapshots/pty4j/pty4j/0.5-SSHTOOLS-SNAPSHOT/maven-metadata.xml
+2017-04-15 18:55:10,554 [DefaultMetadataResolver-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/ext-snapshots-local/pty4j/pty4j/0.5-SSHTOOLS-SNAPSHOT/maven-metadata.xml
+2017-04-15 18:55:10,579 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal-native/2.1.3/terminal-native-2.1.3.pom
+2017-04-15 18:55:10,667 [DefaultMetadataResolver-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/pty4j/pty4j/0.5-SSHTOOLS-SNAPSHOT/maven-metadata.xml
+2017-04-15 18:55:11,009 [DefaultMetadataResolver-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/pty4j/pty4j/0.5-SSHTOOLS-SNAPSHOT/maven-metadata.xml
+2017-04-15 18:55:13,551 [DefaultMetadataResolver-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://svn.code.sf.net/p/sshapi/svn/sshapi-mvn/snapshots/pty4j/pty4j/0.5-SSHTOOLS-SNAPSHOT/maven-metadata.xml
+2017-04-15 18:55:13,562 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://svn.code.sf.net/p/sshapi/svn/sshapi-mvn/snapshots/pty4j/pty4j/0.5-SSHTOOLS-SNAPSHOT/maven-metadata.xml
+2017-04-15 18:55:14,154 [DefaultMetadataResolver-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://oss.sonatype.org/content/groups/public/pty4j/pty4j/0.5-SSHTOOLS-SNAPSHOT/maven-metadata.xml
+2017-04-15 18:55:14,192 [DefaultMetadataResolver-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://oss.sonatype.org/content/groups/public/pty4j/pty4j/0.5-SSHTOOLS-SNAPSHOT/maven-metadata.xml
+2017-04-15 18:55:14,356 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/ext-snapshots-local/pty4j/pty4j/0.5-SSHTOOLS-SNAPSHOT/pty4j-0.5-SSHTOOLS-SNAPSHOT.pom
+2017-04-15 18:55:14,368 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/ext-snapshots-local/pty4j/pty4j/0.5-SSHTOOLS-SNAPSHOT/pty4j-0.5-SSHTOOLS-SNAPSHOT.pom
+2017-04-15 18:55:14,566 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/ext-snapshots-local/pty4j/pty4j/0.5-SSHTOOLS-SNAPSHOT/pty4j-0.5-SSHTOOLS-SNAPSHOT.pom
+2017-04-15 18:55:14,598 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/ext-snapshots-local/pty4j/pty4j/0.5-SSHTOOLS-SNAPSHOT/pty4j-0.5-SSHTOOLS-SNAPSHOT.pom
+2017-04-15 18:55:15,001 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/google/guava/guava/14.0.1/guava-14.0.1.pom
+2017-04-15 18:55:15,127 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/google/guava/guava/14.0.1/guava-14.0.1.pom
+2017-04-15 18:55:15,253 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/google/guava/guava/14.0.1/guava-14.0.1.pom
+2017-04-15 18:55:15,446 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom
+2017-04-15 18:55:15,502 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom
+2017-04-15 18:55:15,505 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom
+2017-04-15 18:55:15,552 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom
+2017-04-15 18:55:15,962 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom
+2017-04-15 18:55:15,966 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom
+2017-04-15 18:55:16,091 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom
+2017-04-15 18:55:16,099 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom
+2017-04-15 18:55:16,133 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom
+2017-04-15 18:55:16,147 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom
+2017-04-15 18:55:16,191 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom
+2017-04-15 18:55:16,206 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom
+2017-04-15 18:55:16,618 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/net/java/dev/jna/jna/4.1.0/jna-4.1.0.pom
+2017-04-15 18:55:16,635 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/net/java/dev/jna/jna/4.1.0/jna-4.1.0.pom
+2017-04-15 18:55:16,748 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/net/java/dev/jna/jna/4.1.0/jna-4.1.0.pom
+2017-04-15 18:55:16,788 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/4.1.0/jna-4.1.0.pom
+2017-04-15 18:55:16,792 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/net/java/dev/jna/jna/4.1.0/jna-4.1.0.pom
+2017-04-15 18:55:16,838 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/4.1.0/jna-4.1.0.pom
+2017-04-15 18:55:16,851 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/4.1.0/jna-4.1.0.pom
+2017-04-15 18:55:16,889 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/4.1.0/jna-4.1.0.pom
+2017-04-15 18:55:17,275 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.pom
+2017-04-15 18:55:17,403 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.pom
+2017-04-15 18:55:17,452 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.pom
+2017-04-15 18:55:17,504 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.pom
+2017-04-15 18:55:17,727 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://oss.sonatype.org/content/groups/public/net/java/dev/jna/jna/4.1.0/jna-4.1.0.pom
+2017-04-15 18:55:17,857 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/opensource-releases/net/java/dev/jna/jna/4.1.0/jna-4.1.0.pom
+2017-04-15 18:55:17,926 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sparetimelabs/purejavacomm/0.0.17/purejavacomm-0.0.17.pom
+2017-04-15 18:55:18,061 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sparetimelabs/purejavacomm/0.0.17/purejavacomm-0.0.17.pom
+2017-04-15 18:55:18,104 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sparetimelabs/purejavacomm/0.0.17/purejavacomm-0.0.17.pom
+2017-04-15 18:55:18,944 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://oss.sonatype.org/content/groups/public/com/sparetimelabs/purejavacomm/0.0.17/purejavacomm-0.0.17.pom
+2017-04-15 18:55:19,072 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/opensource-releases/com/sparetimelabs/purejavacomm/0.0.17/purejavacomm-0.0.17.pom
+2017-04-15 18:55:20,439 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://www.sparetimelabs.com/maven2/com/sparetimelabs/purejavacomm/0.0.17/purejavacomm-0.0.17.pom
+2017-04-15 18:55:20,439 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/net/java/dev/jna/jna/4.1.0/jna-4.1.0.pom
+2017-04-15 18:55:20,511 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/sparetimelabs/purejavacomm/0.0.17/purejavacomm-0.0.17.pom
+2017-04-15 18:55:20,626 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://www.sparetimelabs.com/maven2/com/sparetimelabs/purejavacomm/0.0.17/purejavacomm-0.0.17.pom
+2017-04-15 18:55:20,691 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/sparetimelabs/purejavacomm/0.0.17/purejavacomm-0.0.17.pom
+2017-04-15 18:55:20,932 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/net/java/dev/jna/jna/3.5.1/jna-3.5.1.pom
+2017-04-15 18:55:21,059 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/net/java/dev/jna/jna/3.5.1/jna-3.5.1.pom
+2017-04-15 18:55:21,249 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/net/java/dev/jna/jna/3.5.1/jna-3.5.1.pom
+2017-04-15 18:55:21,291 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/3.5.1/jna-3.5.1.pom
+2017-04-15 18:55:21,345 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/3.5.1/jna-3.5.1.pom
+2017-04-15 18:55:21,469 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/3.5.1/jna-3.5.1.pom
+2017-04-15 18:55:21,512 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/3.5.1/jna-3.5.1.pom
+2017-04-15 18:55:21,571 [DefaultMetadataResolver-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/pty4j/pty4j-natives/0.5-SSHTOOLS-SNAPSHOT/maven-metadata.xml
+2017-04-15 18:55:21,651 [DefaultMetadataResolver-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/pty4j/pty4j-natives/0.5-SSHTOOLS-SNAPSHOT/maven-metadata.xml
+2017-04-15 18:55:21,697 [DefaultMetadataResolver-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/ext-snapshots-local/pty4j/pty4j-natives/0.5-SSHTOOLS-SNAPSHOT/maven-metadata.xml
+2017-04-15 18:55:21,756 [DefaultMetadataResolver-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/opensource-snapshots/pty4j/pty4j-natives/0.5-SSHTOOLS-SNAPSHOT/maven-metadata.xml
+2017-04-15 18:55:21,764 [DefaultMetadataResolver-3-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/ext-snapshots-local/pty4j/pty4j-natives/0.5-SSHTOOLS-SNAPSHOT/maven-metadata.xml
+2017-04-15 18:55:21,767 [DefaultMetadataResolver-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/pty4j/pty4j-natives/0.5-SSHTOOLS-SNAPSHOT/maven-metadata.xml
+2017-04-15 18:55:21,787 [DefaultMetadataResolver-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/opensource-snapshots/pty4j/pty4j-natives/0.5-SSHTOOLS-SNAPSHOT/maven-metadata.xml
+2017-04-15 18:55:21,925 [DefaultMetadataResolver-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/pty4j/pty4j-natives/0.5-SSHTOOLS-SNAPSHOT/maven-metadata.xml
+2017-04-15 18:55:22,002 [DefaultMetadataResolver-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://svn.code.sf.net/p/sshapi/svn/sshapi-mvn/snapshots/pty4j/pty4j-natives/0.5-SSHTOOLS-SNAPSHOT/maven-metadata.xml
+2017-04-15 18:55:22,072 [DefaultMetadataResolver-3-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://svn.code.sf.net/p/sshapi/svn/sshapi-mvn/snapshots/pty4j/pty4j-natives/0.5-SSHTOOLS-SNAPSHOT/maven-metadata.xml
+2017-04-15 18:55:22,205 [DefaultMetadataResolver-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://oss.sonatype.org/content/groups/public/pty4j/pty4j-natives/0.5-SSHTOOLS-SNAPSHOT/maven-metadata.xml
+2017-04-15 18:55:22,338 [DefaultMetadataResolver-3-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://oss.sonatype.org/content/groups/public/pty4j/pty4j-natives/0.5-SSHTOOLS-SNAPSHOT/maven-metadata.xml
+2017-04-15 18:55:22,352 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/ext-snapshots-local/pty4j/pty4j-natives/0.5-SSHTOOLS-SNAPSHOT/pty4j-natives-0.5-SSHTOOLS-SNAPSHOT.pom
+2017-04-15 18:55:22,405 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/ext-snapshots-local/pty4j/pty4j-natives/0.5-SSHTOOLS-SNAPSHOT/pty4j-natives-0.5-SSHTOOLS-SNAPSHOT.pom
+2017-04-15 18:55:22,431 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/ext-snapshots-local/pty4j/pty4j-natives/0.5-SSHTOOLS-SNAPSHOT/pty4j-natives-0.5-SSHTOOLS-SNAPSHOT.pom
+2017-04-15 18:55:22,484 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/ext-snapshots-local/pty4j/pty4j-natives/0.5-SSHTOOLS-SNAPSHOT/pty4j-natives-0.5-SSHTOOLS-SNAPSHOT.pom
+2017-04-15 18:55:23,078 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal-native/2.1.3/terminal-native-2.1.3.jar
+2017-04-15 18:55:23,506 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+2017-04-15 18:55:24,000 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar
+2017-04-15 18:55:24,480 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar
+2017-04-15 18:55:24,964 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sparetimelabs/purejavacomm/0.0.17/purejavacomm-0.0.17.jar
+2017-04-15 18:55:25,285 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/public-releases/com/sshtools/terminal-native/2.1.3/terminal-native-2.1.3.jar
+2017-04-15 18:55:25,446 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal-native/2.1.3/terminal-native-2.1.3.jar
+2017-04-15 18:55:25,508 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+2017-04-15 18:55:25,715 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar
+2017-04-15 18:55:25,854 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar
+2017-04-15 18:55:26,057 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sparetimelabs/purejavacomm/0.0.17/purejavacomm-0.0.17.jar
+2017-04-15 18:55:26,663 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+2017-04-15 18:55:27,487 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+2017-04-15 18:55:27,550 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar
+2017-04-15 18:55:27,800 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar
+2017-04-15 18:55:27,844 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar
+2017-04-15 18:55:28,233 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar
+2017-04-15 18:55:28,271 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sparetimelabs/purejavacomm/0.0.17/purejavacomm-0.0.17.jar
+2017-04-15 18:55:29,143 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/ext-snapshots-local/pty4j/pty4j/0.5-SSHTOOLS-SNAPSHOT/pty4j-0.5-SSHTOOLS-SNAPSHOT.jar
+2017-04-15 18:55:29,358 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/ext-snapshots-local/pty4j/pty4j/0.5-SSHTOOLS-SNAPSHOT/pty4j-0.5-SSHTOOLS-SNAPSHOT.jar
+2017-04-15 18:55:29,531 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/ext-snapshots-local/pty4j/pty4j-natives/0.5-SSHTOOLS-SNAPSHOT/pty4j-natives-0.5-SSHTOOLS-SNAPSHOT.jar
+2017-04-15 18:55:29,694 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/ext-snapshots-local/pty4j/pty4j-natives/0.5-SSHTOOLS-SNAPSHOT/pty4j-natives-0.5-SSHTOOLS-SNAPSHOT.jar
+2017-04-15 18:55:30,842 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://oss.sonatype.org/content/groups/public/com/sparetimelabs/purejavacomm/0.0.17/purejavacomm-0.0.17.jar
+2017-04-15 18:55:30,972 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/opensource-releases/com/sparetimelabs/purejavacomm/0.0.17/purejavacomm-0.0.17.jar
+2017-04-15 18:55:31,102 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://www.sparetimelabs.com/maven2/com/sparetimelabs/purejavacomm/0.0.17/purejavacomm-0.0.17.jar
+2017-04-15 18:55:31,502 [Worker-72] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/sparetimelabs/purejavacomm/0.0.17/purejavacomm-0.0.17.jar
+2017-04-15 18:55:32,344 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:55:32,344 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:55:32,346 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:55:32,346 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:55:35,952 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:55:35,952 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:55:35,953 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:55:35,954 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:55:58,549 [Worker-71] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 18:55:58,851 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:55:58,851 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:55:58,853 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:55:58,853 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:56:02,256 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:56:02,257 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:56:02,258 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:56:02,259 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:56:04,707 [Worker-68] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 18:56:05,052 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:56:05,053 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:56:05,055 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:56:05,055 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:56:08,351 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:56:08,351 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:56:08,353 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:56:08,353 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:56:12,584 [Worker-65] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 18:56:12,879 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:56:12,879 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:56:12,881 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:56:12,881 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:58:55,975 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:58:55,975 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:58:55,976 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:58:55,977 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:59:43,547 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:59:43,547 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:59:43,548 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:59:43,548 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 18:59:54,864 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:59:54,865 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 18:59:54,865 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 18:59:54,865 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:00:00,858 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:00:00,858 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:00:00,859 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:00:00,859 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:00:05,427 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:00:05,427 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:00:05,428 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:00:05,428 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:00:20,105 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:00:20,105 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:00:20,106 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:00:20,106 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:02:25,326 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:02:25,326 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:02:25,328 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:02:25,328 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:03:15,368 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:03:15,368 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:03:15,369 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:03:15,369 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:04:48,305 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:04:48,305 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:04:48,306 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:04:48,307 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:05:18,408 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:05:18,408 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:05:18,409 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:05:18,410 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:07:37,682 [Worker-69] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 19:07:38,702 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal-examples/2.1.3/terminal-examples-2.1.3.pom
+2017-04-15 19:07:38,891 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/public-releases/com/sshtools/terminal-examples/2.1.3/terminal-examples-2.1.3.pom
+2017-04-15 19:07:38,978 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal-examples/2.1.3/terminal-examples-2.1.3.pom
+2017-04-15 19:07:39,653 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal-ssh/2.1.3/terminal-ssh-2.1.3.pom
+2017-04-15 19:07:39,785 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/public-releases/com/sshtools/terminal-ssh/2.1.3/terminal-ssh-2.1.3.pom
+2017-04-15 19:07:39,884 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal-ssh/2.1.3/terminal-ssh-2.1.3.pom
+2017-04-15 19:07:39,979 [DefaultMetadataResolver-4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/net/sf/sshapi/sshapi-core/0.9.8-SNAPSHOT/maven-metadata.xml
+2017-04-15 19:07:40,220 [DefaultMetadataResolver-4-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/opensource-snapshots/net/sf/sshapi/sshapi-core/0.9.8-SNAPSHOT/maven-metadata.xml
+2017-04-15 19:07:40,234 [DefaultMetadataResolver-4-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://svn.code.sf.net/p/sshapi/svn/sshapi-mvn/snapshots/net/sf/sshapi/sshapi-core/0.9.8-SNAPSHOT/maven-metadata.xml
+2017-04-15 19:07:40,316 [DefaultMetadataResolver-4-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/net/sf/sshapi/sshapi-core/0.9.8-SNAPSHOT/maven-metadata.xml
+2017-04-15 19:07:40,436 [DefaultMetadataResolver-4-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://svn.code.sf.net/p/sshapi/svn/sshapi-mvn/snapshots/net/sf/sshapi/sshapi-core/0.9.8-SNAPSHOT/maven-metadata.xml
+2017-04-15 19:07:40,857 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/net/sf/sshapi/sshapi-core/0.9.8-SNAPSHOT/sshapi-core-0.9.8-20160831.151838-5.pom
+2017-04-15 19:07:41,010 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/net/sf/sshapi/sshapi-core/0.9.8-SNAPSHOT/sshapi-core-0.9.8-20160831.151838-5.pom
+2017-04-15 19:07:41,131 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/opensource-snapshots/net/sf/sshapi/sshapi-core/0.9.8-SNAPSHOT/sshapi-core-0.9.8-20160831.151838-5.pom
+2017-04-15 19:07:41,215 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/opensource-snapshots/net/sf/sshapi/sshapi-core/0.9.8-SNAPSHOT/sshapi-core-0.9.8-20160831.151838-5.pom
+2017-04-15 19:07:41,368 [DefaultMetadataResolver-5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/net/sf/sshapi/sshapi-group/0.9.8-SNAPSHOT/maven-metadata.xml
+2017-04-15 19:07:41,395 [DefaultMetadataResolver-5-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://svn.code.sf.net/p/sshapi/svn/sshapi-mvn/snapshots/net/sf/sshapi/sshapi-group/0.9.8-SNAPSHOT/maven-metadata.xml
+2017-04-15 19:07:41,472 [DefaultMetadataResolver-5-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/opensource-snapshots/net/sf/sshapi/sshapi-group/0.9.8-SNAPSHOT/maven-metadata.xml
+2017-04-15 19:07:41,598 [DefaultMetadataResolver-5-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://svn.code.sf.net/p/sshapi/svn/sshapi-mvn/snapshots/net/sf/sshapi/sshapi-group/0.9.8-SNAPSHOT/maven-metadata.xml
+2017-04-15 19:07:41,657 [DefaultMetadataResolver-5-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/net/sf/sshapi/sshapi-group/0.9.8-SNAPSHOT/maven-metadata.xml
+2017-04-15 19:07:41,831 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/opensource-snapshots/net/sf/sshapi/sshapi-group/0.9.8-SNAPSHOT/sshapi-group-0.9.8-20160831.151833-5.pom
+2017-04-15 19:07:41,913 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/opensource-snapshots/net/sf/sshapi/sshapi-group/0.9.8-SNAPSHOT/sshapi-group-0.9.8-20160831.151833-5.pom
+2017-04-15 19:07:42,361 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal-awt/2.1.3/terminal-awt-2.1.3.pom
+2017-04-15 19:07:42,562 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/public-releases/com/sshtools/terminal-awt/2.1.3/terminal-awt-2.1.3.pom
+2017-04-15 19:07:42,639 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal-awt/2.1.3/terminal-awt-2.1.3.pom
+2017-04-15 19:07:43,070 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal-web/2.1.3/terminal-web-2.1.3.pom
+2017-04-15 19:07:43,234 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/public-releases/com/sshtools/terminal-web/2.1.3/terminal-web-2.1.3.pom
+2017-04-15 19:07:43,438 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal-web/2.1.3/terminal-web-2.1.3.pom
+2017-04-15 19:07:43,555 [DefaultMetadataResolver-6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/net/sf/sshapi/sshapi-maverick/0.9.8-SNAPSHOT/maven-metadata.xml
+2017-04-15 19:07:43,651 [DefaultMetadataResolver-6-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://svn.code.sf.net/p/sshapi/svn/sshapi-mvn/snapshots/net/sf/sshapi/sshapi-maverick/0.9.8-SNAPSHOT/maven-metadata.xml
+2017-04-15 19:07:43,726 [DefaultMetadataResolver-6-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/opensource-snapshots/net/sf/sshapi/sshapi-maverick/0.9.8-SNAPSHOT/maven-metadata.xml
+2017-04-15 19:07:43,808 [DefaultMetadataResolver-6-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://svn.code.sf.net/p/sshapi/svn/sshapi-mvn/snapshots/net/sf/sshapi/sshapi-maverick/0.9.8-SNAPSHOT/maven-metadata.xml
+2017-04-15 19:07:43,897 [DefaultMetadataResolver-6-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/net/sf/sshapi/sshapi-maverick/0.9.8-SNAPSHOT/maven-metadata.xml
+2017-04-15 19:07:44,308 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/net/sf/sshapi/sshapi-maverick/0.9.8-SNAPSHOT/sshapi-maverick-0.9.8-20160901.154529-6.pom
+2017-04-15 19:07:44,478 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/net/sf/sshapi/sshapi-maverick/0.9.8-SNAPSHOT/sshapi-maverick-0.9.8-20160901.154529-6.pom
+2017-04-15 19:07:44,575 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/opensource-snapshots/net/sf/sshapi/sshapi-maverick/0.9.8-SNAPSHOT/sshapi-maverick-0.9.8-20160901.154529-6.pom
+2017-04-15 19:07:44,652 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/opensource-snapshots/net/sf/sshapi/sshapi-maverick/0.9.8-SNAPSHOT/sshapi-maverick-0.9.8-20160901.154529-6.pom
+2017-04-15 19:07:45,164 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/j2ssh-maverick/1.5.5/j2ssh-maverick-1.5.5.pom
+2017-04-15 19:07:45,309 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/j2ssh-maverick/1.5.5/j2ssh-maverick-1.5.5.pom
+2017-04-15 19:07:45,629 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sshtools/j2ssh-maverick/1.5.5/j2ssh-maverick-1.5.5.pom
+2017-04-15 19:07:45,795 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sshtools/j2ssh-maverick/1.5.5/j2ssh-maverick-1.5.5.pom
+2017-04-15 19:07:46,207 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/oro/oro/2.0.8/oro-2.0.8.pom
+2017-04-15 19:07:46,338 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/oro/oro/2.0.8/oro-2.0.8.pom
+2017-04-15 19:07:46,383 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/oro/oro/2.0.8/oro-2.0.8.pom
+2017-04-15 19:07:46,432 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/oro/oro/2.0.8/oro-2.0.8.pom
+2017-04-15 19:07:46,904 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.pom
+2017-04-15 19:07:47,035 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.pom
+2017-04-15 19:07:47,078 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.pom
+2017-04-15 19:07:47,135 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.pom
+2017-04-15 19:07:47,587 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/log4j/log4j/1.2.15/log4j-1.2.15.pom
+2017-04-15 19:07:47,713 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/log4j/log4j/1.2.15/log4j-1.2.15.pom
+2017-04-15 19:07:47,758 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/log4j/log4j/1.2.15/log4j-1.2.15.pom
+2017-04-15 19:07:47,831 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/log4j/log4j/1.2.15/log4j-1.2.15.pom
+2017-04-15 19:07:48,244 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/javax/mail/mail/1.4/mail-1.4.pom
+2017-04-15 19:07:48,431 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/javax/mail/mail/1.4/mail-1.4.pom
+2017-04-15 19:07:48,473 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/mail/mail/1.4/mail-1.4.pom
+2017-04-15 19:07:48,526 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/mail/mail/1.4/mail-1.4.pom
+2017-04-15 19:07:48,953 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/javax/activation/activation/1.1/activation-1.1.pom
+2017-04-15 19:07:49,078 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/javax/activation/activation/1.1/activation-1.1.pom
+2017-04-15 19:07:49,122 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1.pom
+2017-04-15 19:07:49,176 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1.pom
+2017-04-15 19:07:49,650 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal-examples/2.1.3/terminal-examples-2.1.3.jar
+2017-04-15 19:07:50,065 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal-ssh/2.1.3/terminal-ssh-2.1.3.jar
+2017-04-15 19:07:50,483 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal-awt/2.1.3/terminal-awt-2.1.3.jar
+2017-04-15 19:07:50,891 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/terminal-web/2.1.3/terminal-web-2.1.3.jar
+2017-04-15 19:07:51,310 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/sshtools/j2ssh-maverick/1.5.5/j2ssh-maverick-1.5.5.jar
+2017-04-15 19:07:51,718 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.jar
+2017-04-15 19:07:52,142 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/oro/oro/2.0.8/oro-2.0.8.jar
+2017-04-15 19:07:52,472 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/public-releases/com/sshtools/terminal-examples/2.1.3/terminal-examples-2.1.3.jar
+2017-04-15 19:07:52,757 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal-examples/2.1.3/terminal-examples-2.1.3.jar
+2017-04-15 19:07:52,876 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/public-releases/com/sshtools/terminal-ssh/2.1.3/terminal-ssh-2.1.3.jar
+2017-04-15 19:07:52,978 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal-ssh/2.1.3/terminal-ssh-2.1.3.jar
+2017-04-15 19:07:53,064 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/public-releases/com/sshtools/terminal-awt/2.1.3/terminal-awt-2.1.3.jar
+2017-04-15 19:07:53,265 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal-awt/2.1.3/terminal-awt-2.1.3.jar
+2017-04-15 19:07:53,349 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/public-releases/com/sshtools/terminal-web/2.1.3/terminal-web-2.1.3.jar
+2017-04-15 19:07:53,509 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/terminal-web/2.1.3/terminal-web-2.1.3.jar
+2017-04-15 19:07:53,572 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/com/sshtools/j2ssh-maverick/1.5.5/j2ssh-maverick-1.5.5.jar
+2017-04-15 19:07:53,722 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.jar
+2017-04-15 19:07:53,842 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/public-releases/oro/oro/2.0.8/oro-2.0.8.jar
+2017-04-15 19:07:54,576 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sshtools/j2ssh-maverick/1.5.5/j2ssh-maverick-1.5.5.jar
+2017-04-15 19:07:54,926 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sshtools/j2ssh-maverick/1.5.5/j2ssh-maverick-1.5.5.jar
+2017-04-15 19:07:54,973 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.jar
+2017-04-15 19:07:55,822 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.jar
+2017-04-15 19:07:55,865 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/oro/oro/2.0.8/oro-2.0.8.jar
+2017-04-15 19:07:55,926 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/oro/oro/2.0.8/oro-2.0.8.jar
+2017-04-15 19:07:56,393 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/opensource-snapshots/net/sf/sshapi/sshapi-core/0.9.8-SNAPSHOT/sshapi-core-0.9.8-20160831.151838-5.jar
+2017-04-15 19:07:56,602 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/opensource-snapshots/net/sf/sshapi/sshapi-core/0.9.8-SNAPSHOT/sshapi-core-0.9.8-20160831.151838-5.jar
+2017-04-15 19:07:56,701 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://artifactory.javassh.com/opensource-snapshots/net/sf/sshapi/sshapi-maverick/0.9.8-SNAPSHOT/sshapi-maverick-0.9.8-20160901.154529-6.jar
+2017-04-15 19:07:56,789 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://artifactory.javassh.com/opensource-snapshots/net/sf/sshapi/sshapi-maverick/0.9.8-SNAPSHOT/sshapi-maverick-0.9.8-20160901.154529-6.jar
+2017-04-15 19:07:57,370 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:07:57,370 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:07:57,372 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:07:57,372 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:08:03,820 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:08:03,820 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:08:03,821 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:08:03,821 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:12:12,463 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:12:12,463 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:12:12,464 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:12:12,464 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:12:13,934 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:12:13,934 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:12:13,935 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:12:13,935 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:12:32,343 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:12:32,343 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:12:32,344 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:12:32,345 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:13:24,916 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:13:24,916 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:13:24,917 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:13:24,917 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:17:41,424 [Worker-81] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 19:17:42,241 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/asciidocfx/terminalfx/1.3/terminalfx-1.3.pom
+2017-04-15 19:17:42,670 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/asciidocfx/terminalfx/1.3/terminalfx-1.3.pom
+2017-04-15 19:17:42,677 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.asciidocfx:terminalfx:jar:1.3 is missing, no dependency information available
+2017-04-15 19:17:43,098 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/asciidocfx/terminalfx/1.3/terminalfx-1.3.jar
+2017-04-15 19:17:43,567 [Worker-81] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/asciidocfx/terminalfx/1.3/terminalfx-1.3.jar
+2017-04-15 19:17:43,765 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:17:43,766 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:17:43,768 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:17:43,768 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:20:30,507 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.asciidocfx:terminalfx:jar:1.3 is missing, no dependency information available
+2017-04-15 19:20:31,792 [Worker-68] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 19:20:31,851 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.asciidocfx:terminalfx:jar:1.3 is missing, no dependency information available
+2017-04-15 19:20:32,193 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:20:32,193 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:20:32,195 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:20:32,195 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:20:34,890 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.asciidocfx:terminalfx:jar:1.3 is missing, no dependency information available
+2017-04-15 19:20:35,385 [Worker-81] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 19:20:35,447 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.asciidocfx:terminalfx:jar:1.3 is missing, no dependency information available
+2017-04-15 19:20:36,006 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:20:36,006 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:20:36,008 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:20:36,008 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:20:58,012 [Worker-90] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 19:20:58,378 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:20:58,378 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:20:58,380 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:20:58,380 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:21:03,379 [Worker-96] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 19:21:03,991 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:21:03,991 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:21:03,993 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:21:03,993 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:21:06,590 [Worker-81] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 19:21:06,983 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:21:06,983 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:21:06,984 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:21:06,985 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:24:31,010 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:24:31,011 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:24:31,012 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:24:31,012 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:24:38,941 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:24:38,942 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:24:38,942 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:24:38,943 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:24:42,304 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:24:42,304 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:24:42,305 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:24:42,305 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:24:49,557 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:24:49,557 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:24:49,558 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:24:49,558 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:24:57,648 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:24:57,648 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:24:57,649 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:24:57,649 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:25:03,043 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:25:03,043 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:25:03,044 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:25:03,044 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:27:57,286 [Worker-102] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-15 19:27:58,934 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/asciidocfx/pty4j/pty4j/0.7.3/pty4j-0.7.3.pom
+2017-04-15 19:28:01,369 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://asciidocfx.com/build/com/asciidocfx/pty4j/pty4j/0.7.3/pty4j-0.7.3.pom
+2017-04-15 19:28:01,430 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/asciidocfx/pty4j/pty4j/0.7.3/pty4j-0.7.3.pom
+2017-04-15 19:28:01,594 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/sparetimelabs/purejavacomm/0.0.17/purejavacomm-0.0.17.pom
+2017-04-15 19:28:04,948 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.pom
+2017-04-15 19:28:05,054 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.pom
+2017-04-15 19:28:05,117 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.pom
+2017-04-15 19:28:07,967 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.pom
+2017-04-15 19:28:08,319 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.pom
+2017-04-15 19:28:08,417 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.pom
+2017-04-15 19:28:08,839 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom
+2017-04-15 19:28:08,945 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom
+2017-04-15 19:28:09,175 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom
+2017-04-15 19:28:09,764 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom
+2017-04-15 19:28:09,808 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom
+2017-04-15 19:28:09,963 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom
+2017-04-15 19:28:10,389 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/fasterxml/oss-parent/27/oss-parent-27.pom
+2017-04-15 19:28:10,490 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/fasterxml/oss-parent/27/oss-parent-27.pom
+2017-04-15 19:28:10,614 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/fasterxml/oss-parent/27/oss-parent-27.pom
+2017-04-15 19:28:11,236 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/oss-parent/27/oss-parent-27.pom
+2017-04-15 19:28:11,279 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/27/oss-parent-27.pom
+2017-04-15 19:28:11,364 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/27/oss-parent-27.pom
+2017-04-15 19:28:11,776 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.pom
+2017-04-15 19:28:11,882 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.pom
+2017-04-15 19:28:12,013 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.pom
+2017-04-15 19:28:12,601 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.pom
+2017-04-15 19:28:12,643 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.pom
+2017-04-15 19:28:12,693 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.pom
+2017-04-15 19:28:13,113 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.pom
+2017-04-15 19:28:13,224 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.pom
+2017-04-15 19:28:13,350 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.pom
+2017-04-15 19:28:13,945 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.pom
+2017-04-15 19:28:13,987 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.pom
+2017-04-15 19:28:14,074 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.pom
+2017-04-15 19:28:14,495 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.pom
+2017-04-15 19:28:14,599 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.pom
+2017-04-15 19:28:14,777 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.pom
+2017-04-15 19:28:15,396 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.pom
+2017-04-15 19:28:15,439 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.pom
+2017-04-15 19:28:15,490 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.pom
+2017-04-15 19:28:16,020 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/asciidocfx/pty4j/pty4j/0.7.3/pty4j-0.7.3.jar
+2017-04-15 19:28:16,420 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar
+2017-04-15 19:28:16,842 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar
+2017-04-15 19:28:17,252 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar
+2017-04-15 19:28:17,368 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://asciidocfx.com/build/com/asciidocfx/pty4j/pty4j/0.7.3/pty4j-0.7.3.jar
+2017-04-15 19:28:17,530 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/asciidocfx/pty4j/pty4j/0.7.3/pty4j-0.7.3.jar
+2017-04-15 19:28:17,621 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/sparetimelabs/purejavacomm/0.0.17/purejavacomm-0.0.17.jar
+2017-04-15 19:28:17,716 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar
+2017-04-15 19:28:17,818 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar
+2017-04-15 19:28:17,916 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar
+2017-04-15 19:28:18,250 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar
+2017-04-15 19:28:18,370 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar
+2017-04-15 19:28:18,481 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar
+2017-04-15 19:28:19,092 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar
+2017-04-15 19:28:19,680 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar
+2017-04-15 19:28:20,279 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar
+2017-04-15 19:28:20,346 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar
+2017-04-15 19:28:21,081 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar
+2017-04-15 19:28:21,117 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar
+2017-04-15 19:28:21,306 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar
+2017-04-15 19:28:21,468 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar
+2017-04-15 19:28:21,542 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar
+2017-04-15 19:28:22,213 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:28:22,213 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:28:22,215 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:28:22,215 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:28:26,105 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:28:26,105 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:28:26,107 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:28:26,107 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:30:23,849 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:30:23,850 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:30:23,850 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:30:23,850 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:30:57,238 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:30:57,238 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:30:57,239 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:30:57,239 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:32:07,411 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:32:07,412 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:32:07,413 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:32:07,413 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:32:19,514 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:32:19,515 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:32:19,516 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:32:19,516 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:36:23,219 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:36:23,219 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:36:23,220 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:36:23,220 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:36:54,187 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:36:54,187 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:36:54,190 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:36:54,190 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:37:05,661 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:37:05,661 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:37:05,662 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:37:05,662 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:37:07,519 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:37:07,520 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:37:07,521 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:37:07,521 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:38:46,108 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:38:46,108 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:38:46,108 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:38:46,109 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:40:27,868 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:40:27,868 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:40:27,869 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:40:27,869 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:40:32,784 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:40:32,784 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:40:32,785 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:40:32,785 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:40:39,111 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:40:39,111 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:40:39,112 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:40:39,113 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:41:12,804 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:41:12,804 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:41:12,805 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:41:12,805 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:45:17,991 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:45:17,991 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:45:17,993 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:45:17,993 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-15 19:45:59,852 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:45:59,852 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-15 19:45:59,854 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-15 19:45:59,854 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources

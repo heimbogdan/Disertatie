@@ -1,0 +1,26 @@
+package com.jcraft.jcterm;
+
+import com.jcraft.jcterm.JSchSession.SessionFactory;
+import com.jcraft.jsch.JSchException;
+
+public class JSchSessionAdapter {
+
+	private JSchSession jschSession;
+	
+	public void dispose() {
+		jschSession.dispose();
+	}
+	
+	public static boolean isAuthenticationFailure(JSchException paramJSchException) {
+		return paramJSchException.getMessage().equals("Auth fail");
+	}
+	
+	public static void setSessionFactory(SessionFactory paramSessionFactory) {
+		JSchSession.setSessionFactory(paramSessionFactory);
+	}
+	
+	public static void useSSHAgent(boolean paramBoolean){
+		JSchSession.useSSHAgent(paramBoolean);
+	}
+	
+}

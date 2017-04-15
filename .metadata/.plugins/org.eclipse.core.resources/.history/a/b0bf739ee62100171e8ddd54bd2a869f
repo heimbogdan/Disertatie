@@ -1,0 +1,10 @@
+package com.jcraft.jcterm;
+
+public class JSchSessionAdapter {
+
+	private JSchSession jschSession;
+	
+	public static void useSSHAgent(boolean paramBoolean){
+		JSchSession.useSSHAgent(paramBoolean);
+	}
+}

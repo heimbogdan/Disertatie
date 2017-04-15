@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javafx.scene.control.ButtonType"/>
-<fullyQualifiedTypeName name="javafx.scene.layout.GridPane"/>
-<fullyQualifiedTypeName name="javafx.geometry.Insets"/>
-<fullyQualifiedTypeName name="javafx.scene.control.Label"/>
-<fullyQualifiedTypeName name="javafx.scene.control.TextField"/>
-<fullyQualifiedTypeName name="javafx.scene.control.ButtonBar.ButtonData"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="R"/>
-<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-<fullyQualifiedTypeName name="javafx.util.Callback"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="javafx.scene.control.Dialog"/>
-<fullyQualifiedTypeName name="ro.helator.dia.factory.PopupFactory"/>
-<fullyQualifiedTypeName name="javafx.stage.Modality"/>
-<fullyQualifiedTypeName name="java.util.Optional"/>
-<fullyQualifiedTypeName name="ro.helator.dia.util.Constants"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="javafx.stage.WindowEvent"/>
 <fullyQualifiedTypeName name="javafx.scene.input.ContextMenuEvent"/>
 <fullyQualifiedTypeName name="javafx.scene.control.ContextMenu"/>
@@ -60,4 +42,22 @@
 <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
 <fullyQualifiedTypeName name="javafx.fxml.FXML"/>
 <fullyQualifiedTypeName name="javafx.scene.layout.AnchorPane"/>
+<fullyQualifiedTypeName name="com.jcraft.jcterm.ConfigurationRepository"/>
+<fullyQualifiedTypeName name="com.jcraft.jcterm.JSchSession"/>
+<fullyQualifiedTypeName name="com.jcraft.jcterm.JSchSessionAdapter"/>
+<fullyQualifiedTypeName name="com.sshtools.terminal.emulation.TerminalEmulation"/>
+<fullyQualifiedTypeName name="com.sshtools.terminal.vt.TerminalUtil"/>
+<fullyQualifiedTypeName name="com.sshtools.terminal.vt.swing.SwingTerminalPanel"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="java.awt.event.WindowAdapter"/>
+<fullyQualifiedTypeName name="java.awt.event.WindowEvent"/>
+<fullyQualifiedTypeName name="javax.swing.JPanel"/>
+<fullyQualifiedTypeName name="java.awt.BorderLayout"/>
+<fullyQualifiedTypeName name="com.sshtools.terminal.vt.swing.SwingScrollBar"/>
+<fullyQualifiedTypeName name="com.sshtools.terminal.emulation.TerminalBufferListener"/>
+<fullyQualifiedTypeName name="com.sshtools.terminal.emulation.TerminalEmulationListener"/>
+<fullyQualifiedTypeName name="com.sshtools.profile.ConnectionManager"/>
+<fullyQualifiedTypeName name="com.sshtools.terminal.schemes.ssh.SshSchemeHandler"/>
+<fullyQualifiedTypeName name="com.terminalfx.AppStarter"/>
+<fullyQualifiedTypeName name="javafx.scene.web.WebView"/>
 </qualifiedTypeNameHistroy>

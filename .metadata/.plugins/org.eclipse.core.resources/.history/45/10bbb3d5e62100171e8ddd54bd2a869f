@@ -1,0 +1,16 @@
+package com.jcraft.jcterm;
+
+import com.jcraft.jcterm.JSchSession.SessionFactory;
+
+public class JSchSessionAdapter {
+
+	private JSchSession jschSession;
+	
+	public static void useSSHAgent(boolean paramBoolean){
+		JSchSession.useSSHAgent(paramBoolean);
+	}
+	
+	public static void setSessionFactory(SessionFactory paramSessionFactory) {
+		JSchSession.setSessionFactory(paramSessionFactory);
+	}
+}

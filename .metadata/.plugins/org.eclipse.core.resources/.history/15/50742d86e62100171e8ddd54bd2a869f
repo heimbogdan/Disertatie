@@ -1,0 +1,8 @@
+package com.jcraft.jcterm;
+
+public class JSchSessionAdapter {
+
+	private JSchSession jschSession;
+	
+	
+}
