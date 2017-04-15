@@ -1,0 +1,61 @@
+package ro.helator.dia.factory;
+
+import java.lang.reflect.Field;
+import java.util.HashMap;
+import java.util.Map;
+
+import javafx.geometry.Insets;
+import javafx.scene.control.ButtonBar.ButtonData;
+import javafx.scene.control.ButtonType;
+import javafx.scene.control.Dialog;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.GridPane;
+
+public class PopupFactory {
+
+	private static <R> Dialog<R> newEmptyDialog(R obj, String title){
+		Dialog<R> dialog = new Dialog<R>();
+		dialog.setTitle(title);
+		return dialog;
+	}
+	
+	private static <R> Dialog<R> newOKCancelDialog(R obj, String title){
+		Dialog<R> dialog = newEmptyDialog(obj, title);
+		ButtonType ok = new ButtonType("OK", ButtonData.OK_DONE);
+		ButtonType cancel = new ButtonType("Cancel", ButtonData.CANCEL_CLOSE);
+		dialog.getDialogPane().getButtonTypes().addAll(ok, cancel);
+		return dialog;
+	}
+	
+	public static <R> Dialog<R> newOKCancelFormDialog(R obj, String title){
+		Dialog<R> dialog = newOKCancelDialog(obj, title);
+		GridPane gridPane = new GridPane();
+	    gridPane.setHgap(10);
+	    gridPane.setVgap(10);
+	    gridPane.setPadding(new Insets(20, 150, 10, 10));
+	    
+	    Field[] fields = obj.getClass().getDeclaredFields();
+	    int i = 0;
+	    String empty = null;
+	    for(Field f : fields){
+	    	String name = f.getName();
+	    	Label label = new Label(name);
+	    	TextField textField = new TextField();
+	    	textField.setPromptText(name);
+	    	textField.setId(name);
+	    	gridPane.add(label, i++, 0);
+	    	gridPane.add(textField, i++, 0);
+	    }
+	    
+	    dialog.getDialogPane().setContent(gridPane);
+	    dialog.setResultConverter(dialogButton ->{
+	    	if(dialogButton.getButtonData() == ButtonData.OK_DONE){
+	    		Map<String, String> map = new HashMap<String, String>();
+	    		
+	    	}
+	    	
+	    });
+	    
+	}
+}

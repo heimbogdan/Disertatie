@@ -1,0 +1,50 @@
+package ro.helator.dia.screen.controller;
+
+import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import org.springframework.stereotype.Component;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.control.Tab;
+import javafx.scene.control.TabPane;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.Pane;
+import ro.helator.dia.screen.BaseScreenController;
+import static ro.helator.dia.util.Constants.*;
+
+@Component
+public class MainController extends BaseScreenController {
+
+	@FXML
+	private AnchorPane mainPane;
+	@FXML
+	private TabPane tabPane;
+	
+	
+	@Override
+	public void initialize(URL arg0, ResourceBundle arg1) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	private void loadTabPane(String name) throws IOException{
+		Tab newLoadedPane = FXMLLoader.load(getClass().getResource(
+				FXML_FOLDER + name + FXML_EXTENSION));
+		tabPane.getTabs().add(newLoadedPane);
+	}
+	
+	@FXML
+	private void openPreferences(ActionEvent event){
+		loadTabPane(FXML_PREFERENCES);
+	}
+	
+	@FXML
+	private void close(ActionEvent event){
+		this.sc.getStage().close();
+	}
+
+}

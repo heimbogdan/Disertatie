@@ -1,0 +1,17 @@
+package ro.helator.dia.server;
+
+import java.io.Serializable;
+
+public class Server implements Serializable{
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4026121817394231068L;
+	
+	private String ip;
+	private String port;
+	private String user;
+	private String password;
+	private String karafPath;
+}

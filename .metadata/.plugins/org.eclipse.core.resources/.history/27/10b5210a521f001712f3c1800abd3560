@@ -1,0 +1,100 @@
+package ro.helator.dia.factory;
+
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.util.HashMap;
+import java.util.Map;
+
+import javafx.geometry.Insets;
+import javafx.scene.control.ButtonBar.ButtonData;
+import javafx.scene.control.ButtonType;
+import javafx.scene.control.Dialog;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.GridPane;
+import javafx.util.Callback;
+
+import static ro.helator.dia.util.Constants.SERRIAL_UUID;
+
+public class PopupFactory {
+
+	private static <R> Dialog<R> newEmptyDialog(R obj, String title) {
+		Dialog<R> dialog = new Dialog<R>();
+		dialog.setTitle(title);
+		return dialog;
+	}
+
+	private static <R> Dialog<R> newOKCancelDialog(R obj, String title) {
+		Dialog<R> dialog = newEmptyDialog(obj, title);
+		ButtonType ok = new ButtonType("OK", ButtonData.OK_DONE);
+		ButtonType cancel = new ButtonType("Cancel", ButtonData.CANCEL_CLOSE);
+		dialog.getDialogPane().getButtonTypes().addAll(ok, cancel);
+		return dialog;
+	}
+
+	public static <R> Dialog<R> newOKCancelFormDialog(R obj, String title) {
+		Dialog<R> dialog = newOKCancelDialog(obj, title);
+		GridPane gridPane = new GridPane();
+		gridPane.setHgap(10);
+		gridPane.setVgap(10);
+		gridPane.setPadding(new Insets(20, 150, 10, 10));
+
+		Field[] fields = obj.getClass().getDeclaredFields();
+		int i = 0;
+		String empty = null;
+		for (Field f : fields) {
+			String name = f.getName();
+			if(name.equals("serialVersionUID"))
+			Label label = new Label(name);
+			TextField textField = new TextField();
+			textField.setPromptText(name);
+			textField.setId(name);
+			gridPane.add(label, 0, i);
+			gridPane.add(textField, 1, i++);
+		}
+
+		dialog.getDialogPane().setContent(gridPane);
+		dialog.setResultConverter(new Callback<ButtonType, R>() {
+			@Override
+			public R call(ButtonType b) {
+				if (b.getButtonData() == ButtonData.OK_DONE) {
+					try {
+						R newObj = (R) obj.getClass().newInstance();
+						for (Field f : fields) {
+							String name = f.getName();
+							TextField tf = (TextField) gridPane.getScene().lookup("#" + name);
+							String value = tf.getText().trim();
+							Method method = newObj.getClass().getMethod(toLowerCamelCase("set", name), String.class);
+							method.invoke(newObj, value);
+						}
+						return newObj;
+					} catch (Exception e) {
+						e.printStackTrace();
+					}
+
+				}
+				return null;
+			}
+		});
+
+		return dialog;
+	}
+
+	private static String toLowerCamelCase(String... strings) {
+		StringBuilder sb = new StringBuilder();
+		for (String s : strings) {
+			if (sb.length() > 0) {
+				int size = s.length();
+				if (size > 0) {
+					sb.append(s.substring(0, 1).toUpperCase());
+					if (size > 1) {
+						sb.append(s.substring(1));
+					}
+				}
+			} else {
+				sb.append(s);
+			}
+		}
+		return sb.toString();
+	}
+}

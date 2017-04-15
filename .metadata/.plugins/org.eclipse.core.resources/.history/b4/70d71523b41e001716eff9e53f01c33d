@@ -1,0 +1,11 @@
+package ro.helator.dia.util;
+
+import java.util.Map;
+
+public class TreeViewPreperences {
+	
+	public TreeViewPreperences(Map<String, Object> preferences){
+		
+	}
+
+}

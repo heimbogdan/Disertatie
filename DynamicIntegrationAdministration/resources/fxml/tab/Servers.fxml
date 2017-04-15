@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="serversPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.helator.dia.screen.controller.tab.ServersController">
+   <children>
+      <TableView fx:id="serversTable" layoutX="135.0" layoutY="57.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <columns>
+            <TableColumn fx:id="nameTCol" minWidth="50.0" prefWidth="180.0" text="Name" />
+            <TableColumn fx:id="ipTCol" minWidth="50.0" prefWidth="180.0" text="IP" />
+            <TableColumn fx:id="portTCol" minWidth="50.0" prefWidth="70.0" text="Port" />
+            <TableColumn fx:id="userTCol" minWidth="50.0" prefWidth="120.0" text="User" />
+            <TableColumn fx:id="passwordTCol" minWidth="50.0" prefWidth="120.0" text="Password" />
+            <TableColumn fx:id="karafPathTCol" minWidth="50.0" prefWidth="120.0" text="Karaf Path" />
+         </columns></TableView>
+   </children>
+</AnchorPane>

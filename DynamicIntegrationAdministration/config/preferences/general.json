@@ -1,0 +1,35 @@
+{
+	"id":"General",
+	"description":"General preferences.",
+	"children":[
+		{
+			"id":"Language",
+			"type":"string_enum",
+			"value":"en",
+			"enum": ["en","ro"]
+		},{
+			"id":"Font",
+			"type":"string_enum",
+			"value":"System",
+			"enum": ["System","Arial"]
+		}
+	],
+	"extension":[
+		{
+			"id":"Theme",
+			"description":"Manage GUI theme.",
+			"children":[
+				{
+					"id":"Background color",
+					"type":"color",
+					"value":"#cdcdcd"
+				},
+				{
+					"id":"Bar color",
+					"type":"color",
+					"value":"#cacaca"
+				}
+			]
+		}
+	]
+}
