@@ -1,0 +1,158 @@
+package ro.helator.dia.server.terminal;
+
+import com.wittams.gritty.BackBuffer;
+import com.wittams.gritty.Emulator;
+import com.wittams.gritty.ScrollBuffer;
+import com.wittams.gritty.StyleState;
+import com.wittams.gritty.TerminalWriter;
+import com.wittams.gritty.Tty;
+import com.wittams.gritty.TtyChannel;
+import com.wittams.gritty.swing.ConnectedKeyHandler;
+import com.wittams.gritty.swing.GrittyTerminal;
+import com.wittams.gritty.swing.PreConnectHandler;
+import com.wittams.gritty.swing.TermPanel;
+import com.wittams.gritty.swing.GrittyTerminal.BufferType;
+import com.wittams.gritty.swing.GrittyTerminal.EmulatorTask;
+
+import javafx.scene.layout.Pane;
+
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.io.IOException;
+import java.util.concurrent.atomic.AtomicBoolean;
+import javax.swing.JPanel;
+import javax.swing.JScrollBar;
+import javax.swing.SwingUtilities;
+import org.apache.log4j.Logger;
+
+public class GrittyTerminalAdapter extends Pane {
+
+	private static final Logger logger = Logger.getLogger(GrittyTerminal.class);
+	private static final long serialVersionUID = -8213232075937432833L;
+	private final StyleState styleState;
+	private final BackBuffer backBuffer;
+	private final ScrollBuffer scrollBuffer;
+	private final TermPanel termPanel;
+	private final JScrollBar scrollBar;
+	private Tty tty;
+	private TtyChannel ttyChannel;
+	private TerminalWriter terminalWriter;
+	private Emulator emulator;
+	private Thread emuThread;
+	private AtomicBoolean sessionRunning = new AtomicBoolean();
+	private PreConnectHandler preconnectHandler;
+	
+	public GrittyTerminalAdapter() {
+
+		this.styleState = new StyleState();
+		this.backBuffer = new BackBuffer(80, 24, this.styleState);
+		this.scrollBuffer = new ScrollBuffer();
+
+		this.termPanel = new TermPanel(this.backBuffer, this.scrollBuffer, this.styleState);
+		this.terminalWriter = new TerminalWriter(this.termPanel, this.backBuffer, this.styleState);
+		this.preconnectHandler = new PreConnectHandler(this.terminalWriter);
+		this.termPanel.setKeyHandler(this.preconnectHandler);
+		this.scrollBar = new JScrollBar();
+
+		add(this.termPanel, "Center");
+		add(this.scrollBar, "East");
+		this.scrollBar.setModel(this.termPanel.getBoundedRangeModel());
+		this.sessionRunning.set(false);
+	}
+
+	public TermPanel getTermPanel() {
+		return this.termPanel;
+	}
+
+	public JScrollBar getScrollBar() {
+		return this.scrollBar;
+	}
+
+	public void setTty(Tty tty) {
+		this.tty = tty;
+		this.ttyChannel = new TtyChannel(tty);
+
+		this.emulator = new Emulator(this.terminalWriter, this.ttyChannel);
+		this.termPanel.setEmulator(this.emulator);
+	}
+
+	public void start() {
+		if (!(this.sessionRunning.get())) {
+			this.emuThread = new Thread(new EmulatorTask());
+			this.emuThread.start();
+		} else {
+			logger.error("Should not try to start session again at this point... ");
+		}
+	}
+
+	public void stop() {
+		if ((this.sessionRunning.get()) && (this.emuThread != null))
+			this.emuThread.interrupt();
+	}
+
+	public boolean isSessionRunning() {
+		return this.sessionRunning.get();
+	}
+
+	public String getBufferText(BufferType type) {
+		return type.getValue(this);
+	}
+
+	public Dimension getPreferredSize() {
+		return new Dimension(this.termPanel.getPixelWidth() + this.scrollBar.getPreferredSize().width,
+				this.termPanel.getPixelHeight());
+	}
+
+	public void sendCommand(String string) throws IOException {
+		if (this.sessionRunning.get())
+			this.ttyChannel.sendBytes(string.getBytes());
+	}
+
+	public boolean requestFocusInWindow() {
+		SwingUtilities.invokeLater(new Runnable() {
+			public void run() {
+				GrittyTerminal.this.termPanel.requestFocusInWindow();
+			}
+		});
+		return super.requestFocusInWindow();
+	}
+
+	class EmulatorTask implements Runnable {
+		public void run() {
+			try {
+				GrittyTerminalAdapter.this.sessionRunning.set(true);
+				Thread.currentThread().setName(GrittyTerminalAdapter.this.tty.getName());
+				if (GrittyTerminalAdapter.this.tty.init(GrittyTerminalAdapter.this.preconnectHandler)) {
+					Thread.currentThread().setName(GrittyTerminalAdapter.this.tty.getName());
+					SwingUtilities.invokeLater(new Runnable() {
+						public void run() {
+							GrittyTerminalAdapter.this.termPanel
+									.setKeyHandler(new ConnectedKeyHandler(GrittyTerminalAdapter.this.emulator));
+							GrittyTerminalAdapter.this.termPanel.requestFocusInWindow();
+						}
+					});
+					GrittyTerminalAdapter.this.emulator.start();
+				}
+				try {
+					GrittyTerminalAdapter.this.tty.close();
+				} catch (Exception e) {
+				}
+				GrittyTerminalAdapter.this.sessionRunning.set(false);
+				GrittyTerminalAdapter.this.termPanel.setKeyHandler(GrittyTerminalAdapter.this.preconnectHandler);
+			} finally {
+				try {
+					GrittyTerminalAdapter.this.tty.close();
+				} catch (Exception e) {
+				}
+				GrittyTerminalAdapter.this.sessionRunning.set(false);
+				GrittyTerminalAdapter.this.termPanel.setKeyHandler(GrittyTerminal.this.preconnectHandler);
+			}
+		}
+	}
+
+	public static abstract enum BufferType {
+		Back, BackStyle, Damage, Scroll;
+
+		abstract String getValue(GrittyTerminal paramGrittyTerminal);
+	}
+}

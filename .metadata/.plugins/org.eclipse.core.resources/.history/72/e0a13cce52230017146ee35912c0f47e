@@ -1,0 +1,7 @@
+package ro.helator.dia.server;
+
+import javafx.scene.control.Tab;
+
+public class TerminalTab extends Tab {
+
+}

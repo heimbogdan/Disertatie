@@ -1,0 +1,5 @@
+package ro.helator.dia.server.terminal;
+
+public class GrittyTerminalAdapter {
+
+}

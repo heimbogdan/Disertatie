@@ -1,0 +1,30 @@
+package ro.helator.dia.server.terminal;
+
+import com.wittams.gritty.BackBuffer;
+import com.wittams.gritty.Emulator;
+import com.wittams.gritty.ScrollBuffer;
+import com.wittams.gritty.StyleState;
+import com.wittams.gritty.TerminalWriter;
+import com.wittams.gritty.Tty;
+import com.wittams.gritty.TtyChannel;
+import com.wittams.gritty.swing.ConnectedKeyHandler;
+import com.wittams.gritty.swing.GrittyTerminal;
+import com.wittams.gritty.swing.PreConnectHandler;
+import com.wittams.gritty.swing.TermPanel;
+import com.wittams.gritty.swing.GrittyTerminal.BufferType;
+import com.wittams.gritty.swing.GrittyTerminal.EmulatorTask;
+
+import javafx.scene.layout.Pane;
+
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.io.IOException;
+import java.util.concurrent.atomic.AtomicBoolean;
+import javax.swing.JPanel;
+import javax.swing.JScrollBar;
+import javax.swing.SwingUtilities;
+import org.apache.log4j.Logger;
+
+public class GrittyTerminalAdapter extends Pane {
+	
+}

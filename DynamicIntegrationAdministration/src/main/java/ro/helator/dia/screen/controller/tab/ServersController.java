@@ -1,8 +1,12 @@
 package ro.helator.dia.screen.controller.tab;
 
+import static ro.helator.dia.util.Constants.FXML_EXTENSION;
+import static ro.helator.dia.util.Constants.FXML_TAB_FOLDER;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.URL;
@@ -11,6 +15,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.ResourceBundle;
 
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Component;
 
 import javafx.beans.binding.Bindings;
@@ -18,26 +23,30 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.control.ContextMenu;
 import javafx.scene.control.Dialog;
 import javafx.scene.control.MenuItem;
+import javafx.scene.control.Tab;
+import javafx.scene.control.TabPane;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.input.ContextMenuEvent;
-import javafx.scene.input.KeyCode;
-import javafx.scene.input.KeyCodeCombination;
-import javafx.scene.input.KeyCombination;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.Pane;
 import javafx.stage.Modality;
 import javafx.stage.WindowEvent;
+import ro.helator.dia.app.Main;
 import ro.helator.dia.factory.PopupFactory;
+import ro.helator.dia.factory.Toast;
 import ro.helator.dia.screen.BaseScreenController;
 import ro.helator.dia.server.Server;
 
 @Component
 public class ServersController extends BaseScreenController {
 
+	private static final Logger log = Logger.getLogger(ServersController.class);
+	
 	@FXML
 	private AnchorPane serversPane;
 
@@ -92,7 +101,9 @@ public class ServersController extends BaseScreenController {
 		connect.setOnAction(new EventHandler<ActionEvent>() {
 			@Override
 			public void handle(ActionEvent event) {
-
+				TabPane tabs = (TabPane) serversPane.getParent().getParent();
+				Server server = serversTable.getSelectionModel().getSelectedItem();
+				loadTabPane("SSHConsole", server);
 			}
 		});
 		connect.visibleProperty().bind(Bindings.isNotEmpty(serversTable.getSelectionModel().getSelectedItems()));
@@ -101,7 +112,7 @@ public class ServersController extends BaseScreenController {
 		fileTransfer.setOnAction(new EventHandler<ActionEvent>() {
 			@Override
 			public void handle(ActionEvent event) {
-
+				
 			}
 		});
 		fileTransfer.visibleProperty().bind(Bindings.isNotEmpty(serversTable.getSelectionModel().getSelectedItems()));
@@ -181,6 +192,28 @@ public class ServersController extends BaseScreenController {
 			oos.close();
 		} catch (Exception e) {
 			e.printStackTrace();
+		}
+	}
+	
+	private void loadTabPane(String name, Server server) {
+		if (log.isTraceEnabled()) {
+			log.trace(">>loadTabPane()");
+		}
+		try {
+			FXMLLoader loader = new FXMLLoader();
+			Pane newLoadedPane = loader.load(getClass().getResource(FXML_TAB_FOLDER + name + FXML_EXTENSION).openStream());
+			Tab newTab = new Tab(name, newLoadedPane);
+			newTab.setId(server.getName());
+			TabPane tabs = (TabPane) serversPane.getParent().getParent();
+			tabs.getTabs().add(newTab);
+			SSHConsoleController controller = loader.getController();
+			controller.openSession(server);
+		} catch (IOException e) {
+			Toast.getErrorAlert("Could not load [" + name + "]");
+			log.error("--loadTabPane(): " + e.getMessage(), e);
+		}
+		if (log.isTraceEnabled()) {
+			log.trace("<<loadTabPane()");
 		}
 	}
 }

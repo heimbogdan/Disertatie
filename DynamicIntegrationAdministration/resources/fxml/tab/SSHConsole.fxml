@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane fx:id="sshConsolePane" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="ro.helator.dia.screen.controller.tab.SSHConsoleController">
-	<!-- TODO Add Nodes -->
+<AnchorPane fx:id="sshConsolePane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.helator.dia.screen.controller.tab.SSHConsoleController">
+   <children>
+      <ToolBar fx:id="sshToolbar" layoutX="14.0" layoutY="14.0" maxHeight="30.0" prefHeight="30.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   </children>
 </AnchorPane>

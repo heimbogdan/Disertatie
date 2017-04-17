@@ -4083,3 +4083,776 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact javafx:jfxrt:
 2017-04-15 19:45:59,852 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
 2017-04-15 19:45:59,854 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-04-15 19:45:59,854 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 12:47:08,203 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:47:08,212 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 12:47:08,215 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:47:08,215 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 12:47:22,180 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:47:22,181 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 12:47:22,183 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:47:22,184 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 12:47:48,686 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:47:48,686 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 12:47:48,687 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:47:48,687 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 12:47:51,714 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:47:51,715 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 12:47:51,748 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:47:51,748 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 12:48:18,032 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:48:18,032 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 12:48:18,033 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:48:18,034 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 12:48:29,027 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:48:29,027 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 12:48:29,029 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:48:29,029 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 12:48:40,710 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:48:40,710 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 12:48:40,712 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:48:40,713 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 12:58:55,779 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:58:55,779 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 12:58:55,782 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:58:55,783 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 12:59:15,527 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:59:15,528 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 12:59:15,529 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:59:15,530 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 12:59:30,917 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:59:30,917 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 12:59:30,919 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:59:30,919 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 12:59:45,787 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:59:45,788 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 12:59:45,789 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 12:59:45,790 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:00:08,396 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:00:08,396 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:00:08,398 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:00:08,398 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:00:22,394 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:00:22,394 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:00:22,396 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:00:22,396 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:00:52,211 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:00:52,211 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:00:52,213 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:00:52,213 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:01:23,385 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:01:23,385 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:01:23,386 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:01:23,386 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:01:28,648 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:01:28,649 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:01:28,652 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:01:28,653 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:02:16,759 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:02:16,759 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:02:16,761 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:02:16,761 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:04:02,413 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:04:02,414 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:04:02,417 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:04:02,417 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:04:18,410 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:04:18,410 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:04:18,412 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:04:18,412 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:04:27,232 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:04:27,232 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:04:27,234 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:04:27,234 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:05:17,764 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:05:17,764 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:05:17,765 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:05:17,766 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:05:54,008 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:05:54,008 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:05:54,010 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:05:54,010 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:14:10,090 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:14:10,091 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:14:10,092 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:14:10,092 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:14:39,574 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:14:39,574 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:14:39,576 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:14:39,576 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:16:20,833 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:16:20,833 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:16:20,834 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:16:20,834 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:16:30,236 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:16:30,237 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:16:30,238 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:16:30,238 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:17:35,191 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:17:35,191 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:17:35,192 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:17:35,193 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:18:00,294 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:18:00,294 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:18:00,295 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:18:00,296 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:20:22,286 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:20:22,287 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:20:22,289 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:20:22,289 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:20:55,293 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:20:55,293 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:20:55,295 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:20:55,295 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:21:20,512 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:21:20,512 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:21:20,514 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:21:20,514 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:23:40,192 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:23:40,193 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:23:40,194 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:23:40,194 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:24:05,128 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:24:05,128 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:24:05,130 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:24:05,130 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:24:14,299 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:24:14,300 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:24:14,301 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:24:14,301 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:26:13,644 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:26:13,645 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:26:13,646 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:26:13,646 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:47:10,165 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:47:10,168 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:47:10,169 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:47:10,170 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:47:25,571 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:47:25,572 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:47:25,573 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:47:25,573 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:47:50,686 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:47:50,686 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:47:50,688 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:47:50,688 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:48:23,967 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:48:23,968 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:48:23,969 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:48:23,969 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:49:18,589 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:49:18,589 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:49:18,591 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:49:18,591 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:49:31,784 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:49:31,784 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:49:31,785 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:49:31,785 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:54:50,788 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:54:50,789 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:54:50,790 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:54:50,790 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:54:55,314 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:54:55,314 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:54:55,316 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:54:55,316 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:55:11,215 [Worker-56] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-17 13:55:13,364 [Worker-56] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/wittams/gritty/1.0.0/gritty-1.0.0.pom
+2017-04-17 13:55:15,748 [Worker-56] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/wittams/gritty/1.0.0/gritty-1.0.0.pom
+2017-04-17 13:55:18,743 [Worker-56] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/wittams/gritty/1.0.0/gritty-1.0.0.pom
+2017-04-17 13:55:22,436 [Worker-56] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/wittams/gritty/1.0.0/gritty-1.0.0.pom
+2017-04-17 13:55:22,844 [Worker-56] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/wittams/gritty/1.0.0/gritty-1.0.0.pom
+2017-04-17 13:55:23,929 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:55:23,929 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:55:23,931 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:55:23,932 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:55:58,070 [Worker-58] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-04-17 13:55:58,474 [Worker-58] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-17 13:55:58,830 [Worker-58] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DynamicIntegrationAdministration/src/main/java
+2017-04-17 13:55:58,831 [Worker-58] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DynamicIntegrationAdministration/src/test/java
+2017-04-17 13:55:59,515 [Worker-58] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-04-17 13:56:00,588 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:56:00,588 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:56:00,591 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:56:00,591 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:56:30,912 [Worker-58] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-17 13:56:31,256 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:56:31,257 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:56:31,259 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:56:31,259 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:57:24,830 [Worker-58] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ro.helator.dia:DynamicIntegrationAdministration:0.0.1-SNAPSHOT @ D:\GIT\Disertatie\DynamicIntegrationAdministration\pom.xml.
+2017-04-17 13:57:25,183 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://java.freehep.org/maven2/com/wittams/gritty/1.0.0/gritty-1.0.0.pom
+2017-04-17 13:57:25,533 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://java.freehep.org/maven2/com/wittams/gritty/1.0.0/gritty-1.0.0.pom
+2017-04-17 13:57:25,753 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://java.freehep.org/maven2/com/wittams/gritty/1.0.0/gritty-1.0.0.pom
+2017-04-17 13:57:25,764 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://java.freehep.org/maven2/com/wittams/gritty/1.0.0/gritty-1.0.0.pom
+2017-04-17 13:57:27,253 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/jcraft/jsch/0.1.38/jsch-0.1.38.pom
+2017-04-17 13:57:27,253 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/jcraft/jsch/0.1.38/jsch-0.1.38.pom
+2017-04-17 13:57:27,478 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/jcraft/jsch/0.1.38/jsch-0.1.38.pom
+2017-04-17 13:57:27,479 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/jcraft/jsch/0.1.38/jsch-0.1.38.pom
+2017-04-17 13:57:27,607 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/jcraft/jsch/0.1.38/jsch-0.1.38.pom
+2017-04-17 13:57:27,609 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/jcraft/jsch/0.1.38/jsch-0.1.38.pom
+2017-04-17 13:57:28,581 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/jcraft/jsch/0.1.38/jsch-0.1.38.pom
+2017-04-17 13:57:28,584 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/jcraft/jsch/0.1.38/jsch-0.1.38.pom
+2017-04-17 13:57:28,788 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://java.freehep.org/maven2/com/jcraft/jsch/0.1.38/jsch-0.1.38.pom
+2017-04-17 13:57:28,789 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://java.freehep.org/maven2/com/jcraft/jsch/0.1.38/jsch-0.1.38.pom
+2017-04-17 13:57:29,464 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.38/jsch-0.1.38.pom
+2017-04-17 13:57:29,475 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.38/jsch-0.1.38.pom
+2017-04-17 13:57:29,586 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.38/jsch-0.1.38.pom
+2017-04-17 13:57:29,593 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.38/jsch-0.1.38.pom
+2017-04-17 13:57:30,036 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.pom
+2017-04-17 13:57:30,038 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.pom
+2017-04-17 13:57:30,149 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.pom
+2017-04-17 13:57:30,151 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.pom
+2017-04-17 13:57:30,284 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.pom
+2017-04-17 13:57:30,290 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.pom
+2017-04-17 13:57:30,865 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.pom
+2017-04-17 13:57:30,894 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.pom
+2017-04-17 13:57:31,297 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://java.freehep.org/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.pom
+2017-04-17 13:57:31,299 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://java.freehep.org/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.pom
+2017-04-17 13:57:31,387 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.pom
+2017-04-17 13:57:31,388 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.pom
+2017-04-17 13:57:31,565 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.pom
+2017-04-17 13:57:31,660 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.pom
+2017-04-17 13:57:32,329 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/wittams/gritty/1.0.0/gritty-1.0.0.jar
+2017-04-17 13:57:32,329 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/wittams/gritty/1.0.0/gritty-1.0.0.jar
+2017-04-17 13:57:34,087 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/jcraft/jsch/0.1.38/jsch-0.1.38.jar
+2017-04-17 13:57:34,087 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/jcraft/jsch/0.1.38/jsch-0.1.38.jar
+2017-04-17 13:57:34,876 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.jar
+2017-04-17 13:57:34,879 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://mavenrepo.openmrs.org/nexus/content/repositories/thirdparty/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.jar
+2017-04-17 13:57:35,360 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/wittams/gritty/1.0.0/gritty-1.0.0.jar
+2017-04-17 13:57:35,360 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/wittams/gritty/1.0.0/gritty-1.0.0.jar
+2017-04-17 13:57:35,645 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/jcraft/jsch/0.1.38/jsch-0.1.38.jar
+2017-04-17 13:57:35,645 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/jcraft/jsch/0.1.38/jsch-0.1.38.jar
+2017-04-17 13:57:36,007 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.jar
+2017-04-17 13:57:36,007 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://asciidocfx.com/build/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.jar
+2017-04-17 13:57:36,447 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/wittams/gritty/1.0.0/gritty-1.0.0.jar
+2017-04-17 13:57:36,448 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/wittams/gritty/1.0.0/gritty-1.0.0.jar
+2017-04-17 13:57:36,810 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/jcraft/jsch/0.1.38/jsch-0.1.38.jar
+2017-04-17 13:57:36,823 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/jcraft/jsch/0.1.38/jsch-0.1.38.jar
+2017-04-17 13:57:36,977 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.jar
+2017-04-17 13:57:36,979 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://www.sparetimelabs.com/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.jar
+2017-04-17 13:57:39,011 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/wittams/gritty/1.0.0/gritty-1.0.0.jar
+2017-04-17 13:57:39,011 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/wittams/gritty/1.0.0/gritty-1.0.0.jar
+2017-04-17 13:57:39,829 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/jcraft/jsch/0.1.38/jsch-0.1.38.jar
+2017-04-17 13:57:39,830 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/jcraft/jsch/0.1.38/jsch-0.1.38.jar
+2017-04-17 13:57:40,417 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.jar
+2017-04-17 13:57:40,432 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.jar
+2017-04-17 13:57:41,067 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://java.freehep.org/maven2/com/wittams/gritty/1.0.0/gritty-1.0.0.jar
+2017-04-17 13:57:41,085 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://java.freehep.org/maven2/com/wittams/gritty/1.0.0/gritty-1.0.0.jar
+2017-04-17 13:57:42,079 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://java.freehep.org/maven2/com/wittams/gritty/1.0.0/gritty-1.0.0.jar
+2017-04-17 13:57:42,270 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://java.freehep.org/maven2/com/jcraft/jsch/0.1.38/jsch-0.1.38.jar
+2017-04-17 13:57:42,460 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://java.freehep.org/maven2/com/wittams/gritty/1.0.0/gritty-1.0.0.jar
+2017-04-17 13:57:42,650 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://java.freehep.org/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.jar
+2017-04-17 13:57:42,666 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://java.freehep.org/maven2/com/jcraft/jsch/0.1.38/jsch-0.1.38.jar
+2017-04-17 13:57:42,800 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.38/jsch-0.1.38.jar
+2017-04-17 13:57:46,231 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://java.freehep.org/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.jar
+2017-04-17 13:57:46,999 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.38/jsch-0.1.38.jar
+2017-04-17 13:57:48,903 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.38/jsch-0.1.38.jar
+2017-04-17 13:57:48,991 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.jar
+2017-04-17 13:57:49,245 [Worker-63] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.jar
+2017-04-17 13:57:52,979 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/jcraft/jsch/0.1.38/jsch-0.1.38.jar
+2017-04-17 13:57:53,079 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.jar
+2017-04-17 13:57:53,400 [Worker-58] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.jar
+2017-04-17 13:57:54,270 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:57:54,271 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:57:54,272 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:57:54,273 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:57:58,079 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:57:58,079 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:57:58,080 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:57:58,081 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:58:16,902 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:58:16,902 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:58:16,904 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:58:16,904 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:58:21,828 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:58:21,829 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:58:21,830 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:58:21,830 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:58:28,022 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:58:28,022 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:58:28,023 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:58:28,023 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:58:32,610 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:58:32,610 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:58:32,611 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:58:32,612 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:58:40,303 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:58:40,304 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:58:40,305 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:58:40,305 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:58:45,544 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:58:45,544 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:58:45,546 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:58:45,546 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:58:53,944 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:58:53,944 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:58:53,945 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:58:53,945 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:59:03,257 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:59:03,257 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:59:03,258 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:59:03,258 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:59:12,205 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:59:12,206 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:59:12,209 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:59:12,209 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 13:59:24,010 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:59:24,010 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 13:59:24,011 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 13:59:24,011 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 14:12:17,962 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:12:17,962 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 14:12:17,963 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:12:17,963 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 14:13:40,180 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:13:40,181 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 14:13:40,182 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:13:40,182 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 14:14:00,001 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:14:00,001 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 14:14:00,002 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:14:00,002 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 14:18:44,242 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:18:44,242 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 14:18:44,244 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:18:44,244 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 14:18:45,353 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:18:45,353 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 14:18:45,355 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:18:45,355 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 14:19:37,379 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:19:37,379 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 14:19:37,380 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:19:37,380 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 14:19:48,324 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:19:48,324 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 14:19:48,325 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:19:48,325 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 14:21:35,819 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:21:35,819 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 14:21:35,820 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:21:35,821 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 14:21:51,289 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:21:51,290 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 14:21:51,291 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:21:51,292 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 14:22:07,749 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:22:07,749 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 14:22:07,750 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:22:07,750 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 14:22:16,503 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:22:16,504 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 14:22:16,505 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:22:16,505 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 14:22:30,074 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:22:30,074 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 14:22:30,075 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:22:30,075 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 14:22:36,430 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:22:36,430 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 14:22:36,431 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:22:36,431 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 14:22:55,053 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:22:55,053 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 14:22:55,054 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:22:55,054 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 14:26:17,460 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:26:17,460 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 14:26:17,462 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:26:17,462 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 14:27:38,555 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:27:38,555 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 14:27:38,556 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 14:27:38,556 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:22:30,100 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:22:30,100 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:22:30,101 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:22:30,103 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:23:46,526 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:23:46,526 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:23:46,527 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:23:46,527 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:24:46,570 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:24:46,570 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:24:46,571 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:24:46,572 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:24:50,963 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:24:50,963 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:24:50,964 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:24:50,964 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:25:22,087 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:25:22,087 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:25:22,088 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:25:22,088 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:25:35,641 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:25:35,642 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:25:35,643 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:25:35,643 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:26:45,301 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:26:45,302 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:26:45,302 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:26:45,302 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:32:33,369 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:32:33,370 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:32:33,371 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:32:33,371 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:32:39,178 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:32:39,178 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:32:39,179 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:32:39,179 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:32:40,657 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:32:40,657 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:32:40,658 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:32:40,658 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:32:51,684 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:32:51,684 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:32:51,685 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:32:51,685 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:33:09,400 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:09,400 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:33:09,401 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:09,402 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:33:16,275 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:16,275 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:33:16,276 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:16,277 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:33:18,192 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:18,192 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:33:18,193 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:18,194 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:33:23,038 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:23,039 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:33:23,040 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:23,040 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:33:29,755 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:29,755 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:33:29,756 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:29,756 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:33:37,060 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:37,060 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:33:37,061 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:37,061 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:33:48,526 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:48,526 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:33:48,527 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:48,527 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:33:50,422 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:50,422 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:33:50,423 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:50,424 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:33:51,888 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:51,889 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:33:51,890 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:51,890 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:33:55,293 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:55,294 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:33:55,295 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:55,295 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:33:59,773 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:59,773 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:33:59,774 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:33:59,774 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:34:57,098 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:34:57,098 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:34:57,098 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:34:57,099 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:35:13,861 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:35:13,861 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:35:13,862 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:35:13,862 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:36:09,231 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:36:09,231 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:36:09,235 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:36:09,236 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:37:37,535 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:37:37,535 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:37:37,536 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:37:37,536 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:37:44,733 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:37:44,733 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:37:44,734 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:37:44,734 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:38:40,624 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:38:40,624 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:38:40,625 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:38:40,625 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:39:17,897 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:39:17,897 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:39:17,898 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:39:17,898 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:39:37,215 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:39:37,215 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:39:37,217 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:39:37,217 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:39:50,306 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:39:50,306 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:39:50,307 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:39:50,307 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:41:20,751 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:41:20,751 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:41:20,752 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:41:20,752 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:41:50,648 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:41:50,648 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:41:50,649 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:41:50,649 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:43:50,989 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:43:50,990 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:43:50,990 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:43:50,990 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:45:47,248 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:45:47,248 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:45:47,249 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:45:47,249 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:46:10,671 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:46:10,672 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:46:10,672 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:46:10,672 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:47:22,180 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:47:22,180 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:47:22,182 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:47:22,183 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:47:59,010 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:47:59,011 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:47:59,011 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:47:59,011 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:48:01,848 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:48:01,848 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:48:01,849 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:48:01,849 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:49:06,356 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:49:06,356 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:49:06,357 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:49:06,357 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:51:56,451 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:51:56,451 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:51:56,452 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:51:56,453 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:52:01,338 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:52:01,338 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:52:01,339 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:52:01,340 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:52:16,725 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:52:16,726 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:52:16,727 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:52:16,727 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:52:41,271 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:52:41,271 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:52:41,271 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:52:41,272 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:53:45,736 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:53:45,736 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:53:45,737 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:53:45,737 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:54:50,130 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:54:50,130 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:54:50,131 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:54:50,131 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:55:13,468 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:55:13,468 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:55:13,469 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:55:13,469 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:55:15,254 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:55:15,254 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:55:15,255 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:55:15,256 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:55:23,092 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:55:23,092 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:55:23,093 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:55:23,094 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:55:50,577 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:55:50,577 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:55:50,578 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:55:50,578 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:56:24,606 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:56:24,607 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:56:24,607 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:56:24,607 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:57:55,258 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:57:55,258 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:57:55,259 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:57:55,260 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:58:26,661 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:58:26,661 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:58:26,662 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:58:26,662 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:58:28,834 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:58:28,835 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:58:28,836 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:58:28,836 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 15:59:55,623 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:59:55,623 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 15:59:55,623 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 15:59:55,624 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:00:01,111 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:00:01,111 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:00:01,112 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:00:01,112 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:03:04,382 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:03:04,383 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:03:04,384 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:03:04,384 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:03:31,473 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:03:31,474 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:03:31,474 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:03:31,475 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:04:14,129 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:04:14,129 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:04:14,130 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:04:14,130 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:04:43,852 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:04:43,852 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:04:43,853 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:04:43,853 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:04:50,443 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:04:50,443 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:04:50,444 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:04:50,444 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:04:59,208 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:04:59,209 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:04:59,210 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:04:59,210 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:22:07,895 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:22:07,895 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:22:07,897 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:22:07,897 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:26:43,799 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:26:43,799 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:26:43,800 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:26:43,800 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:26:57,970 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:26:57,971 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:26:57,971 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:26:57,972 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:29:31,164 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:29:31,165 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:29:31,166 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:29:31,166 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:29:48,518 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:29:48,519 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:29:48,520 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:29:48,520 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:30:03,005 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:30:03,005 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:30:03,006 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:30:03,007 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:30:31,581 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:30:31,581 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:30:31,582 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:30:31,582 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:30:52,747 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:30:52,747 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:30:52,748 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:30:52,748 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:31:37,949 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:31:37,949 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:31:37,950 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:31:37,950 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:32:08,162 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:32:08,162 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:32:08,163 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:32:08,163 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:32:21,242 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:32:21,242 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:32:21,243 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:32:21,243 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:32:39,838 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:32:39,838 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:32:39,839 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:32:39,839 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:33:19,375 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:33:19,375 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:33:19,376 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:33:19,376 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:33:22,199 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:33:22,199 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:33:22,200 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:33:22,200 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:34:14,809 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:34:14,809 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:34:14,810 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:34:14,810 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:34:16,228 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:34:16,228 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:34:16,229 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:34:16,229 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:34:29,943 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:34:29,943 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:34:29,944 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:34:29,945 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:34:37,025 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:34:37,025 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:34:37,025 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:34:37,026 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:34:38,818 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:34:38,819 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:34:38,819 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:34:38,820 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:34:45,192 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:34:45,192 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:34:45,193 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:34:45,194 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:42:26,020 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:42:26,020 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:42:26,022 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:42:26,022 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:43:14,480 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:43:14,481 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:43:14,482 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:43:14,482 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:44:54,558 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:44:54,558 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:44:54,559 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:44:54,559 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:46:54,387 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:46:54,387 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:46:54,389 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:46:54,389 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:48:13,530 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:48:13,530 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:48:13,531 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:48:13,531 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:49:45,636 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:49:45,636 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:49:45,637 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:49:45,637 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:50:01,352 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:50:01,352 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:50:01,354 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:50:01,354 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:50:03,953 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:50:03,954 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:50:03,954 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:50:03,954 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:54:03,392 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:54:03,392 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:54:03,393 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:54:03,393 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:54:12,120 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:54:12,120 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:54:12,121 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:54:12,122 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:56:45,982 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:56:45,982 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:56:45,983 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:56:45,983 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:57:25,389 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:57:25,389 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:57:25,390 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:57:25,391 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:58:05,502 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:58:05,502 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:58:05,503 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:58:05,503 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:58:08,058 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:58:08,058 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:58:08,058 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:58:08,059 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:58:44,116 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:58:44,116 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:58:44,117 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:58:44,117 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources
+2017-04-17 16:58:54,717 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:58:54,717 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\main\resources
+2017-04-17 16:58:54,718 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-17 16:58:54,719 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Disertatie\DynamicIntegrationAdministration\src\test\resources

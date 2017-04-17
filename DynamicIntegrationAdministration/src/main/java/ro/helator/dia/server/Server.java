@@ -86,5 +86,7 @@ public class Server implements Serializable{
 	}
 
 	
-	
+	public String getFullHostname(){
+		return ip + ":" + port;
+	}
 }

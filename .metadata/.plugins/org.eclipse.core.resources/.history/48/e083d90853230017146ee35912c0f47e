@@ -1,0 +1,59 @@
+package ro.helator.dia.server;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.nio.file.Path;
+import java.util.concurrent.LinkedBlockingQueue;
+
+import com.pty4j.PtyProcess;
+import com.terminalfx.config.TerminalConfig;
+
+import javafx.scene.Node;
+import javafx.scene.control.Tab;
+import javafx.scene.web.WebEngine;
+import javafx.scene.web.WebView;
+import netscape.javascript.JSObject;
+
+public class TerminalTab extends Tab {
+
+	private WebView webView;
+	private int columns = 150;
+	private int rows = 15;
+	private PtyProcess process;
+	private BufferedReader inputReader;
+	private BufferedReader errorReader;
+	private BufferedWriter outputWriter;
+	private Path terminalPath;
+	private boolean isReady = false;
+	private String[] termCommand;
+	private LinkedBlockingQueue<String> commandQueue;
+	private TerminalConfig terminalConfig = new TerminalConfig();
+	
+	public TerminalTab(TerminalConfig terminalConfig, Path terminalPath) {
+		this.terminalConfig = terminalConfig;
+		this.terminalPath = terminalPath;
+		this.initialize();
+	}
+	
+	public TerminalTab() {
+		this.initialize();
+	}
+
+	public TerminalTab(String text) {
+		super(text);
+		this.initialize();
+	}
+
+	public TerminalTab(String text, Node content) {
+		super(text, content);
+		this.initialize();
+	}
+	
+	public JSObject getWindow() {
+		return (JSObject) this.webEngine().executeScript("window");
+	}
+
+	private WebEngine webEngine() {
+		return this.webView.getEngine();
+	}
+}

@@ -1,0 +1,56 @@
+package ro.helator.dia.screen.controller.tab;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+import org.apache.log4j.Logger;
+import org.springframework.stereotype.Component;
+
+import com.wittams.gritty.jsch.JSchTty;
+import com.wittams.gritty.swing.GrittyTerminal;
+import com.wittams.gritty.swing.TermPanel;
+
+import javafx.embed.swing.SwingNode;
+import javafx.fxml.FXML;
+import javafx.scene.Node;
+import javafx.scene.layout.AnchorPane;
+import ro.helator.dia.screen.BaseScreenController;
+
+
+@Component
+public class SSHConsoleController extends BaseScreenController {
+
+	private static final Logger log = Logger.getLogger(SSHConsoleController.class);
+	
+	private GrittyTerminal terminal;
+	private SwingNode node = new SwingNode();
+	@FXML
+	private AnchorPane sshConsolePane;
+	
+	@Override
+	public void initialize(URL arg0, ResourceBundle arg1) {
+		this.terminal = new GrittyTerminal();
+		TermPanel termPanel = this.terminal.getTermPanel();
+		termPanel.setVisible(true);
+		this.terminal.setVisible(true);
+		node.setContent(terminal);
+		
+		
+		
+		openSession();
+	}
+	
+	
+	public void openSession() {
+		if (!(this.terminal.isSessionRunning())) {
+			this.terminal.setTty(new JSchTty());
+			this.terminal.start();
+		}
+	}
+	
+	private void setfullAnchor(Node node){
+		AnchorPane.setTopAnchor(node, 0.0);
+		AnchorPane.setBottomAnchor(node, 0.0);
+		AnchorPane.setLeftAnchor(node, 0.0);
+		AnchorPane.setRightAnchor(node, 0.0);
+	}
+}
