@@ -1,0 +1,15 @@
+package ro.helator.ie.camel.templates;
+
+import java.util.Map;
+
+public class IE_Camel_RouteTemplate {
+
+	private String name;
+	private Map<String, Subtype> subtypes;
+	
+	
+	private class Subtype{
+		
+	}
+	
+}

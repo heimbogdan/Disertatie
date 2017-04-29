@@ -1,0 +1,23 @@
+package ro.helator.ie.camel;
+
+import org.osgi.service.component.annotations.Activate;
+import org.osgi.service.component.annotations.Component;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+@Component(name = MyServiceImpl2Component.COMPONENT_NAME)
+public class MyServiceImpl2Component {
+
+	private static final Logger log = LoggerFactory.getLogger(MyServiceImpl2Component.class);
+	
+	public static final String COMPONENT_NAME = "MyServiceImpl2Component";
+	 
+    public static final String COMPONENT_LABEL = "My Service Impl2 Component";
+    
+	private MyService2 service;
+	
+	@Activate
+	private void activate(){
+		log.info("Activating component " + );
+	}
+}

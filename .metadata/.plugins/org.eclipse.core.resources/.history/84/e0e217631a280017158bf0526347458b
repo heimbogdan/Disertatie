@@ -1,0 +1,19 @@
+package ro.helator.ie.camel.deploy;
+
+import org.apache.camel.builder.RouteBuilder;
+
+public class IE_CamelFileListener extends RouteBuilder {
+
+	@Override
+	public void configure() throws Exception {
+
+		from("file://integrationEngine/camel/routes?"
+				+ "delay=10000"
+				+ "&recursive=true"
+				+ "&noop=true"
+				+ "&idempotentKey=${file:name}-${file:modified}")
+		.id("IE_Camel File Listener")
+		.log("Reading file [${file:name}]");	
+	}
+
+}

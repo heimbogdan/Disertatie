@@ -1,0 +1,49 @@
+package ro.helator.ie.camel.implementations;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.osgi.service.component.annotations.Activate;
+import org.osgi.service.component.annotations.Component;
+import org.osgi.service.component.annotations.Deactivate;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import ro.helator.ie.camel.interfaces.IE_Camel_RouteTemplate;
+import ro.helator.ie.camel.interfaces.TemplateRegistryService;
+
+@Component(name = TemplateRegistryServiceImpl.COMPONENT_NAME)
+public class TemplateRegistryServiceImpl implements TemplateRegistryService {
+	
+	private static final Logger log = LoggerFactory.getLogger(TemplateRegistryServiceImpl.class);
+	
+	public static final String COMPONENT_NAME = "IE_Camel_TemplateRegistryService";
+	public static final String COMPONENT_LABEL = "IE_Camel_TemplateRegistryService";
+
+	private Map<String, String> templateRegistry;
+	
+	@Activate
+	private void activate(){
+		log.info("Activating component " + COMPONENT_LABEL);
+		templateRegistry = new HashMap<String, String>();
+	}
+	
+	@Deactivate
+    public void deactivate() {
+        log.info("Deactivating the " + COMPONENT_LABEL);
+        templateRegistry = null;
+    }
+
+	@Override
+	public boolean registerTemplate(ro.helator.ie.camel.templates.IE_Camel_RouteTemplate template) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean unregisterTemplate(ro.helator.ie.camel.templates.IE_Camel_RouteTemplate template) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+}

@@ -1,0 +1,39 @@
+package ro.helator.ie.camel.templates;
+
+import java.util.Map;
+
+import org.osgi.service.component.annotations.Activate;
+import org.osgi.service.component.annotations.Component;
+import org.osgi.service.component.annotations.Deactivate;
+
+import ro.helator.ie.camel.IE_CamelActivator;
+
+@Component(name = TemplateRegistryServiceImpl.COMPONENT_NAME)
+public class TemplateRegistryServiceImpl implements TemplateRegistryService {
+	
+	public static final String COMPONENT_NAME = "IE_Camel_TemplateRegistryService";
+	public static final String COMPONENT_LABEL = "IE_Camel_TemplateRegistryService";
+
+	private Map<String, String> templateRegistry;
+	
+	@Activate
+	private void activate(){
+		log.info("Activating component " + COMPONENT_LABEL);
+	}
+	@Deactivate
+    public void deactivate() {
+        log.info("Deactivating the " + COMPONENT_LABEL);
+    }
+	
+	@Override
+	public boolean registerTemplate(String name, String template) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean unregisterTemplate(String name) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+}

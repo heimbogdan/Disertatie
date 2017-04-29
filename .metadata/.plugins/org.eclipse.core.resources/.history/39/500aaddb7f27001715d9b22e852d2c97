@@ -1,0 +1,8 @@
+package ro.helator.ie.camel;
+
+import org.osgi.service.component.annotations.Component;
+
+@Component
+public class MyServiceImpl2Component {
+
+}

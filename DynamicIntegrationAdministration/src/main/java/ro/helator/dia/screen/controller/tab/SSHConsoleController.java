@@ -1,6 +1,5 @@
 package ro.helator.dia.screen.controller.tab;
 
-import java.awt.Dimension;
 import java.net.URL;
 import java.util.ResourceBundle;
 

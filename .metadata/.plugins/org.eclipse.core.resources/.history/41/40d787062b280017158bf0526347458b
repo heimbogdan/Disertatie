@@ -1,0 +1,24 @@
+package ro.helator.ie.camel.templates;
+
+import org.osgi.service.component.annotations.Component;
+
+import ro.helator.ie.camel.IE_CamelActivator;
+
+@Component(name = TemplateRegistryServiceImpl.COMPONENT_NAME)
+public class TemplateRegistryServiceImpl implements TemplateRegistryService {
+	
+	public static final String COMPONENT_NAME = "IE_Camel_TemplateRegistryService";
+
+//	private 
+	@Override
+	public boolean registerComponent(String name, Object component) {
+		return false;
+	}
+
+	@Override
+	public boolean unregisterComponent(String name) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

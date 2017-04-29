@@ -1,0 +1,10 @@
+package ro.helator.ie.camel.templates;
+
+import org.osgi.service.component.annotations.Component;
+
+@Component(name = TemplateRegistryServiceImpl.COMPONENT_NAME)
+public class TemplateRegistryServiceImpl {
+	
+	private static final String COMPONENT_NAME = "IE_Camel_TemplateRegistryService";
+
+}

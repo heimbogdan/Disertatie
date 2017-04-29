@@ -1,7 +1,0 @@
-package ro.helator.dia.screen.controller.tab;
-
-import ro.helator.dia.screen.BaseScreenController;
-
-public class PreferencesController extends BaseScreenController{
-
-}

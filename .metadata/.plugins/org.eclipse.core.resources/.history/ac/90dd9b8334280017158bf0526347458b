@@ -1,0 +1,25 @@
+package ro.helator.ie.camel.templates;
+
+import java.util.Map;
+import java.util.Properties;
+
+public class IE_Camel_RouteTemplate {
+
+	private static final String TEMPLATE_RESOURCE_FOLDER = "templates/routes/";
+	
+	private String name;
+	private Properties mainProp;
+	private Map<String, Subtype> subtypes;
+	
+	
+	public IE_Camel_RouteTemplate(String templateFolder){
+		
+	}
+	
+	private class Subtype{
+		
+		private String name;
+		private Properties tokenProp;
+	}
+	
+}

@@ -1,0 +1,170 @@
+package ro.helator.ie.camel.templates;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.Enumeration;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Properties;
+import java.util.Set;
+
+import org.osgi.framework.Bundle;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import ro.helator.ie.camel.templates.IE_Camel_RouteTemplate.Subtype;
+
+public class TemplateScanerUtil {
+
+	private static final Logger log = LoggerFactory.getLogger(TemplateScanerUtil.class);
+
+	public static synchronized Enumeration<URL> getEntries(Bundle bundle, String path, String token) {
+		Enumeration<URL> entries = bundle.findEntries(path, token, true);
+		return entries;
+	}
+
+	public static synchronized Map<String, Object> getParsedEntries(Bundle bundle, ClassLoader loader, String path,
+			String token) {
+		return parseEntries(bundle, loader, getEntries(bundle, path, token));
+	}
+
+	public static synchronized List<String> entries2List(Enumeration<URL> entries) {
+		List<String> entryList = new ArrayList<String>();
+		while (entries.hasMoreElements()) {
+			entryList.add(entries.nextElement().getFile().replace("/templates/", ""));
+		}
+		return entryList;
+	}
+
+	public static synchronized Map<String, Object> parseEntries(Bundle bundle, ClassLoader loader,
+			Enumeration<URL> entries) {
+		Map<String, Object> map = new HashMap<String, Object>();
+		List<String> entryList = entries2List(entries);
+		for (String path : entryList) {
+			Object entry = null;
+			String[] parents = null;
+			Map<String, Object> auxMap = map;
+			if (isFolder(path)) {
+				parents = extractParentsFromFolderPath(path);
+				entry = new HashMap<String, Object>();
+			} else {
+				parents = extractParentsFromFilePath(path);
+				entry = loader.getResourceAsStream("/templates/" + path);
+			}
+
+			int steps = parents.length;
+			for (int i = 0; i < steps - 1; i++) {
+				if (!auxMap.containsKey(parents[i])) {
+					auxMap.put(parents[i], new HashMap<String, Object>());
+				}
+				Object aux = auxMap.get(parents[i]);
+				auxMap = (Map<String, Object>) aux;
+			}
+			auxMap.put(parents[steps - 1], entry);
+		}
+
+		return map;
+	}
+
+	public static synchronized boolean isFolder(String path) {
+		return path.endsWith("/");
+	}
+
+	public static synchronized String[] extractParentsFromFilePath(String path) {
+		return path.split("/");
+	}
+
+	public static synchronized String[] extractParentsFromFolderPath(String path) {
+		return extractParentsFromFilePath(path.substring(0, path.length() - 1));
+	}
+
+	public static synchronized void printParsedEntries(Map<String, Object> map) {
+		printParsedEntries2(map, "");
+	}
+
+	private static void printParsedEntries2(Map<String, Object> map, String prefix) {
+		Object[] keys = map.keySet().toArray();
+		int length = keys.length;
+		for (int i = 0; i < length; i++) {
+			String key = (String) keys[i];
+			log.info(formatForPrint(key, prefix, i == (length - 1)));
+
+			Object obj = map.get(key);
+			if (obj instanceof Map<?, ?>) {
+				printParsedEntries2((Map<String, Object>) obj, prefix + (i == (length - 1) ? "   " : "|  "));
+			}
+			//
+			// if(key.endsWith(".xml") || key.endsWith(".properties")){
+			// log.info(" is stream:" + (obj instanceof InputStream));
+			// InputStream is = (InputStream) obj;
+			// try {
+			// log.info(TemplatesUtil.readInputStream(is));
+			// } catch (Exception e) {
+			// // TODO Auto-generated catch block
+			// e.printStackTrace();
+			// }
+			// }
+		}
+	}
+
+	private static String formatForPrint(String key, String prefix, boolean isLast) {
+		StringBuilder sb = new StringBuilder();
+		sb.append(prefix);
+		sb.append((!isLast ? "|\\_" : " \\_"));
+		sb.append(key);
+		return sb.toString();
+	}
+
+	public static synchronized List<IE_Camel_RouteTemplate> extractRouteTemplates(Map<String, Object> map) {
+		List<IE_Camel_RouteTemplate> list = new ArrayList<IE_Camel_RouteTemplate>();
+
+		Object routesFolder = map.get("routes");
+		if (routesFolder != null && routesFolder instanceof Map<?, ?>) {
+			Map<String, Object> routesMap = (Map<String, Object>) routesFolder;
+			Set<String> types = routesMap.keySet();
+			for (String type : types) {
+				Object typeFolder = routesMap.get(type);
+				if (typeFolder != null && typeFolder instanceof Map<?, ?>) {
+					Map<String, Object> typeMap = (Map<String, Object>) typeFolder;
+					if (typeMap.containsKey("template.properties")) {
+						Properties mainProp = new Properties();
+						try {
+							mainProp.load((InputStream) typeMap.get("template.properties"));
+						} catch (IOException e) {
+						}
+						if (!mainProp.isEmpty()) {
+							Set<String> subtypes = typeMap.keySet();
+							Map<String, Subtype> subtypesMap = new HashMap<String, Subtype>();
+							for (String subtype : subtypes) {
+								Object subtypeFolder = typeMap.get(type);
+								if (subtypeFolder != null && subtypeFolder instanceof Map<?, ?>) {
+									Map<String, Object> subMap = (Map<String, Object>) subtypeFolder;
+									if(subMap.containsKey("template.xml") && subMap.containsKey("tokens.properties")){
+										String templateXML = TemplatesUtil.readInputStream( (InputStream) subMap.get("template.xml"));
+										Properties tokenProp = new Properties();
+										try {
+											tokenProp.load((InputStream) subMap.get("tokens.properties"));
+										} catch (IOException e) {
+										}
+										Subtype sub = new Subtype(type, subtype, templateXML, tokenProp)
+									}
+								}
+							}
+							if (!subtypesMap.isEmpty()) {
+								IE_Camel_RouteTemplate routeTemp = new IE_Camel_RouteTemplate(type, mainProp,
+										subtypesMap);
+								list.add(routeTemp);
+							}
+						}
+					}
+				}
+			}
+		}
+
+		return list;
+	}
+}

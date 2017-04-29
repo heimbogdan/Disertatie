@@ -1,5 +1,0 @@
-package com.jcraft.jcterm;
-
-public class JSchSessionAdapter extends JSchSession {
-
-}

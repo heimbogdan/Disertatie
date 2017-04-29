@@ -1,9 +1,0 @@
-package ro.helator.dia.util;
-
-public class Constants {
-
-	private static final String FXML_FOLDER = "/fxml/";
-	private static final String FXML_EXTENSION = ".fxml";
-	
-	
-}

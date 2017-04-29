@@ -1,0 +1,77 @@
+package ro.helator.ie.camel.templates.test;
+
+import java.io.File;
+import java.io.InputStream;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.util.Enumeration;
+
+import org.osgi.framework.Bundle;
+import org.osgi.framework.FrameworkUtil;
+import org.osgi.service.component.annotations.Activate;
+import org.osgi.service.component.annotations.Component;
+import org.osgi.service.component.annotations.Deactivate;
+import org.osgi.service.component.annotations.Reference;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import ro.helator.ie.camel.interfaces.TemplateScanerService;
+
+@Component(name = "IE_CamelTemplatesTestActivator")
+public class IE_CamelTemplatesTestActivator {
+
+	private static final Logger log = LoggerFactory.getLogger(IE_CamelTemplatesTestActivator.class);
+
+	private TemplateScanerService templateScaner;
+
+	private Bundle bundle;
+	
+	@Activate
+	public void activate() {
+		log.info("Helator's Integration Engine - Camel Templates Test bundle has started!");
+		templateScaner.register(IE_CamelTemplatesTestActivator.class.getClassLoader());
+		bundle = FrameworkUtil.getBundle(IE_CamelTemplatesTestActivator.class);
+		try {
+			Enumeration<URL> entries = bundle.findEntries("/templates/routes", "*", false);
+			
+			log.info("===========");
+			while (entries.hasMoreElements()) {
+				URL url = (URL) entries.nextElement();
+				log.info(url.getFile());
+				log.info(url.getPath());
+				InputStream stream = this.getClass().getClassLoader().getResourceAsStream(url.getFile());
+				if(stream != null){
+				log.info(stream.available() + "");
+				} else {
+					log.info("null");
+				}
+			}
+			
+			log.info("===========");
+			File f = bundle.getBundleContext().getDataFile("/templates/routes");
+			log.info(f.exists() + " = exists");
+			log.info(f.isFile() + " = isFile");
+			log.info(f.isDirectory() + " = isDirectory");
+			log.info(f.isHidden() + " = isHidden");
+			log.info("===========");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	@Deactivate
+	public void deactivate() {
+		log.info("Helator's Integration Engine - Camel Templates Test bundle has been stoped!");
+		templateScaner.unregister(IE_CamelTemplatesTestActivator.class.getClassLoader());
+	}
+
+	@Reference
+	public void setTemplateScaner(final TemplateScanerService templateScaner) {
+		this.templateScaner = templateScaner;
+	}
+
+	public void unsetTemplateScaner(final TemplateScanerService templateScaner) {
+		this.templateScaner = templateScaner;
+	}
+}

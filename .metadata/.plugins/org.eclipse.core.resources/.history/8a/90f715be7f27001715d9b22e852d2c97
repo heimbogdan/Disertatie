@@ -1,0 +1,5 @@
+package ro.helator.ie.camel;
+
+public class MyServiceImpl2Component {
+
+}

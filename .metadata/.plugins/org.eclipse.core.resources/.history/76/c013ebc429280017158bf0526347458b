@@ -1,0 +1,8 @@
+package ro.helator.ie.camel.templates;
+
+public interface TemplateService {
+
+	public boolean registerComponent(String name, Object component){
+		
+	}
+}

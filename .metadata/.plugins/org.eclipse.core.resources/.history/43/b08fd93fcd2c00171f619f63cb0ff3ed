@@ -1,0 +1,132 @@
+package ro.helator.ie.camel.implementations;
+
+import java.io.File;
+import java.io.InputStream;
+import java.net.URL;
+import java.util.Enumeration;
+import java.util.List;
+import java.util.Properties;
+import java.util.function.Consumer;
+
+import org.osgi.framework.Bundle;
+import org.osgi.service.component.annotations.Activate;
+import org.osgi.service.component.annotations.Component;
+import org.osgi.service.component.annotations.Deactivate;
+import org.osgi.service.component.annotations.Reference;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import ro.helator.ie.camel.interfaces.TemplateRegistryService;
+import ro.helator.ie.camel.interfaces.TemplateScanerService;
+import ro.helator.ie.camel.templates.IE_Camel_RouteTemplate;
+import ro.helator.ie.camel.templates.TemplatesUtil;
+
+@Component(name = TemplateScanerServiceImpl.COMPONENT_NAME)
+public class TemplateScanerServiceImpl implements TemplateScanerService {
+
+	private static final Logger log = LoggerFactory.getLogger(TemplateScanerServiceImpl.class);
+
+	public static final String COMPONENT_NAME = "IE_Camel_TemplateScanerService";
+	public static final String COMPONENT_LABEL = "IE_Camel_TemplateScanerService";
+
+	private static final String TEMPLATE_MAIN_FOLDER = "/templates/routes/";
+	private static final String TEMPLATE_MAIN_PROP = "template.properties";
+	private static final String TEMPLATE_SCAN_ALL = "*";
+	private static final String TEMPLATE_MAIN_ROUTES = "routes";
+
+	private TemplateRegistryService templateReg;
+
+	@Activate
+	private void activate() {
+		log.info("Activating component " + COMPONENT_LABEL);
+	}
+
+	@Deactivate
+	public void deactivate() {
+		log.info("Deactivating the " + COMPONENT_LABEL);
+	}
+
+	@Override
+	public void register(Bundle bundle) {
+		forEachTemplate(bundle, t -> {
+			log.info("Register template [" + t + "]");
+			templateReg.registerTemplate(new IE_Camel_RouteTemplate(t));
+		});
+	}
+
+	@Override
+	public void unregister(Bundle bundle) {
+		forEachTemplate(bundle, t -> {
+			log.info("Unregister template [" + t + "]");
+			templateReg.unregisterTemplate(t);
+		});
+	}
+
+	private void forEachTemplate(Bundle bundle, Consumer<String> consumer) {
+		log.info("Scan for templates...");
+		try {
+			log.info("===========");
+			URL mainPropUrl = bundle.getEntry(TEMPLATE_MAIN_FOLDER + TEMPLATE_MAIN_PROP);
+			if (mainPropUrl != null) {
+				log.info("[" + TEMPLATE_MAIN_PROP + "] was found!");
+
+				InputStream mainStream = this.getClass().getClassLoader().getResourceAsStream(mainPropUrl.getFile());
+				if (mainStream != null && mainStream.available() > 0) {
+					Properties mainProp = new Properties();
+					mainProp.load(mainStream);
+					if (mainProp.containsKey(TEMPLATE_MAIN_ROUTES)) {
+
+					} else {
+						log.info("No property [" + TEMPLATE_MAIN_ROUTES + "] was found.");
+					}
+				} else {
+					log.info("Resource [" + TEMPLATE_MAIN_PROP + "] could not be read!");
+				}
+			} else {
+				log.info("No [template.properties] was found!");
+			}
+			log.info("===========");
+			while (entries.hasMoreElements()) {
+				URL url = (URL) entries.nextElement();
+				String main = url.getFile().replace(TEMPLATE_MAIN_SCAN + "/", "");
+				log.info(main);
+				log.info(" \\_");
+				Enumeration<URL> subEntries = bundle.findEntries(main, TEMPLATE_SCAN_ALL, false);
+				while (subEntries.hasMoreElements()) {
+					URL subUrl = (URL) subEntries.nextElement();
+					String sub = subUrl.getFile().replace(url.getFile() + "/", "");
+					// Enumeration<URL> subEntries = bundle.findEntries(main,
+					// TEMPLATE_SCAN_ALL, false);
+				}
+				InputStream stream = this.getClass().getClassLoader().getResourceAsStream(url.getFile());
+				if (stream != null) {
+					log.info(stream.available() + "");
+				} else {
+					log.info("null");
+				}
+			}
+			URL dir_url = loader.getResource(TemplatesUtil.TEMPLATE_FOLDER);
+			log.info(dir_url.toURI().toString());
+			File dir = new File(dir_url.getPath());
+			log.info(dir.exists() + "");
+			log.info(dir.toString());
+			log.info(dir.getAbsolutePath());
+			List<String> templates = TemplatesUtil.getSubfolders(dir);
+			if (templates != null) {
+				templates.forEach(consumer);
+			}
+		} catch (Exception e) {
+			log.error(e.getMessage(), e);
+		}
+	}
+
+	@Reference
+	public void setTemplateReg(final TemplateRegistryService templateReg) {
+		this.templateReg = templateReg;
+	}
+
+	public void unsetTemplateReg(final TemplateRegistryService templateReg) {
+		this.templateReg = templateReg;
+	}
+
+}

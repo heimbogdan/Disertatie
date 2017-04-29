@@ -1,0 +1,8 @@
+package ro.helator.ie.camel.interfaces;
+
+public interface TemplateRegistryService {
+
+	public boolean registerTemplate(String name, String template);
+	
+	public boolean unregisterTemplate(String name);
+}

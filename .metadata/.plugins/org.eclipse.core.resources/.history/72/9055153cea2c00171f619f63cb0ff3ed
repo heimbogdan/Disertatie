@@ -1,0 +1,5 @@
+package ro.helator.ie.camel.templates;
+
+public class IE_Camel_RouteTemplate_Subtype {
+
+}

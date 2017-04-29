@@ -1,0 +1,9 @@
+package ro.helator.ie.camel.interfaces;
+
+public interface TemplateScanerService {
+
+	public void register();
+	
+	public void unregister();
+	
+}

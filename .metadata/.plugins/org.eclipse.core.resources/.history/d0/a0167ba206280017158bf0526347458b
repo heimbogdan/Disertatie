@@ -1,0 +1,30 @@
+package ro.helator.ie.camel;
+
+import org.apache.camel.core.osgi.OsgiDefaultCamelContext;
+import org.eclipse.persistence.javax.persistence.osgi.OSGiProviderResolver;
+import org.osgi.framework.BundleActivator;
+import org.osgi.framework.BundleContext;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import ro.helator.ie.camel.deploy.IE_CamelFileListener;
+
+public class IE_CamelActivator implements BundleActivator {
+
+	private static final Logger log = LoggerFactory.getLogger(IE_CamelActivator.class);
+	
+	@Override
+	public void start(BundleContext context) throws Exception {
+		log.info("Helator's Integration Engine - Camel bundle has started!");
+		
+		OsgiDefaultCamelContext defaultContext = new OsgiDefaultCamelContext(context);
+		defaultContext.addRoutes(new IE_CamelFileListener());
+	}
+
+	@Override
+	public void stop(BundleContext context) throws Exception {
+		log.info("Helator's Integration Engine - Camel bundle has been stoped!");
+		
+	}
+
+}
