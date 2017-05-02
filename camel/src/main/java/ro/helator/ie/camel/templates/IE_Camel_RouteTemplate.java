@@ -5,10 +5,19 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
 
+import com.fasterxml.jackson.annotation.JsonView;
+
+import ro.helator.ie.camel.json.views.RouteTemplateView;
+
 public class IE_Camel_RouteTemplate {
 
+	@JsonView(RouteTemplateView.Name.class)
 	private String name;
+	
+	@JsonView(RouteTemplateView.MainProp.class)
 	private Properties mainProp;
+	
+	@JsonView(RouteTemplateView.Subtypes.class)
 	private Map<String, IE_Camel_RouteTemplate_Subtype> subtypes;
 
 	public IE_Camel_RouteTemplate(String name, Properties mainProp, Map<String, IE_Camel_RouteTemplate_Subtype> subtypes){

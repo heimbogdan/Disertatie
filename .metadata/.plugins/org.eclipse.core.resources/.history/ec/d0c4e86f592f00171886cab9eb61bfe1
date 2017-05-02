@@ -1,0 +1,5 @@
+package ro.helator.ie.camel.json.views;
+
+public class RouteTemplateView {
+
+}

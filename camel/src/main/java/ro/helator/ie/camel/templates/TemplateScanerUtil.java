@@ -19,6 +19,16 @@ public class TemplateScanerUtil {
 
 	private static final Logger log = LoggerFactory.getLogger(TemplateScanerUtil.class);
 
+	private static final String TEMPLATE_FOLDER = "/templates/";
+	private static final String _TEMPLATE = "template";
+	private static final String _TOKENS = "tokens";
+	private static final String _XML = ".xml";
+	private static final String _PROPERTIES = ".properties";
+	private static final String _ROUTES = "routes";
+	private static final String _TEMPLATE_XML = _TEMPLATE + _XML;
+	private static final String _TEMPLATE_PROPERTIES = _TEMPLATE + _PROPERTIES;
+	private static final String _TOKENS_PROPERTIES = _TOKENS + _PROPERTIES;
+
 	public static synchronized Enumeration<URL> getEntries(Bundle bundle, String path, String token) {
 		Enumeration<URL> entries = bundle.findEntries(path, token, true);
 		return entries;
@@ -32,11 +42,12 @@ public class TemplateScanerUtil {
 	public static synchronized List<String> entries2List(Enumeration<URL> entries) {
 		List<String> entryList = new ArrayList<String>();
 		while (entries.hasMoreElements()) {
-			entryList.add(entries.nextElement().getFile().replace("/templates/", ""));
+			entryList.add(entries.nextElement().getFile().replace(TEMPLATE_FOLDER, ""));
 		}
 		return entryList;
 	}
 
+	@SuppressWarnings("unchecked")
 	public static synchronized Map<String, Object> parseEntries(Bundle bundle, ClassLoader loader,
 			Enumeration<URL> entries) {
 		Map<String, Object> map = new HashMap<String, Object>();
@@ -50,7 +61,7 @@ public class TemplateScanerUtil {
 				entry = new HashMap<String, Object>();
 			} else {
 				parents = extractParentsFromFilePath(path);
-				entry = loader.getResourceAsStream("/templates/" + path);
+				entry = loader.getResourceAsStream(TEMPLATE_FOLDER + path);
 			}
 
 			int steps = parents.length;
@@ -83,28 +94,17 @@ public class TemplateScanerUtil {
 		printParsedEntries2(map, "");
 	}
 
+	@SuppressWarnings("unchecked")
 	private static void printParsedEntries2(Map<String, Object> map, String prefix) {
 		Object[] keys = map.keySet().toArray();
 		int length = keys.length;
 		for (int i = 0; i < length; i++) {
 			String key = (String) keys[i];
 			log.info(formatForPrint(key, prefix, i == (length - 1)));
-
 			Object obj = map.get(key);
 			if (obj instanceof Map<?, ?>) {
 				printParsedEntries2((Map<String, Object>) obj, prefix + (i == (length - 1) ? "   " : "|  "));
 			}
-			//
-			// if(key.endsWith(".xml") || key.endsWith(".properties")){
-			// log.info(" is stream:" + (obj instanceof InputStream));
-			// InputStream is = (InputStream) obj;
-			// try {
-			// log.info(TemplatesUtil.readInputStream(is));
-			// } catch (Exception e) {
-			// // TODO Auto-generated catch block
-			// e.printStackTrace();
-			// }
-			// }
 		}
 	}
 
@@ -116,10 +116,10 @@ public class TemplateScanerUtil {
 		return sb.toString();
 	}
 
+	@SuppressWarnings("unchecked")
 	public static synchronized List<IE_Camel_RouteTemplate> extractRouteTemplates(Map<String, Object> map) {
 		List<IE_Camel_RouteTemplate> list = new ArrayList<IE_Camel_RouteTemplate>();
-
-		Object routesFolder = map.get("routes");
+		Object routesFolder = map.get(_ROUTES);
 		if (routesFolder != null && routesFolder instanceof Map<?, ?>) {
 			Map<String, Object> routesMap = (Map<String, Object>) routesFolder;
 			Set<String> types = routesMap.keySet();
@@ -127,48 +127,61 @@ public class TemplateScanerUtil {
 				Object typeFolder = routesMap.get(type);
 				if (typeFolder != null && typeFolder instanceof Map<?, ?>) {
 					Map<String, Object> typeMap = (Map<String, Object>) typeFolder;
-					if (typeMap.containsKey("template.properties")) {
-						Properties mainProp = new Properties();
-						try {
-							mainProp.load((InputStream) typeMap.get("template.properties"));
-						} catch (IOException e) {
-						}
-						if (!mainProp.isEmpty()) {
-							log.info("=== x ===");
-							Set<String> subtypes = typeMap.keySet();
-							Map<String, IE_Camel_RouteTemplate_Subtype> subtypesMap = new HashMap<String, IE_Camel_RouteTemplate_Subtype>();
-							for (String subtype : subtypes) {
-								Object subtypeFolder = typeMap.get(subtype);
-								if (subtypeFolder != null && subtypeFolder instanceof Map<?, ?>) {
-									log.info("=== * ===");
-									Map<String, Object> subMap = (Map<String, Object>) subtypeFolder;
-									if (subMap.containsKey("template.xml") && subMap.containsKey("tokens.properties")) {
-										String templateXML = null;
-										Properties tokenProp = new Properties();
-										try {
-											templateXML = TemplatesUtil
-													.readInputStream((InputStream) subMap.get("template.xml"));
-											tokenProp.load((InputStream) subMap.get("tokens.properties"));
-										} catch (Exception e) {
-										}
-										if (templateXML != null && !templateXML.isEmpty() && !tokenProp.isEmpty()) {
-											IE_Camel_RouteTemplate_Subtype sub = new IE_Camel_RouteTemplate_Subtype(
-													type, subtype, templateXML, tokenProp);
-											subtypesMap.put(subtype, sub);
-										}
-									}
-								}
-							}
-							if (!subtypesMap.isEmpty()) {
-								IE_Camel_RouteTemplate routeTemp = new IE_Camel_RouteTemplate(type, mainProp,
-										subtypesMap);
-								list.add(routeTemp);
-							}
-						}
-					}
+					addTypeIfValid(type, typeMap, list);
 				}
 			}
 		}
 		return list;
 	}
+
+	private static synchronized void addTypeIfValid(String type, Map<String, Object> typeMap,
+			List<IE_Camel_RouteTemplate> list) {
+		if (typeMap.containsKey(_TEMPLATE_PROPERTIES)) {
+			Properties mainProp = new Properties();
+			try {
+				mainProp.load((InputStream) typeMap.get(_TEMPLATE_PROPERTIES));
+			} catch (IOException e) {
+			}
+			if (!mainProp.isEmpty()) {
+				addTypeIfValid(type, mainProp, typeMap, list);
+			}
+		}
+	}
+
+	@SuppressWarnings("unchecked")
+	private static synchronized void addTypeIfValid(String type, Properties mainProp, Map<String, Object> typeMap,
+			List<IE_Camel_RouteTemplate> list) {
+		Set<String> subtypes = typeMap.keySet();
+		Map<String, IE_Camel_RouteTemplate_Subtype> subtypesMap = new HashMap<String, IE_Camel_RouteTemplate_Subtype>();
+		for (String subtype : subtypes) {
+			Object subtypeFolder = typeMap.get(subtype);
+			if (subtypeFolder != null && subtypeFolder instanceof Map<?, ?>) {
+				Map<String, Object> subMap = (Map<String, Object>) subtypeFolder;
+				addSubtypeIfValid(type, subtype, subMap, subtypesMap);
+			}
+		}
+		if (!subtypesMap.isEmpty()) {
+			IE_Camel_RouteTemplate routeTemp = new IE_Camel_RouteTemplate(type, mainProp, subtypesMap);
+			list.add(routeTemp);
+		}
+	}
+
+	private static synchronized void addSubtypeIfValid(String type, String subtype, Map<String, Object> subMap,
+			Map<String, IE_Camel_RouteTemplate_Subtype> subtypesMap) {
+		if (subMap.containsKey(_TEMPLATE_XML) && subMap.containsKey(_TOKENS_PROPERTIES)) {
+			String templateXML = null;
+			Properties tokenProp = new Properties();
+			try {
+				templateXML = TemplatesUtil.readInputStream((InputStream) subMap.get(_TEMPLATE_XML));
+				tokenProp.load((InputStream) subMap.get(_TOKENS_PROPERTIES));
+			} catch (Exception e) {
+			}
+			if (templateXML != null && !templateXML.isEmpty() && !tokenProp.isEmpty()) {
+				IE_Camel_RouteTemplate_Subtype sub = new IE_Camel_RouteTemplate_Subtype(type, subtype, templateXML,
+						tokenProp);
+				subtypesMap.put(subtype, sub);
+			}
+		}
+	}
+
 }

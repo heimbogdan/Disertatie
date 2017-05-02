@@ -11,4 +11,5 @@ public interface TemplateRegistryService {
 	public boolean unregisterTemplate(String key);
 	
 	public IE_Camel_RouteTemplate getTemplate(String key);
+	
 }

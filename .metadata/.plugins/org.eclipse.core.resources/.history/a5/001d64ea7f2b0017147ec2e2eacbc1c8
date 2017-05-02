@@ -1,3 +1,0 @@
-default=route.id,route.steps.prefix
-jms=component.name,component.subtype,jms.queue.prefix
-http=http.method,http.component,http.uri

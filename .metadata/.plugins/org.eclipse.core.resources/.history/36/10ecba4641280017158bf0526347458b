@@ -1,5 +1,0 @@
-package ro.helator.ie.camel.interfaces;
-
-public interface TemplateScanerService {
-
-}

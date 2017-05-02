@@ -1,6 +1,0 @@
-package ro.helator.camel.messagebroker;
-
-public interface RouteFactoryBean {
-
-	public void buildRoute(String fileName, String fileContent);
-}

@@ -1,0 +1,50 @@
+package ro.helator.ie.camel.deploy;
+
+import org.apache.camel.builder.RouteBuilder;
+import org.osgi.service.component.annotations.Activate;
+import org.osgi.service.component.annotations.Component;
+import org.osgi.service.component.annotations.Deactivate;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import ro.helator.ie.camel.IE_CamelActivator;
+import ro.helator.ie.camel.interfaces.TemplateRegistryService;
+
+@Component(name = IE_CamelTemplateServiceRoute.COMPONENT_NAME)
+public class IE_CamelTemplateServiceRoute extends RouteBuilder{
+
+	private static final Logger log = LoggerFactory.getLogger(IE_CamelTemplateServiceRoute.class);
+			
+	public static final String COMPONENT_NAME = "IE_CamelTemplateServiceRoute";
+	public static final String COMPONENT_LABEL = "IE Camel Template Service Route";
+	
+	private TemplateRegistryService templateReg;
+	
+	@Activate
+	private void activate() {
+		log.info("Activating component " + COMPONENT_LABEL);
+		try {
+			IE_CamelActivator.getCamelContext().addRoutes(this);
+		} catch (Exception e) {
+			log.error(e.getMessage(), e);
+		}
+	}
+
+	@Deactivate
+	public void deactivate() {
+		log.info("Deactivating the " + COMPONENT_LABEL);
+		try {
+			IE_CamelActivator.getCamelContext().stopRoute("IE_Camel Template Service Route");
+			IE_CamelActivator.getCamelContext().removeRoute("IE_Camel Template Service Route");
+		} catch (Exception e) {
+			log.error(e.getMessage(), e);
+		}
+	}
+	
+	@Override
+	public void configure() throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

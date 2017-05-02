@@ -1,8 +1,0 @@
-package ro.helator.ie.camel.templates.test;
-
-public class Main {
-
-	public static void main(String[] args) {
-		System.out.println(Main.class.getClassLoader().getResource("templates").getPath());
-	}
-}

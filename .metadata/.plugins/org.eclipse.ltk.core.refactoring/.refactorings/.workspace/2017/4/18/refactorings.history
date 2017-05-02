@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 0 elements to &apos;test4&apos;&#x0D;&#x0A;- Destination element: &apos;test4&apos;" description="Copy compilation units" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1493547112901" target="/camel.templates.test/src/main/resources/templates/test/test2/test4" units="0" version="1.0"/>
+</session>

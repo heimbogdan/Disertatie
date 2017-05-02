@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.awt.Button"/>
-<fullyQualifiedTypeName name="javafx.scene.control.Button"/>
-<fullyQualifiedTypeName name="org.osgi.framework.ServiceRegistration"/>
-<fullyQualifiedTypeName name="javax.management.MXBean"/>
-<fullyQualifiedTypeName name="org.apache.felix.scr.annotations.Component"/>
-<fullyQualifiedTypeName name="org.apache.felix.scr.annotations.Service"/>
 <fullyQualifiedTypeName name="org.osgi.framework.BundleActivator"/>
 <fullyQualifiedTypeName name="ro.helator.ie.camel.MyServiceImpl2"/>
 <fullyQualifiedTypeName name="ro.helator.ie.camel.MyServiceImpl2Component"/>
 <fullyQualifiedTypeName name="ro.helator.ie.camel.MyService2"/>
-<fullyQualifiedTypeName name="org.apache.camel.builder.RouteBuilder"/>
 <fullyQualifiedTypeName name="org.eclipse.persistence.javax.persistence.osgi.OSGiProviderResolver"/>
 <fullyQualifiedTypeName name="org.apache.camel.core.osgi.OsgiDefaultCamelContext"/>
 <fullyQualifiedTypeName name="ro.helator.ie.camel.deploy.IE_CamelFileListener"/>
@@ -20,20 +13,16 @@
 <fullyQualifiedTypeName name="org.apache.camel.core.osgi.OsgiCamelContextPublisher"/>
 <fullyQualifiedTypeName name="org.apache.camel.core.osgi.utils.BundleContextUtils"/>
 <fullyQualifiedTypeName name="ro.helator.ie.camel.templates.TemplateRegistryService"/>
-<fullyQualifiedTypeName name="ro.helator.ie.camel.interfaces.RouteFactoryBean"/>
 <fullyQualifiedTypeName name="org.apache.camel.CamelContext"/>
-<fullyQualifiedTypeName name="ro.helator.ie.camel.IE_CamelActivator"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="org.omg.IOP.TAG_MULTIPLE_COMPONENTS"/>
 <fullyQualifiedTypeName name="java.io.FileFilter"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="ro.helator.ie.camel.implementations.RouteFactoryBeanImpl"/>
 <fullyQualifiedTypeName name="ro.helator.ie.camel.implementations.TemplateScanerServiceImpl"/>
 <fullyQualifiedTypeName name="ro.helator.ie.camel.interfaces.TemplateRegistryService"/>
 <fullyQualifiedTypeName name="java.util.function.Consumer"/>
 <fullyQualifiedTypeName name="ro.helator.ie.camel.interfaces.TemplateScanerService"/>
 <fullyQualifiedTypeName name="org.osgi.service.component.annotations.Reference"/>
-<fullyQualifiedTypeName name="org.osgi.service.component.annotations.Component"/>
 <fullyQualifiedTypeName name="org.osgi.service.component.annotations.Activate"/>
 <fullyQualifiedTypeName name="org.osgi.framework.FrameworkUtil"/>
 <fullyQualifiedTypeName name="java.io.File"/>
@@ -56,8 +45,19 @@
 <fullyQualifiedTypeName name="ro.helator.ie.camel.templates.IE_Camel_RouteTemplate.Subtype"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
-<fullyQualifiedTypeName name="ro.helator.ie.camel.templates.IE_Camel_RouteTemplate"/>
 <fullyQualifiedTypeName name="ro.helator.ie.camel.templates.TemplatesUtil"/>
 <fullyQualifiedTypeName name="ro.helator.ie.camel.templates.TemplateScanerUtil"/>
 <fullyQualifiedTypeName name="ro.helator.ie.camel.templates.IE_Camel_RouteTemplate_Subtype"/>
+<fullyQualifiedTypeName name="ro.helator.ie.camel.interfaces.RouteFactoryBean"/>
+<fullyQualifiedTypeName name="ro.helator.ie.camel.implementations.RouteFactoryBeanImpl"/>
+<fullyQualifiedTypeName name="ro.helator.ie.camel.IE_CamelActivator"/>
+<fullyQualifiedTypeName name="org.apache.camel.builder.RouteBuilder"/>
+<fullyQualifiedTypeName name="org.osgi.service.component.annotations.Component"/>
+<fullyQualifiedTypeName name="ro.helator.ie.camel.deploy.IE_CamelTemplateServiceRoute"/>
+<fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonView"/>
+<fullyQualifiedTypeName name="ro.helator.ie.camel.json.views.RouteTemplateView.Name"/>
+<fullyQualifiedTypeName name="ro.helator.ie.camel.json.views.RouteTemplateView.MainProp"/>
+<fullyQualifiedTypeName name="ro.helator.ie.camel.json.views.RouteTemplateView.Subtypes"/>
+<fullyQualifiedTypeName name="ro.helator.ie.camel.templates.IE_Camel_RouteTemplate"/>
+<fullyQualifiedTypeName name="ro.helator.ie.camel.json.views.RouteTemplateView"/>
 </qualifiedTypeNameHistroy>

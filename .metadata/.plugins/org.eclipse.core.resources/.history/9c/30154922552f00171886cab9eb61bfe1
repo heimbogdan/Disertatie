@@ -1,0 +1,5 @@
+package ro.helator.ie.camel.deploy;
+
+public class IE_CamelTemplateServiceRoute {
+
+}

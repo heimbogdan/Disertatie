@@ -1,8 +1,0 @@
-package ro.helator.ie.camel;
-
-import org.osgi.framework.BundleActivator;
-import org.osgi.framework.BundleContext;
-
-public class IE_CamelActivator{
-
-}

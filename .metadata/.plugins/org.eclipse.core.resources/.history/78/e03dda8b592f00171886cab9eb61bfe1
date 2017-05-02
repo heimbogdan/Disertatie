@@ -1,0 +1,10 @@
+package ro.helator.ie.camel.json.views;
+
+public class RouteTemplateView {
+
+	static class Name {};
+	
+	static class MainProp {};
+	
+	
+}

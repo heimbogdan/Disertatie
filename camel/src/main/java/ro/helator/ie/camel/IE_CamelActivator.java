@@ -31,8 +31,8 @@ public class IE_CamelActivator implements BundleActivator {
 		ctx = new OsgiDefaultCamelContext(context, reg);
 		ctx.setName("IE_Camel");
 
-		log.info("Add main route...");
-		ctx.addRoutes(new IE_CamelFileListener());
+//		log.info("Add main route...");
+//		ctx.addRoutes(new IE_CamelFileListener());
 
 		ctx.getManagementStrategy()
 				.addEventNotifier(new OsgiCamelContextPublisher(BundleContextUtils.getBundleContext(getClass())));
