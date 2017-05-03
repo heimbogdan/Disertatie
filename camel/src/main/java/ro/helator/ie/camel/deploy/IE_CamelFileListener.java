@@ -19,9 +19,6 @@ public class IE_CamelFileListener extends RouteBuilder {
 	public static final String COMPONENT_NAME = "IE_CamelFileListener";
 	public static final String COMPONENT_LABEL = "IE_Camel File Listener";
 
-	private static final String ROUTE_TYPE = "route.type";
-	private static final String ROUTE_SUBTYPE = "route.subtype";
-
 	private RouteFactoryBean routeFactory;
 
 	@Activate

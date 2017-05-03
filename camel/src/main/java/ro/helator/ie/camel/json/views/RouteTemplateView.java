@@ -4,7 +4,7 @@ public class RouteTemplateView {
 
 	public static class Name {};
 	
-	public static class MainProp {};
+	public static class MainProp extends Name{};
 	
-	public static class Subtypes {};
+	public static class Subtypes extends MainProp{};
 }

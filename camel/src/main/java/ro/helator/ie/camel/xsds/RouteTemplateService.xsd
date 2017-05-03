@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://ro.helator.is.camel/RouteTemplateService" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ro.helator.is.camel/RouteTemplateService">
+
+    <element name="routeTemplateRequest"
+    	type="tns:routeTemplateRequestType">
+    </element>
+    
+    <complexType name="routeTemplateRequestType">
+    	<sequence>
+    		<element name="type" type="string" maxOccurs="1"
+    			minOccurs="1">
+    		</element>
+    		<element name="subtype" type="string" maxOccurs="1"
+    			minOccurs="0">
+    		</element>
+    		<element name="option" type="int" maxOccurs="1" minOccurs="1"></element>
+    	</sequence>
+    </complexType>
+</schema>

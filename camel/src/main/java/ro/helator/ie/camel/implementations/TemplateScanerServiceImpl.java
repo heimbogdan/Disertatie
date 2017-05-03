@@ -1,13 +1,7 @@
 package ro.helator.ie.camel.implementations;
 
-import java.io.File;
-import java.io.InputStream;
-import java.net.URL;
-import java.util.Enumeration;
 import java.util.List;
 import java.util.Map;
-import java.util.Properties;
-import java.util.Set;
 import java.util.function.Consumer;
 
 import org.osgi.framework.Bundle;
@@ -22,7 +16,6 @@ import ro.helator.ie.camel.interfaces.TemplateRegistryService;
 import ro.helator.ie.camel.interfaces.TemplateScanerService;
 import ro.helator.ie.camel.templates.IE_Camel_RouteTemplate;
 import ro.helator.ie.camel.templates.TemplateScanerUtil;
-import ro.helator.ie.camel.templates.TemplatesUtil;
 
 @Component(name = TemplateScanerServiceImpl.COMPONENT_NAME)
 public class TemplateScanerServiceImpl implements TemplateScanerService {
@@ -85,14 +78,14 @@ public class TemplateScanerServiceImpl implements TemplateScanerService {
 		this.templateReg = templateReg;
 	}
 
-	private String removeString(String in, String... strings) {
-		for (String string : strings) {
-			in = in.replace(string, "");
-		}
-		return in;
-	}
-
-	private boolean isFolder(String path) {
-		return path.endsWith("/");
-	}
+//	private String removeString(String in, String... strings) {
+//		for (String string : strings) {
+//			in = in.replace(string, "");
+//		}
+//		return in;
+//	}
+//
+//	private boolean isFolder(String path) {
+//		return path.endsWith("/");
+//	}
 }

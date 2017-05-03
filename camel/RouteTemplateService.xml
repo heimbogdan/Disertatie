@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:routeTemplateRequest xmlns:tns="http://ro.helator.is.camel/RouteTemplateService" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ro.helator.is.camel/RouteTemplateService RouteTemplateService.xsd ">
+  <tns:type>jmsToHttp</tns:type>
+  <tns:option>0</tns:option>
+</tns:routeTemplateRequest>

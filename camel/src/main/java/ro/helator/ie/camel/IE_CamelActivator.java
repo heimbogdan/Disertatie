@@ -2,6 +2,8 @@ package ro.helator.ie.camel;
 
 import java.util.List;
 
+import javax.xml.XMLConstants;
+
 import org.apache.camel.CamelContext;
 import org.apache.camel.Route;
 import org.apache.camel.core.osgi.OsgiCamelContextPublisher;
@@ -12,8 +14,6 @@ import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import ro.helator.ie.camel.deploy.IE_CamelFileListener;
 
 public class IE_CamelActivator implements BundleActivator {
 
@@ -31,8 +31,6 @@ public class IE_CamelActivator implements BundleActivator {
 		ctx = new OsgiDefaultCamelContext(context, reg);
 		ctx.setName("IE_Camel");
 
-//		log.info("Add main route...");
-//		ctx.addRoutes(new IE_CamelFileListener());
 
 		ctx.getManagementStrategy()
 				.addEventNotifier(new OsgiCamelContextPublisher(BundleContextUtils.getBundleContext(getClass())));

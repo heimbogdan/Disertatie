@@ -1,8 +1,13 @@
 package ro.helator.ie.camel.implementations;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
+import org.apache.camel.jsonpath.JsonPath;
 import org.osgi.service.component.annotations.Activate;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Deactivate;
@@ -11,6 +16,7 @@ import org.slf4j.LoggerFactory;
 
 import ro.helator.ie.camel.interfaces.TemplateRegistryService;
 import ro.helator.ie.camel.templates.IE_Camel_RouteTemplate;
+import ro.helator.ie.camel.templates.IE_Camel_RouteTemplate_Subtype;
 
 @Component(name = TemplateRegistryServiceImpl.COMPONENT_NAME)
 public class TemplateRegistryServiceImpl implements TemplateRegistryService {
@@ -60,13 +66,43 @@ public class TemplateRegistryServiceImpl implements TemplateRegistryService {
 	public IE_Camel_RouteTemplate getTemplate(String key) {
 		return templateRegistry.get(key);
 	}
-	
+
 	@Override
 	public boolean unregisterTemplate(String key) {
 		IE_Camel_RouteTemplate temp = getTemplate(key);
-		if(temp != null){
+		if (temp != null) {
 			return unregisterTemplate(temp);
 		}
 		return false;
+	}
+
+	@Override
+	public List<IE_Camel_RouteTemplate> getTemplates(String type, String subtype) {
+		List<IE_Camel_RouteTemplate> list = new ArrayList<IE_Camel_RouteTemplate>();
+		templateRegistry.forEach((key, temp) -> {
+			if (type != null && !type.isEmpty()) {
+				if (key.contains(type)) {
+					if (subtype != null && !subtype.isEmpty()) {
+						Map<String, IE_Camel_RouteTemplate_Subtype> map = temp.getSubtypes();
+						Map<String, IE_Camel_RouteTemplate_Subtype> auxMap = new HashMap<String, IE_Camel_RouteTemplate_Subtype>();
+						map.forEach((subkey, subtemp) -> {
+							if (subkey.contains(subtype)) {
+								auxMap.put(subkey, subtemp);
+							}
+						});
+						if (!auxMap.isEmpty()) {
+							IE_Camel_RouteTemplate auxTemp = new IE_Camel_RouteTemplate(temp.getName(),
+									temp.getMainProp(), auxMap);
+							list.add(auxTemp);
+						}
+					} else {
+						list.add(temp);
+					}
+				}
+			} else {
+				list.add(temp);
+			}
+		});
+		return list;
 	}
 }
