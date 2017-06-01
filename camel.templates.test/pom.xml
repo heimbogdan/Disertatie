@@ -16,7 +16,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>ro.helator.ie</groupId>
-	<artifactId>camel.templates.test</artifactId>
+	<artifactId>templates.test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
