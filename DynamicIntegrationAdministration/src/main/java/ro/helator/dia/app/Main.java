@@ -1,24 +1,17 @@
 package ro.helator.dia.app;
 
-import java.awt.BorderLayout;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
 import java.io.PrintStream;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-import com.terminalfx.AppStarter;
 
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.stage.Stage;
 import ro.helator.dia.config.AppContextConfig;
 import ro.helator.dia.screen.ScreensContoller;
+import ro.helator.dia.util.BrokerConnector;
 
 /**
  * 
@@ -49,6 +42,7 @@ public class Main extends Application {
 		PrintStream console = new PrintStream(ro.helator.dia.util.Console.getInstance());
 		System.setOut(console);
 		System.setErr(console);
+		BrokerConnector.getInstance();
 		launch(args);
 	}
 

@@ -1,13 +1,10 @@
 package ro.helator.ie.camel.implementations;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
-import org.apache.camel.jsonpath.JsonPath;
 import org.osgi.service.component.annotations.Activate;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Deactivate;
@@ -37,6 +34,7 @@ public class TemplateRegistryServiceImpl implements TemplateRegistryService {
 	@Deactivate
 	public void deactivate() {
 		log.info("Deactivating the " + COMPONENT_LABEL);
+		templateRegistry.clear();
 		templateRegistry = null;
 	}
 

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <routes id="routes-%UUID%" xmlns="http://camel.apache.org/schema/spring">
     <route id="JmsToHttp_Simple_%ROUTE.ID%">
         <from id="_%ROUTE.STEPS.PREFIX%_from" uri="%COMPONENT.NAME%:%COMPONENT.SUBTYPE%:%JMS.QUEUE.PREFIX%.IN"/>
+        <!-- <process id="_%ROUTE.STEPS.PREFIX%_processMultipart" ref="multipartProcessor"/> -->
         <log id="_%ROUTE.STEPS.PREFIX%_log1" message="Sending message to Copy Queue..."/>
         <to id="_%ROUTE.STEPS.PREFIX%_to1" uri="%COMPONENT.NAME%:%COMPONENT.SUBTYPE%:%JMS.QUEUE.PREFIX%.CPY"/>
-        <!-- <process id="_%ROUTE.STEPS.PREFIX%_processMultipart" ref="multipartProcessor"/> -->
         <setHeader headerName="CamelHttpMethod" id="_%ROUTE.STEPS.PREFIX%_setHttpMethod">
             <constant>%HTTP.METHOD%</constant>
         </setHeader>

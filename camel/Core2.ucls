@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.0" icons="true" automaticImage="JPEG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="ro.helator.ie.camel.IE_CamelActivator" project="camel" 
+    file="/camel/src/main/java/ro/helator/ie/camel/IE_CamelActivator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="461" y="709"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="org.osgi.framework.BundleActivator" project="camel" 
+    file="C:/Users/bogdan.heim/.m2/repository/org/osgi/org.osgi.core/6.0.0/org.osgi.core-6.0.0.jar" binary="true" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="742" y="670"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="ro.helator.ie.camel.deploy.IE_CamelFileListener" project="camel" 
+    file="/camel/src/main/java/ro/helator/ie/camel/deploy/IE_CamelFileListener.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="181" y="728"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="ro.helator.ie.camel.deploy.IE_CamelTemplateServiceRoute" project="camel" 
+    file="/camel/src/main/java/ro/helator/ie/camel/deploy/IE_CamelTemplateServiceRoute.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1016" y="744"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="ro.helator.ie.camel.implementations.RouteFactoryBeanImpl" project="camel" 
+    file="/camel/src/main/java/ro/helator/ie/camel/implementations/RouteFactoryBeanImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="464" y="978"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="ro.helator.ie.camel.implementations.TemplateRegistryServiceImpl" project="camel" 
+    file="/camel/src/main/java/ro/helator/ie/camel/implementations/TemplateRegistryServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1146" y="1616"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="ro.helator.ie.camel.interfaces.TemplateRegistryService" project="camel" 
+    file="/camel/src/main/java/ro/helator/ie/camel/interfaces/TemplateRegistryService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="798" y="987"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="8" language="java" name="ro.helator.ie.camel.interfaces.TemplateScanerService" project="camel" 
+    file="/camel/src/main/java/ro/helator/ie/camel/interfaces/TemplateScanerService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1248" y="1011"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="9" language="java" name="ro.helator.ie.camel.interfaces.RouteFactoryBean" project="camel" 
+    file="/camel/src/main/java/ro/helator/ie/camel/interfaces/RouteFactoryBean.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="197" y="974"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="10" language="java" name="ro.helator.ie.camel.templates.IE_Camel_RouteTemplate_Subtype" project="camel" 
+    file="/camel/src/main/java/ro/helator/ie/camel/templates/IE_Camel_RouteTemplate_Subtype.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="824" y="1653"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="ro.helator.ie.camel.templates.TemplatesUtil" project="camel" 
+    file="/camel/src/main/java/ro/helator/ie/camel/templates/TemplatesUtil.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="423" y="1413"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="ro.helator.ie.camel.templates.IE_Camel_RouteTemplate" project="camel" 
+    file="/camel/src/main/java/ro/helator/ie/camel/templates/IE_Camel_RouteTemplate.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="802" y="1334"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="ro.helator.ie.camel.templates.TemplateScanerUtil" project="camel" 
+    file="/camel/src/main/java/ro/helator/ie/camel/templates/TemplateScanerUtil.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="92" y="1343"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="ro.helator.ie.camel.implementations.TemplateScanerServiceImpl" project="camel" 
+    file="/camel/src/main/java/ro/helator/ie/camel/implementations/TemplateScanerServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1247" y="1269"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="15">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <association id="16">    
+    <bendpoint x="566" y="987"/>    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="17" name="templateReg">        
+        <position height="0" width="0" x="-363" y="-211"/>      
+      </attribute>      
+      <multiplicity id="18" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-363" y="-211"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="19">    
+    <bendpoint x="197" y="842"/>    
+    <bendpoint x="197" y="841"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="20" name="routeFactory">        
+        <position height="0" width="0" x="-804" y="886"/>      
+      </attribute>      
+      <multiplicity id="21" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-804" y="886"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="22">    
+    <bendpoint x="91" y="1707"/>    
+    <bendpoint x="681" y="1708"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="23">    
+    <bendpoint x="567" y="747"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="24">    
+    <bendpoint x="421" y="1111"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="25">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="26">    
+    <bendpoint x="1138" y="1153"/>    
+    <bendpoint x="1010" y="1154"/>    
+    <bendpoint x="1009" y="987"/>    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="27" name="templateReg">        
+        <position height="0" width="0" x="-363" y="-211"/>      
+      </attribute>      
+      <multiplicity id="28" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-363" y="-211"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="29">    
+    <bendpoint x="567" y="1015"/>    
+    <bendpoint x="611" y="1016"/>    
+    <bendpoint x="615" y="1615"/>    
+    <bendpoint x="671" y="1614"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="30">    
+    <bendpoint x="121" y="1603"/>    
+    <bendpoint x="121" y="1657"/>    
+    <bendpoint x="643" y="1658"/>    
+    <bendpoint x="646" y="1372"/>    
+    <bendpoint x="696" y="1372"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="31">    
+    <bendpoint x="208" y="1414"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="32">    
+    <bendpoint x="569" y="1085"/>    
+    <bendpoint x="746" y="1088"/>    
+    <bendpoint x="747" y="1221"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <association id="33">    
+    <bendpoint x="890" y="800"/>    
+    <bendpoint x="798" y="800"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="34" name="templateReg">        
+        <position height="0" width="0" x="-363" y="-211"/>      
+      </attribute>      
+      <multiplicity id="35" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-363" y="-211"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="36">    
+    <bendpoint x="558" y="672"/>    
+    <bendpoint x="558" y="672"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <dependency id="37">    
+    <bendpoint x="1029" y="874"/>    
+    <bendpoint x="1033" y="1257"/>    
+    <bendpoint x="908" y="1257"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <realization id="38">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <realization id="39">    
+    <bendpoint x="1085" y="1482"/>    
+    <bendpoint x="1081" y="1170"/>    
+    <bendpoint x="878" y="1170"/>    
+    <bendpoint x="877" y="1072"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <dependency id="40">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="41">    
+    <bendpoint x="571" y="1329"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="42">    
+    <bendpoint x="1133" y="1190"/>    
+    <bendpoint x="211" y="1192"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="43">    
+    <bendpoint x="1133" y="1332"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="44">    
+    <bendpoint x="683" y="1562"/>    
+    <bendpoint x="571" y="1563"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="45">    
+    <bendpoint x="1059" y="1478"/>    
+    <bendpoint x="1057" y="1382"/>    
+    <bendpoint x="911" y="1381"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="46" name="templateRegistry">        
+        <position height="0" width="0" x="332" y="-113"/>      
+      </attribute>      
+      <multiplicity id="47" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="332" y="-113"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="48">    
+    <bendpoint x="280" y="708"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="49">    
+    <bendpoint x="825" y="1440"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="50" name="subtypes">        
+        <position height="0" width="0" x="350" y="-117"/>      
+      </attribute>      
+      <multiplicity id="51" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="350" y="-117"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -103,7 +103,7 @@ public class ServersController extends BaseScreenController {
 			public void handle(ActionEvent event) {
 				TabPane tabs = (TabPane) serversPane.getParent().getParent();
 				Server server = serversTable.getSelectionModel().getSelectedItem();
-				loadTabPane("SSHConsole", server);
+				loadTabPane("KarafAdmin", server);
 			}
 		});
 		connect.visibleProperty().bind(Bindings.isNotEmpty(serversTable.getSelectionModel().getSelectedItems()));
@@ -206,8 +206,8 @@ public class ServersController extends BaseScreenController {
 			newTab.setId(server.getName());
 			TabPane tabs = (TabPane) serversPane.getParent().getParent();
 			tabs.getTabs().add(newTab);
-			SSHConsoleController controller = loader.getController();
-			controller.openSession(server);
+//			SSHConsoleController controller = loader.getController();
+//			controller.openSession(server);
 		} catch (IOException e) {
 			Toast.getErrorAlert("Could not load [" + name + "]");
 			log.error("--loadTabPane(): " + e.getMessage(), e);

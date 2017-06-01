@@ -80,13 +80,16 @@ public class IE_CamelTemplateServiceRoute extends RouteBuilder {
 						RouteTemplateView.Name.class).endChoice()
 					.when(header("option").isEqualTo("2")).marshal()
 						.jacksonxml(new ArrayList<IE_Camel_RouteTemplate>().getClass(),
-						RouteTemplateView.MainProp.class)
+						RouteTemplateView.MainProp.class).endChoice()
+					.when(header("option").isEqualTo("3")).marshal()
+						.jacksonxml(new ArrayList<IE_Camel_RouteTemplate>().getClass(),
+						RouteTemplateView.Subtypes.class).endChoice()
 				// .bean(templateReg,
 				// "getTemplate(${headers.tempType})").log("${body}").marshal()
 				// .jacksonxml(IE_Camel_RouteTemplate.class,
 				// RouteTemplateView.class)
-						.log("${body}").endChoice()
-					.otherwise().log("no valid option")
+//						.log("${body}").endChoice()
+					.otherwise().log("no valid option").setBody(simple("<ArrayList/>"))
 				.end().convertBodyTo(String.class)
 				.log("${body}").to("activemq:queue:" + QUEUE_PREFIX + ".OUT");
 //				.doCatch(Exception.class)

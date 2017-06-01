@@ -55,8 +55,8 @@
 
 		<dependency>
 			<groupId>ro.helator.ie</groupId>
-			<artifactId>camel</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<artifactId>core</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
