@@ -30,8 +30,6 @@ public class IE_CamelActivator implements BundleActivator {
 		OsgiServiceRegistry reg = new OsgiServiceRegistry(context);
 		ctx = new OsgiDefaultCamelContext(context, reg);
 		ctx.setName("IE_Camel");
-
-
 		ctx.getManagementStrategy()
 				.addEventNotifier(new OsgiCamelContextPublisher(BundleContextUtils.getBundleContext(getClass())));
 		ctx.start();

@@ -108,14 +108,14 @@ public class ServersController extends BaseScreenController {
 		});
 		connect.visibleProperty().bind(Bindings.isNotEmpty(serversTable.getSelectionModel().getSelectedItems()));
 
-		final MenuItem fileTransfer = new MenuItem("File Transfer");
-		fileTransfer.setOnAction(new EventHandler<ActionEvent>() {
-			@Override
-			public void handle(ActionEvent event) {
-				
-			}
-		});
-		fileTransfer.visibleProperty().bind(Bindings.isNotEmpty(serversTable.getSelectionModel().getSelectedItems()));
+//		final MenuItem fileTransfer = new MenuItem("File Transfer");
+//		fileTransfer.setOnAction(new EventHandler<ActionEvent>() {
+//			@Override
+//			public void handle(ActionEvent event) {
+//				
+//			}
+//		});
+//		fileTransfer.visibleProperty().bind(Bindings.isNotEmpty(serversTable.getSelectionModel().getSelectedItems()));
 
 		final MenuItem add = new MenuItem("Add...");
 		add.setOnAction(new EventHandler<ActionEvent>() {
@@ -148,7 +148,7 @@ public class ServersController extends BaseScreenController {
 		});
 		delete.visibleProperty().bind(Bindings.isNotEmpty(serversTable.getSelectionModel().getSelectedItems()));
 
-		menu.getItems().addAll(connect, fileTransfer, add, delete);
+		menu.getItems().addAll(connect, /*fileTransfer,*/ add, delete);
 
 		menu.setOnHiding(new EventHandler<WindowEvent>() {
 
@@ -206,8 +206,8 @@ public class ServersController extends BaseScreenController {
 			newTab.setId(server.getName());
 			TabPane tabs = (TabPane) serversPane.getParent().getParent();
 			tabs.getTabs().add(newTab);
-//			SSHConsoleController controller = loader.getController();
-//			controller.openSession(server);
+			KarafAdminController controller = loader.getController();
+			controller.initBroker(server);
 		} catch (IOException e) {
 			Toast.getErrorAlert("Could not load [" + name + "]");
 			log.error("--loadTabPane(): " + e.getMessage(), e);

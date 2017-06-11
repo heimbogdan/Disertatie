@@ -4,10 +4,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="ro.helator.ie"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="core.bean.test"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -84,14 +86,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="ro.helator.ie.camel.templates.test"/>
 		</list>
 		<list key="groupId">
-			<item value="ro.helator.ie"/>
 		</list>
 		<list key="artifactId">
-			<item value="camel.templates.test"/>
-			<item value="camel-templates-test"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

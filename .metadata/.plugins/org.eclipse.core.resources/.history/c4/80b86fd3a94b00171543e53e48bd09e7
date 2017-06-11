@@ -1,0 +1,5 @@
+package ro.helator.ie.camel.bean.test;
+
+public class IE_CamelTransformerBean {
+
+}

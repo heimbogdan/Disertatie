@@ -1,0 +1,4 @@
+routes=httpToHttp
+types=simple,transform
+default=route.id,route.steps.prefix
+http=http.method,http.component,http.uri

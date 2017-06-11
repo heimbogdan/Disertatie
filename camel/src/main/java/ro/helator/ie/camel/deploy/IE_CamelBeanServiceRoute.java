@@ -1,0 +1,83 @@
+package ro.helator.ie.camel.deploy;
+
+import java.util.ArrayList;
+
+import org.apache.camel.builder.RouteBuilder;
+import org.osgi.service.component.annotations.Activate;
+import org.osgi.service.component.annotations.Component;
+import org.osgi.service.component.annotations.Deactivate;
+import org.osgi.service.component.annotations.Reference;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import ro.helator.ie.camel.IE_CamelActivator;
+import ro.helator.ie.camel.bean.BeanType;
+import ro.helator.ie.camel.interfaces.BeanRegistryService;
+import ro.helator.ie.camel.json.views.BeanView;
+
+@Component(name = IE_CamelBeanServiceRoute.COMPONENT_NAME)
+public class IE_CamelBeanServiceRoute extends RouteBuilder {
+
+	private static final Logger log = LoggerFactory.getLogger(IE_CamelBeanServiceRoute.class);
+
+	public static final String COMPONENT_NAME = "IE_CamelBeanServiceRoute";
+	public static final String COMPONENT_LABEL = "IE Camel Bean Service Route";
+
+	private static final String QUEUE_PREFIX = "SYSTEM.BUNDLE.LIST";
+	
+	private BeanRegistryService beanReg;
+	
+	@Activate
+	private void activate() {
+		log.info("Activating component " + COMPONENT_LABEL);
+		try {
+			IE_CamelActivator.getCamelContext().addRoutes(this);
+		} catch (Exception e) {
+			log.error(e.getMessage(), e);
+		}
+	}
+
+	@Deactivate
+	public void deactivate() {
+		log.info("Deactivating the " + COMPONENT_LABEL);
+		try {
+			IE_CamelActivator.getCamelContext().stopRoute(COMPONENT_LABEL);
+			IE_CamelActivator.getCamelContext().removeRoute(COMPONENT_LABEL);
+		} catch (Exception e) {
+			log.error(e.getMessage(), e);
+		}
+	}
+	
+	@Reference
+	public void setBeaneReg(final BeanRegistryService beanReg) {
+		this.beanReg = beanReg;
+	}
+
+	public void unsetBeanReg(final BeanRegistryService beanReg) {
+		this.beanReg = beanReg;
+	}
+	
+	@Override
+	public void configure() throws Exception {
+		
+		from("activemq:queue:" + QUEUE_PREFIX + ".IN").routeId(COMPONENT_LABEL)
+			.to("activemq:queue:" + QUEUE_PREFIX + ".CPY").doTry()
+			.setHeader("beanName", xpath("/BeanRequest/name/text()"))
+			.setHeader("option", xpath("/BeanRequest/option/text()"))
+			.log("${headers.tempType} - ${headers.subType} - ${headers.option}")
+			.bean(beanReg, "getBeans(${headers.beanName})")
+			.choice()
+				.when(header("option").isEqualTo("1")).marshal()
+				.jacksonxml(new ArrayList<BeanType>().getClass(),
+						BeanView.Name.class).endChoice()
+				.when(header("option").isEqualTo("2")).marshal()
+				.jacksonxml(new ArrayList<BeanType>().getClass(),
+						BeanView.Methods.class).endChoice()
+				.otherwise().log("no valid option").setBody(simple("<ArrayList/>"))
+					.end()
+			.convertBodyTo(String.class)
+			.log("${body}").to("activemq:queue:" + QUEUE_PREFIX + ".OUT");
+		
+		
+	}
+}

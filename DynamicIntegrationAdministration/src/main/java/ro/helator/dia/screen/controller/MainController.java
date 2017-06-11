@@ -1,24 +1,19 @@
 package ro.helator.dia.screen.controller;
 
-import java.awt.Dimension;
+import static ro.helator.dia.util.Constants.FXML_EXTENSION;
+import static ro.helator.dia.util.Constants.FXML_SERVERS;
+import static ro.helator.dia.util.Constants.FXML_TAB_FOLDER;
+
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-import javax.swing.SwingUtilities;
-
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Component;
 
-import com.wittams.gritty.RequestOrigin;
-import com.wittams.gritty.ResizePanelDelegate;
-import com.wittams.gritty.jsch.JSchTty;
 import com.wittams.gritty.swing.GrittyTerminal;
-import com.wittams.gritty.swing.standalone.Main;
 
-import javafx.application.Platform;
 import javafx.collections.ObservableList;
-import javafx.embed.swing.SwingNode;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -30,8 +25,6 @@ import javafx.scene.layout.Pane;
 import ro.helator.dia.factory.Toast;
 import ro.helator.dia.screen.BaseScreenController;
 import ro.helator.dia.util.Console;
-
-import static ro.helator.dia.util.Constants.*;
 
 @Component
 public class MainController extends BaseScreenController {
@@ -45,8 +38,6 @@ public class MainController extends BaseScreenController {
 
 	@FXML
 	private TextArea console;
-
-	private GrittyTerminal term;
 
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {

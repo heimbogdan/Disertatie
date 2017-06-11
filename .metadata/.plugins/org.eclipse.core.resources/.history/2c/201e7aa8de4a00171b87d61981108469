@@ -1,0 +1,9 @@
+package ro.helator.ie.camel.bean;
+
+import java.util.Map;
+
+public class MethodType {
+
+	private String name;
+	private Map<String, String> parameters;
+}

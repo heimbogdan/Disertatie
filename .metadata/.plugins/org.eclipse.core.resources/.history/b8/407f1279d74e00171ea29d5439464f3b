@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes id="routes-%UUID%" xmlns="http://camel.apache.org/schema/spring">
+    <route id="HttpToHttp_Simple_%ROUTE.ID%">
+        <from id="_%ROUTE.STEPS.PREFIX%_from" uri="jetty:http://%HTTP.HOST%/%HTTP.HOST.PATH%"/>
+        <onException id="_%ROUTE.STEPS.PREFIX%_onException">
+            <exception>java.lang.Exception</exception>
+            <handled>
+				true
+			</handled>
+            <setHeader headerName="CamelHttpResponseCode" id="_%ROUTE.STEPS.PREFIX%_setHttpResponseCode">
+                <constant>500</constant>
+            </setHeader>
+        </onException>
+        <log id="_%ROUTE.STEPS.PREFIX%_log1" message="Request received!"/>
+        <setHeader headerName="CamelHttpMethod" id="_%ROUTE.STEPS.PREFIX%_setHttpMethod">
+            <constant>%HTTP.METHOD%</constant>
+        </setHeader>
+        <setHeader headerName="CamelHttpQuery" id="_%ROUTE.STEPS.PREFIX%_setHttpQuery">
+            <xpath>/request/httpHeader/text()</xpath>
+        </setHeader>
+        <setHeader headerName="Content-Type" id="_%ROUTE.STEPS.PREFIX%_setHttpContentType">
+            <constant>application/json</constant>
+        </setHeader>
+        <setBody id="_%ROUTE.STEPS.PREFIX%_setBody">
+            <xpath>/request/data/text()</xpath>
+        </setBody>
+        <log id="_%ROUTE.STEPS.PREFIX%_log3" message="Request Body : ${body}"/>
+        <log id="_%ROUTE.STEPS.PREFIX%_log4" message="Request Headers: ${headers}"/>
+        <to id="_%ROUTE.STEPS.PREFIX%_to2" uri="%HTTP.COMPONENT%:%HTTP.URI%"/>
+        <log id="_%ROUTE.STEPS.PREFIX%_log5" message="Response body: ${body}"/>
+        <log id="_%ROUTE.STEPS.PREFIX%_log6" message="Response Headers: ${headers}"/>
+    </route>
+</routes>

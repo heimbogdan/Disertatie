@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;core.bean.test&apos; to &apos;camel.bean.test&apos;" description="Rename resource &apos;core.bean.test&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/core.bean.test" name="camel.bean.test" stamp="1496413510111" updateReferences="true"/>
+</session>

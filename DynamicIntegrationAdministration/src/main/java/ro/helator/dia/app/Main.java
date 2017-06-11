@@ -2,6 +2,8 @@ package ro.helator.dia.app;
 
 import java.io.PrintStream;
 
+import javax.jms.JMSException;
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -42,7 +44,6 @@ public class Main extends Application {
 		PrintStream console = new PrintStream(ro.helator.dia.util.Console.getInstance());
 		System.setOut(console);
 		System.setErr(console);
-		BrokerConnector.getInstance();
 		launch(args);
 	}
 

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/Bogdan/.m2/repository/org/apache/camel/camel-core/2.18.3/camel-core-2.18.3.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/org/apache/camel/camel-core-xml/2.18.3/camel-core-xml-2.18.3.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/org/apache/aries/jpa/org.apache.aries.jpa.api/2.6.0/org.apache.aries.jpa.api-2.6.0.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.3/jackson-databind-2.8.3.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/org/apache/camel/camel-blueprint/2.18.3/camel-blueprint-2.18.3.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/org/osgi/org.osgi.service.component.annotations/1.3.0/org.osgi.service.component.annotations-1.3.0.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/org/osgi/org.osgi.service.component/1.3.0/org.osgi.service.component-1.3.0.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/org/apache/aries/jpa/org.apache.aries.jpa.support/2.6.0/org.apache.aries.jpa.support-2.6.0.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/org/apache/camel/camel-core-osgi/2.18.3/camel-core-osgi-2.18.3.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/org/osgi/org.osgi.core/6.0.0/org.osgi.core-6.0.0.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.3/jackson-core-2.8.3.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/org/apache/camel/camel-jsonpath/2.18.3/camel-jsonpath-2.18.3.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/org/apache/camel/camel-jackson/2.18.3/camel-jackson-2.18.3.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.3/jackson-module-jaxb-annotations-2.8.3.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/org/eclipse/persistence/javax.persistence/2.1.0/javax.persistence-2.1.0.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/com/jayway/jsonpath/json-path/2.1.0/json-path-2.1.0.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar"/>
+  <path value="C:/Users/Bogdan/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jboss.cdi.core"/>
+  <el>
+   <linked-el length="62" name="%0" offset="2179" path="%1"/>
+   <linked-el length="54" name="%0" offset="2533" path="%2"/>
+   <linked-el length="31" name="%0" offset="2262" path="%1"/>
+   <linked-el length="62" name="%0" offset="2445" path="%2"/>
+   <linked-el length="62" name="%3" offset="2179" path="%1"/>
+   <linked-el length="54" name="%3" offset="2533" path="%2"/>
+   <linked-el length="62" name="%3" offset="2445" path="%2"/>
+   <linked-el length="62" name="%4" offset="2179" path="%1"/>
+   <linked-el length="54" name="%4" offset="2533" path="%2"/>
+   <linked-el length="62" name="%4" offset="2445" path="%2"/>
+   <linked-el length="25" name="%5" offset="2195" path="%6"/>
+   <linked-el length="25" name="%7" offset="2195" path="%6"/>
+   <linked-el length="31" name="%8" offset="2262" path="%1"/>
+   <linked-el length="46" name="%9" offset="1646" path="%10"/>
+   <linked-el length="34" name="%9" offset="1790" path="%10"/>
+   <linked-el length="29" name="%9" offset="1740" path="%10"/>
+   <linked-el length="62" name="%11" offset="2179" path="%1"/>
+   <linked-el length="62" name="%11" offset="2445" path="%2"/>
+   <linked-el length="64" name="%12" offset="2394" path="%6"/>
+   <linked-el length="21" name="%12" offset="2268" path="%6"/>
+   <linked-el length="18" name="%12" offset="2335" path="%6"/>
+   <linked-el length="40" name="%12" offset="1893" path="%6"/>
+   <linked-el length="21" name="%13" offset="2268" path="%6"/>
+   <linked-el length="40" name="%13" offset="1893" path="%6"/>
+   <linked-el length="9" name="%14" offset="3477" path="%2"/>
+   <linked-el length="34" name="%14" offset="1790" path="%10"/>
+   <linked-el length="9" name="%14" offset="2738" path="%1"/>
+   <linked-el length="64" name="%15" offset="2394" path="%6"/>
+   <linked-el length="18" name="%15" offset="2335" path="%6"/>
+   <linked-el length="40" name="%16" offset="1893" path="%6"/>
+   <linked-el length="46" name="%17" offset="1646" path="%10"/>
+   <linked-el length="34" name="%17" offset="1790" path="%10"/>
+   <linked-el length="29" name="%17" offset="1740" path="%10"/>
+   <linked-el length="46" name="%18" offset="1646" path="%10"/>
+   <linked-el length="25" name="%19" offset="2195" path="%6"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="headers" value="%0"/>
+  <alias path="headers.subType" value="%3"/>
+  <alias
+   path="/camel/src/main/java/ro/helator/ie/camel/deploy/IE_CamelFileListener.java" value="%10"/>
+  <alias path="headers.tempType" value="%4"/>
+  <alias path="bunble.activator.class" value="%5"/>
+  <alias path="bunble.activator" value="%7"/>
+  <alias path="headers.beanName" value="%8"/>
+  <alias path="file.name" value="%9"/>
+  <alias path="headers.option" value="%11"/>
+  <alias path="project" value="%12"/>
+  <alias path="project.artifactId" value="%13"/>
+  <alias path="body" value="%14"/>
+  <alias path="project.version" value="%15"/>
+  <alias
+   path="/camel/src/main/java/ro/helator/ie/camel/deploy/IE_CamelTemplateServiceRoute.java" value="%2"/>
+  <alias path="/camel/pom.xml" value="%6"/>
+  <alias path="project.groupId" value="%16"/>
+  <alias path="file" value="%17"/>
+  <alias
+   path="/camel/src/main/java/ro/helator/ie/camel/deploy/IE_CamelBeanServiceRoute.java" value="%1"/>
+  <alias path="file.modified" value="%18"/>
+  <alias path="bunble" value="%19"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>

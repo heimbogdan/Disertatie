@@ -11,7 +11,7 @@
     </display>  
   </class>  
   <interface id="2" language="java" name="org.osgi.framework.BundleActivator" project="camel" 
-    file="C:/Users/bogdan.heim/.m2/repository/org/osgi/org.osgi.core/6.0.0/org.osgi.core-6.0.0.jar" binary="true" 
+    file="C:/Users/Bogdan/.m2/repository/org/osgi/org.osgi.core/6.0.0/org.osgi.core-6.0.0.jar" binary="true" 
     corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="111" y="768"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -140,64 +140,34 @@
     </display>  
   </class>  
   <realization id="15">    
-    <bendpoint x="998" y="244"/>    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="9"/>  
+    <bendpoint x="702" y="1197"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
   </realization>  
   <dependency id="16">    
-    <bendpoint x="1561" y="1377"/>    
-    <bendpoint x="765" y="1386"/>    
-    <end type="SOURCE" refId="13"/>    
-    <end type="TARGET" refId="12"/>  
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
   </dependency>  
-  <association id="17">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="18" name="templateRegistry"/>      
-      <multiplicity id="19" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="12" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="20">    
+  <dependency id="17">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <association id="18">    
     <bendpoint x="1692" y="912"/>    
     <bendpoint x="1692" y="985"/>    
     <bendpoint x="1393" y="984"/>    
     <end type="SOURCE" refId="14" navigable="false">      
-      <attribute id="21" name="templateReg"/>      
-      <multiplicity id="22" minimum="0" maximum="1"/>    
+      <attribute id="19" name="templateReg">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="20" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="7" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <dependency id="23">    
-    <bendpoint x="861" y="513"/>    
-    <bendpoint x="857" y="1568"/>    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="10"/>  
-  </dependency>  
-  <dependency id="24">    
-    <bendpoint x="1182" y="1446"/>    
-    <end type="SOURCE" refId="12"/>    
-    <end type="TARGET" refId="11"/>  
-  </dependency>  
-  <association id="25">    
-    <end type="SOURCE" refId="12" navigable="false">      
-      <attribute id="26" name="subtypes"/>      
-      <multiplicity id="27" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="10" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="28">    
-    <bendpoint x="513" y="88"/>    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="29" name="routeFactory"/>      
-      <multiplicity id="30" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="9" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <dependency id="31">    
+  <dependency id="21">    
     <bendpoint x="1649" y="910"/>    
     <bendpoint x="1648" y="958"/>    
     <bendpoint x="810" y="968"/>    
@@ -205,30 +175,66 @@
     <end type="SOURCE" refId="14"/>    
     <end type="TARGET" refId="12"/>  
   </dependency>  
-  <dependency id="32">    
-    <bendpoint x="1553" y="1406"/>    
-    <bendpoint x="877" y="1418"/>    
-    <bendpoint x="877" y="1582"/>    
-    <end type="SOURCE" refId="13"/>    
-    <end type="TARGET" refId="10"/>  
+  <realization id="22">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <dependency id="23">    
+    <bendpoint x="1522" y="569"/>    
+    <bendpoint x="1524" y="1217"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="11"/>  
   </dependency>  
-  <dependency id="33">    
-    <bendpoint x="1154" y="1345"/>    
-    <bendpoint x="760" y="1352"/>    
-    <end type="SOURCE" refId="7"/>    
+  <dependency id="24">    
+    <bendpoint x="840" y="514"/>    
+    <bendpoint x="840" y="578"/>    
+    <bendpoint x="833" y="1242"/>    
+    <end type="SOURCE" refId="5"/>    
     <end type="TARGET" refId="12"/>  
   </dependency>  
-  <dependency id="34">    
+  <dependency id="25">    
+    <bendpoint x="1877" y="1684"/>    
+    <bendpoint x="1404" y="1689"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="26">    
     <bendpoint x="676" y="1702"/>    
     <end type="SOURCE" refId="10"/>    
     <end type="TARGET" refId="11"/>  
   </dependency>  
-  <realization id="35">    
-    <bendpoint x="702" y="1197"/>    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="7"/>  
-  </realization>  
-  <dependency id="36">    
+  <dependency id="27">    
+    <bendpoint x="1182" y="1446"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="28">    
+    <bendpoint x="1164" y="890"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="29" name="templateReg">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="30" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="31">    
+    <bendpoint x="513" y="88"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="32" name="routeFactory">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="33" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="34">    
     <bendpoint x="1024" y="805"/>    
     <bendpoint x="942" y="805"/>    
     <bendpoint x="941" y="1280"/>    
@@ -236,68 +242,86 @@
     <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="12"/>  
   </dependency>  
-  <realization id="37">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="2"/>  
-  </realization>  
-  <dependency id="38">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="1"/>  
-  </dependency>  
-  <association id="39">    
-    <bendpoint x="1164" y="890"/>    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="40" name="templateReg"/>      
-      <multiplicity id="41" minimum="0" maximum="1"/>    
+  <association id="35">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="36" name="subtypes">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="37" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="7" navigable="true"/>    
+    <end type="TARGET" refId="10" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <dependency id="42">    
-    <end type="SOURCE" refId="4"/>    
+  <dependency id="38">    
+    <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="1"/>  
   </dependency>  
-  <dependency id="43">    
-    <bendpoint x="840" y="514"/>    
-    <bendpoint x="840" y="578"/>    
-    <bendpoint x="833" y="1242"/>    
+  <dependency id="39">    
+    <bendpoint x="861" y="513"/>    
+    <bendpoint x="857" y="1568"/>    
     <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="12"/>  
+    <end type="TARGET" refId="10"/>  
   </dependency>  
-  <association id="44">    
+  <association id="40">    
     <bendpoint x="885" y="518"/>    
     <bendpoint x="884" y="982"/>    
     <bendpoint x="968" y="1045"/>    
     <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="45" name="templateReg"/>      
-      <multiplicity id="46" minimum="0" maximum="1"/>    
+      <attribute id="41" name="templateReg">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="42" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="7" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <realization id="43">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <association id="44">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="45" name="templateRegistry">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="46" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
   <dependency id="47">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="1"/>  
+    <bendpoint x="1154" y="1345"/>    
+    <bendpoint x="760" y="1352"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="12"/>  
   </dependency>  
   <dependency id="48">    
-    <bendpoint x="1877" y="1684"/>    
-    <bendpoint x="1404" y="1689"/>    
+    <bendpoint x="1553" y="1406"/>    
+    <bendpoint x="877" y="1418"/>    
+    <bendpoint x="877" y="1582"/>    
     <end type="SOURCE" refId="13"/>    
-    <end type="TARGET" refId="11"/>  
+    <end type="TARGET" refId="10"/>  
   </dependency>  
   <dependency id="49">    
-    <bendpoint x="1522" y="569"/>    
-    <bendpoint x="1524" y="1217"/>    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="11"/>  
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
   </dependency>  
   <realization id="50">    
-    <end type="SOURCE" refId="14"/>    
-    <end type="TARGET" refId="8"/>  
+    <bendpoint x="998" y="244"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="9"/>  
   </realization>  
   <dependency id="51">    
-    <end type="SOURCE" refId="14"/>    
-    <end type="TARGET" refId="13"/>  
+    <bendpoint x="1561" y="1377"/>    
+    <bendpoint x="765" y="1386"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="12"/>  
   </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
     sort-features="false" accessors="true" visibility="true">    

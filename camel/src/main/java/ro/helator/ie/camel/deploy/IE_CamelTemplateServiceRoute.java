@@ -1,19 +1,14 @@
 package ro.helator.ie.camel.deploy;
 
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
 
 import org.apache.camel.builder.RouteBuilder;
-import org.apache.camel.model.dataformat.JsonLibrary;
 import org.osgi.service.component.annotations.Activate;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Deactivate;
 import org.osgi.service.component.annotations.Reference;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import com.jayway.jsonpath.JsonPath;
 
 import ro.helator.ie.camel.IE_CamelActivator;
 import ro.helator.ie.camel.interfaces.TemplateRegistryService;

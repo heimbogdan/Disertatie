@@ -1,8 +1,5 @@
 package ro.helator.ie.camel.templates.test;
 
-import java.io.InputStream;
-import java.io.InputStreamReader;
-
 import org.osgi.framework.FrameworkUtil;
 import org.osgi.service.component.annotations.Activate;
 import org.osgi.service.component.annotations.Component;

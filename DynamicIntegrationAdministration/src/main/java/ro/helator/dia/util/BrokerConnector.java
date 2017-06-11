@@ -1,12 +1,6 @@
 package ro.helator.dia.util;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.Properties;
 import java.util.UUID;
-
 import javax.jms.Connection;
 import javax.jms.Destination;
 import javax.jms.JMSException;
@@ -16,7 +10,6 @@ import javax.jms.Queue;
 import javax.jms.QueueReceiver;
 import javax.jms.Session;
 import javax.jms.TextMessage;
-
 import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.apache.activemq.ActiveMQSession;
@@ -25,6 +18,7 @@ import org.apache.activemq.command.ActiveMQBlobMessage;
 import org.apache.activemq.command.ActiveMQBytesMessage;
 import org.apache.activemq.command.ActiveMQTextMessage;
 import org.apache.log4j.Logger;
+import ro.helator.dia.server.Server;
 
 public class BrokerConnector {
 
@@ -33,47 +27,30 @@ public class BrokerConnector {
 	private static MessageProducer brokerProducer_RouteTemplates;
 	private static Queue ROUTE_TEMPLATES_OUT;
 	
-	private static BrokerConnector _instance;
-	
-	private String brokerIP;
-	private String brokerPort;
+	private Server server;
 	
 	private ActiveMQConnectionFactory mqConnectionFactory;
 	private ActiveMQConnection connection;
 	private ActiveMQSession session;
 
-	private BrokerConnector() {
-		Properties properties = new Properties();
-		try {
-			properties.load(new FileInputStream(new File("config/config.properties")));
-			brokerIP = properties.getProperty("broker.ip");
-			brokerPort = properties.getProperty("broker.port");
-		} catch (FileNotFoundException e) {
-			log.error(e);
-		} catch (IOException e) {
-			log.error(e);
-		}
+	public BrokerConnector(Server server) {
+		
+		this.server = server;
 		if (log.isTraceEnabled()) {
 			log.trace("Create ActiveMQ connection factory...");
 		}
-		mqConnectionFactory = new ActiveMQConnectionFactory("tcp://" + this.brokerIP + ":" + this.brokerPort);
+		mqConnectionFactory = new ActiveMQConnectionFactory("tcp://" + this.server.getIp() + ":" + this.server.getPort());
 		if (log.isTraceEnabled()) {
-			log.trace("ActiveMQ connection factory created for [IP:Port] : " + this.brokerIP + ":" + this.brokerPort);
+			log.trace("ActiveMQ connection factory created for [IP:Port] : " + this.server.getIp() + ":" + this.server.getPort());
 		}
 		createConnection();
 
 	}
 	
-	public static BrokerConnector getInstance() {
-		if (_instance == null) {
-			_instance = new BrokerConnector();
-		}
-		return _instance;
-	}
 	
 	public void initQueues() throws JMSException {
 		createSession();
-		brokerProducer_RouteTemplates = session.createProducer(_instance.getDestination("SYSTEM.TEMPLATE.LIST.IN", DestinationType.QUEUE));
+		brokerProducer_RouteTemplates = session.createProducer(getDestination("SYSTEM.TEMPLATE.LIST.IN", DestinationType.QUEUE));
 
 		ROUTE_TEMPLATES_OUT = session.createQueue("SYSTEM.TEMPLATE.LIST.OUT");
 

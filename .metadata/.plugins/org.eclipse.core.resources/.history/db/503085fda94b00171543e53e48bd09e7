@@ -1,0 +1,17 @@
+package ro.helator.ie.camel.bean.test;
+
+import ro.helator.ie.camel.bean.BeanElement;
+
+public class IE_CamelTransformerBean implements BeanElement{
+
+	public String getBeanName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String[] getMethods() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
