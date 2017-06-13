@@ -1,0 +1,25 @@
+package ro.helator.dia.util;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+import ro.helator.dia.entity.Route;
+
+public class RouteListParser {
+
+	public static synchronized List<Route> parseResponse(String response) {
+		List<Route> list = new ArrayList<Route>();
+		
+		Document doc = Util.convertStringToDocument(response);
+		if(doc != null){
+			Element root = doc.getDocumentElement();
+			if(root != null && "ArrayList".equals(root.getNodeName())){
+				
+			}
+		}
+		return list;
+	}
+}

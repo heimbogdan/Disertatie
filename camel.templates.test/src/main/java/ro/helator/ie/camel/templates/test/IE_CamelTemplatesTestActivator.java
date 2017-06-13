@@ -16,7 +16,6 @@ public class IE_CamelTemplatesTestActivator {
 	private static final Logger log = LoggerFactory.getLogger(IE_CamelTemplatesTestActivator.class);
 
 	private TemplateScanerService templateScaner;
-
 	@Activate
 	public void activate() {
 		log.info("Helator's Integration Engine - Camel Templates Test bundle has started!");

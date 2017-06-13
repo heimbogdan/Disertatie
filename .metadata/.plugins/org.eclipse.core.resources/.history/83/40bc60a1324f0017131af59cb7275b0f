@@ -1,0 +1,7 @@
+routes=httpToJMS
+types=simple,transform
+default=route.type,route.subtype,id,route.steps.prefix
+http=http.method,http.component,http.uri
+httphost=http.host,http.host.path
+transformer=transformer.xsl
+jms=component.name,component.subtype,jms.queue.prefix

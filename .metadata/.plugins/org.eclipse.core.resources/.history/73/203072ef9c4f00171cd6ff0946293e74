@@ -1,0 +1,13 @@
+package ro.helator.dia.util;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import ro.helator.dia.entity.Route;
+
+public class RouteListParser {
+
+	public static synchronized List<Route> parseResponse(String response) {
+		List<Route> list = new ArrayList<Route>();
+	}
+}

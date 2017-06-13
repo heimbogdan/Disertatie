@@ -1,7 +1,12 @@
 package ro.helator.dia.screen.controller.tab;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.net.URL;
 import java.util.List;
+import java.util.Optional;
+import java.util.Properties;
 import java.util.ResourceBundle;
 
 import javax.jms.JMSException;
@@ -12,6 +17,7 @@ import javafx.beans.binding.Bindings;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ContextMenu;
+import javafx.scene.control.Dialog;
 import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
 import javafx.scene.control.MenuItem;
@@ -19,14 +25,22 @@ import javafx.scene.control.SelectionMode;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.ToolBar;
+import javafx.scene.control.TreeItem;
+import javafx.scene.control.TreeView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.AnchorPane;
+import javafx.stage.FileChooser;
+import javafx.stage.Modality;
+import ro.helator.dia.entity.BeanElement;
 import ro.helator.dia.entity.Route;
 import ro.helator.dia.entity.Template;
+import ro.helator.dia.factory.PopupFactory;
 import ro.helator.dia.screen.BaseScreenController;
 import ro.helator.dia.server.Server;
+import ro.helator.dia.util.BeanListParser;
 import ro.helator.dia.util.BrokerConnector;
 import ro.helator.dia.util.RequestType;
+import ro.helator.dia.util.RouteListParser;
 import ro.helator.dia.util.RouteTemplateParser;
 
 public class KarafAdminController extends BaseScreenController {
@@ -34,7 +48,8 @@ public class KarafAdminController extends BaseScreenController {
 	private static final Logger log = Logger.getLogger(KarafAdminController.class);
 
 	private static final String ROUTE_TEMP_LIST_REQ = "<routeTemplateRequest><option>3</option></routeTemplateRequest>";
-
+	private static final String BEAN_LIST_REQ = "<BeanRequest><option>2</option></BeanRequest>";
+	
 	private BrokerConnector broker;
 
 	@FXML
@@ -45,7 +60,11 @@ public class KarafAdminController extends BaseScreenController {
 
 	@FXML
 	private ToolBar tempToolBar;
-
+	@FXML
+	private ToolBar routeToolBar;
+	@FXML
+	private ToolBar beanToolBar;
+	
 	@FXML
 	private TableView<Template> tempTable;
 	@FXML
@@ -57,10 +76,26 @@ public class KarafAdminController extends BaseScreenController {
 	@FXML
 	private TableColumn<Template, Integer> tempDeployedCol;
 
+	@FXML
+	private TableView<Route> routeTable;
+	@FXML
+	private TableColumn<Route, String> routeContextCol;
+	@FXML
+	private TableColumn<Route, String> routeIdCol;
+	@FXML
+	private TableColumn<Route, String> routeEndpointCol;
+	@FXML
+	private TableColumn<Route, String> routeStateCol;
+	@FXML
+	private TableColumn<Route, String> routeUptimeCol;
+	
+	@FXML
+	private TreeView<String> beanTree;
+	
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
 
-		initListView();
+		initTreeview();
 		initTable();
 		initTableContextMenu();
 		initToolBar();
@@ -75,27 +110,11 @@ public class KarafAdminController extends BaseScreenController {
 		}
 	}
 
-	private void initListView() {
-		routesListView.setCellFactory(list -> {
-			ListCell<Route> cell = new ListCell<Route>() {
-				@Override
-				protected void updateItem(Route r, boolean bln) {
-					super.updateItem(r, bln);
-					if (r != null) {
-						setText(r.getId());
-					}
-				}
-			};
-			return cell;
-		});
-		routesListView.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
-		routesListView.getSelectionModel().selectedItemProperty().addListener((observable, oldVal, newVal) -> {
-			if (newVal != null) {
-				System.out.println(newVal.getId());
-			} else {
-				System.out.println("null");
-			}
-		});
+	private void initTreeview(){
+		TreeItem<String> rootNode = new TreeItem<String>("Beans");
+		rootNode.setExpanded(true);
+		beanTree.setRoot(rootNode);
+		beanTree.setEditable(false);
 	}
 
 	private void initTable() {
@@ -103,6 +122,12 @@ public class KarafAdminController extends BaseScreenController {
 		tempSubtypeCol.setCellValueFactory(new PropertyValueFactory<Template, String>("subtype"));
 		tempTokensCol.setCellValueFactory(new PropertyValueFactory<Template, Integer>("tokensNo"));
 		tempDeployedCol.setCellValueFactory(new PropertyValueFactory<Template, Integer>("deployedNo"));
+		
+		routeContextCol.setCellValueFactory(new PropertyValueFactory<Route, String>("context"));
+		routeIdCol.setCellValueFactory(new PropertyValueFactory<Route, String>("id"));
+		routeEndpointCol.setCellValueFactory(new PropertyValueFactory<Route, String>("endpoint"));
+		routeStateCol.setCellValueFactory(new PropertyValueFactory<Route, String>("state"));
+		routeUptimeCol.setCellValueFactory(new PropertyValueFactory<Route, String>("uptime"));
 	}
 
 	private void initTableContextMenu() {
@@ -110,7 +135,28 @@ public class KarafAdminController extends BaseScreenController {
 
 		final MenuItem create = new MenuItem("Create route...");
 		create.setOnAction(event -> {
-
+			Properties tokens = tempTable.getSelectionModel().getSelectedItem().getTokens();
+			Properties prop = new Properties(tokens);
+			Dialog<Properties> dialog = PopupFactory.newOKCancelFormDialog(prop, "Create route");
+			dialog.initOwner(karafAdminPane.getScene().getWindow());
+			dialog.initModality(Modality.APPLICATION_MODAL);
+			Optional<Properties> result = dialog.showAndWait();
+			Properties s = result.isPresent() ? result.get() : null;
+			if(s != null){
+				FileChooser fileChooser = new FileChooser();
+	            fileChooser.setTitle("Save route properties");
+	            fileChooser.getExtensionFilters().addAll(
+	                    new FileChooser.ExtensionFilter("Properties", "*.properties")
+	                );
+	            File file = fileChooser.showSaveDialog(karafAdminPane.getScene().getWindow());
+	            if (file != null) {
+	            	try {
+						s.store(new FileWriter(file), "Route property file");
+					} catch (IOException e) {
+						e.printStackTrace();
+					}
+	            }
+			}
 		});
 		create.visibleProperty().bind(Bindings.isNotEmpty(tempTable.getSelectionModel().getSelectedItems()));
 
@@ -139,5 +185,52 @@ public class KarafAdminController extends BaseScreenController {
 		});
 
 		tempToolBar.getItems().add(refresh);
+		
+		Button refresh2 = new Button("Refresh");
+		refresh2.setOnAction(event -> {
+			try {
+				String response = broker.request("", RequestType.ROUTE_LIST);
+				if (response != null && !response.isEmpty()) {
+					List<Route> list = RouteListParser.parseResponse(response);
+					if (list != null && !list.isEmpty()) {
+						routeTable.getItems().clear();
+						routeTable.getItems().addAll(list);
+					}
+				}
+			} catch (JMSException e) {
+				log.error(e.getMessage(), e);
+			}
+		});
+
+		routeToolBar.getItems().add(refresh2);
+		
+		Button refresh3 = new Button("Refresh");
+		refresh3.setOnAction(event -> {
+			try {
+				String response = broker.request(BEAN_LIST_REQ, RequestType.BEAN_LIST);
+				if (response != null && !response.isEmpty()) {
+					List<BeanElement> list = BeanListParser.parseResponse(response);
+					if (list != null && !list.isEmpty()) {
+						for(BeanElement bean : list){
+							TreeItem<String> b = new TreeItem<String>(bean.getName());
+							b.setExpanded(false);
+							List<String> methods = bean.getMethods();
+							if(methods != null && !methods.isEmpty()){
+								for(String method : methods){
+									TreeItem<String> m = new TreeItem<String>(method);
+									b.getChildren().add(m);
+								}
+							}
+							beanTree.getRoot().getChildren().add(b);
+						}
+					}
+				}
+			} catch (JMSException e) {
+				log.error(e.getMessage(), e);
+			}
+		});
+
+		beanToolBar.getItems().add(refresh3);
+		
 	}
 }

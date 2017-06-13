@@ -1,9 +1,12 @@
 package ro.helator.dia.factory;
 
+import static ro.helator.dia.util.Constants.SERRIAL_UUID;
+
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.Enumeration;
+import java.util.Properties;
+import java.util.Set;
 
 import javafx.geometry.Insets;
 import javafx.scene.control.ButtonBar.ButtonData;
@@ -13,8 +16,6 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.util.Callback;
-
-import static ro.helator.dia.util.Constants.SERRIAL_UUID;
 
 public class PopupFactory {
 
@@ -39,39 +40,99 @@ public class PopupFactory {
 		gridPane.setVgap(10);
 		gridPane.setPadding(new Insets(20, 150, 10, 10));
 
-		Field[] fields = obj.getClass().getDeclaredFields();
-		int i = 0;
-		String empty = null;
-		for (Field f : fields) {
-			String name = f.getName();
-			if (!name.equals(SERRIAL_UUID)) {
-				Label label = new Label(name);
+		if(obj instanceof Properties){
+			Enumeration<String> keys = (Enumeration<String>) ((Properties) obj).propertyNames();
+			int i = 0;
+			while(keys.hasMoreElements()){
+				String key = keys.nextElement();
+				Label label = new Label(key);
 				TextField textField = new TextField();
-				textField.setPromptText(name);
-				textField.setId(name);
+				textField.setPromptText(key);
+				textField.setId(key.replace(".", "-"));
+				Object val = ((Properties) obj).get(key);
+				String value = "";
+				if (val != null) {
+					if (val instanceof String) {
+						value = (String) val;
+					} else if (val instanceof Integer) {
+						value = ((Integer) val).toString();
+					} else if (val instanceof Double) {
+						value = ((Double) val).toString();
+					} else if (val instanceof Long) {
+						value = ((Long) val).toString();
+					} else if (val instanceof Boolean) {
+						value = ((Boolean) val).toString();
+					}
+				}
+				textField.setText(value);
 				gridPane.add(label, 0, i);
 				gridPane.add(textField, 1, i++);
 			}
+		} else {
+			Field[] fields = obj.getClass().getDeclaredFields();
+			int i = 0;
+			for (Field f : fields) {
+				String name = f.getName();
+				if (!name.equals(SERRIAL_UUID)) {
+					Label label = new Label(name);
+					TextField textField = new TextField();
+					textField.setPromptText(name);
+					textField.setId(name);
+					Object val = null;
+					try {
+						Method m = obj.getClass().getMethod(toLowerCamelCase("get", name));
+						if(m != null){
+							val = m.invoke(obj, new Object[]{});
+						}
+					} catch (Exception e) {
+					}
+					String value = "";
+					if (val != null) {
+						if (val instanceof String) {
+							value = (String) val;
+						} else if (val instanceof Integer) {
+							value = ((Integer) val).toString();
+						} else if (val instanceof Double) {
+							value = ((Double) val).toString();
+						} else if (val instanceof Long) {
+							value = ((Long) val).toString();
+						} else if (val instanceof Boolean) {
+							value = ((Boolean) val).toString();
+						}
+					}
+					textField.setText(value);
+					gridPane.add(label, 0, i);
+					gridPane.add(textField, 1, i++);
+				}
+			}	
 		}
-
 		dialog.getDialogPane().setContent(gridPane);
 		dialog.setResultConverter(new Callback<ButtonType, R>() {
 			@Override
 			public R call(ButtonType b) {
 				if (b.getButtonData() == ButtonData.OK_DONE) {
 					try {
-						R newObj = (R) obj.getClass().newInstance();
-						for (Field f : fields) {
-							String name = f.getName();
-							if (!name.equals(SERRIAL_UUID)) {
-								TextField tf = (TextField) gridPane.getScene().lookup("#" + name);
-								String value = tf.getText().trim();
-								Method method = newObj.getClass().getMethod(toLowerCamelCase("set", name),
-										String.class);
-								method.invoke(newObj, value);
+						if(obj instanceof Properties){
+							Enumeration<String> keys = (Enumeration<String>) ((Properties) obj).propertyNames();
+							while(keys.hasMoreElements()){
+								String key = keys.nextElement();
+								TextField tf = (TextField) gridPane.getScene().lookup("#" + key.replace(".", "-"));
+								((Properties) obj).setProperty(key, tf.getText().trim());
+							}
+						} else {
+						Field[] fields = obj.getClass().getDeclaredFields();
+							for (Field f : fields) {
+								String name = f.getName();
+								if (!name.equals(SERRIAL_UUID)) {
+									TextField tf = (TextField) gridPane.getScene().lookup("#" + name);
+									String value = tf.getText().trim();
+									Method method = obj.getClass().getMethod(toLowerCamelCase("set", name),
+											String.class);
+									method.invoke(obj, value);
+								}
 							}
 						}
-						return newObj;
+						return obj;
 					} catch (Exception e) {
 						e.printStackTrace();
 					}

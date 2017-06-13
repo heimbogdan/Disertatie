@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<watchExpressions>\r\n<expression enabled\="true" text\="ex.getIn()"/>\r\n</watchExpressions>\r\n
+prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<watchExpressions>\r\n<expression enabled\="true" text\="ex.getIn()"/>\r\n<expression enabled\="true" text\="tf.getText()"/>\r\n<expression enabled\="true" text\="gridPane.getScene().lookup(&quot;\#http_uri&quot;)"/>\r\n<expression enabled\="true" text\="db.parse(is)"/>\r\n<expression enabled\="true" text\="attr.getTextContent()"/>\r\n</watchExpressions>\r\n

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes id="routes-%UUID%" xmlns="http://camel.apache.org/schema/spring">
+    <route id="HttpToHttp_Simple_%ID%">
+        <from id="_%ROUTE.STEPS.PREFIX%_from" uri="jetty:http://%HTTP.HOST%/%HTTP.HOST.PATH%"/>
+        <onException id="_%ROUTE.STEPS.PREFIX%_onException">
+            <exception>java.lang.Exception</exception>
+            <handled>
+				true
+			</handled>
+            <setHeader headerName="CamelHttpResponseCode" id="_%ROUTE.STEPS.PREFIX%_setHttpResponseCode">
+                <constant>500</constant>
+            </setHeader>
+        </onException>
+        <removeHeaders id="_removeHeaders1" pattern="CamelHttp*"/>
+        <log id="_%ROUTE.STEPS.PREFIX%_log1" message="Request received!"/>
+        <log id="_%ROUTE.STEPS.PREFIX%_log3" message="Request Body : ${body}"/>
+        <log id="_%ROUTE.STEPS.PREFIX%_log4" message="Request Headers: ${headers}"/>
+        <to id="_%ROUTE.STEPS.PREFIX%_to_%JMS.QUEUE.PREFIX%.OUT" uri="%COMPONENT.NAME%:%COMPONENT.SUBTYPE%:%JMS.QUEUE.PREFIX%.IN"/>
+        <log id="_%ROUTE.STEPS.PREFIX%_log5" message="Request sent!"/>
+        <from id="_%ROUTE.STEPS.PREFIX%_from" uri="%COMPONENT.NAME%:%COMPONENT.SUBTYPE%:%JMS.QUEUE.PREFIX%.OUT"/>
+        <bean beanType="IE_CamelTransformerBean"
+            id="_%ROUTE.STEPS.PREFIX%_transform" method="transform(${body},%TRANSTORMER.XSL%)"/>
+        <log id="_%ROUTE.STEPS.PREFIX%_log6" message="Response body: ${body}"/>
+        <log id="_%ROUTE.STEPS.PREFIX%_log7" message="Response Headers: ${headers}"/>
+    </route>
+</routes>

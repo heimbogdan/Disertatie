@@ -1,0 +1,86 @@
+package ro.helator.dia.util;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+import ro.helator.dia.entity.BeanElement;
+
+public class BeanListParser {
+
+	public static synchronized List<BeanElement> parseResponse(String response) {
+		List<BeanElement> list = new ArrayList<BeanElement>();
+
+		Document doc = Util.convertStringToDocument(response);
+		if (doc != null) {
+			Element root = doc.getDocumentElement();
+			if (root != null && "ArrayList".equals(root.getNodeName())) {
+				NodeList beans = root.getChildNodes();
+				int size = beans.getLength();
+				for (int i = 0; i < size; i++) {
+					Node bean = beans.item(i);
+					if ("item".equals(bean.getNodeName())) {
+						NodeList attrs = bean.getChildNodes();
+						int sizeA = attrs.getLength();
+
+						BeanElement beanEl = new BeanElement();
+						for (int j = 0; j < sizeA; j++) {
+							Node attr = attrs.item(j);
+							if ("name".equals(attr.getNodeName())) {
+								beanEl.setName(attr.getTextContent());
+							} else if ("methods".equals(attr.getNodeName())) {
+								NodeList methods = attr.getChildNodes();
+								int sizeM = methods.getLength();
+
+								List<String> methodList = new ArrayList<String>();
+								for (int k = 0; k < sizeM; k++) {
+									Node method = methods.item(k);
+
+									if ("methods".equals(method.getNodeName())) {
+										StringBuilder signature = new StringBuilder();
+
+										NodeList methodAttrs = method.getChildNodes();
+										int sizeMP = methodAttrs.getLength();
+
+										for (int l = 0; l < sizeMP; l++) {
+											Node methodAttr = methodAttrs.item(l);
+											if ("name".equals(methodAttr.getNodeName())) {
+												if (signature.length() > 0) {
+													signature = new StringBuilder().append(methodAttr.getTextContent())
+															.append("(").append(signature.toString());
+												} else {
+													signature.append(methodAttr.getTextContent()).append("(");
+												}
+											} else if ("parameters".equals(methodAttr.getNodeName())) {
+												NodeList params = methodAttr.getChildNodes();
+												int sizeP = params.getLength();
+
+												for (int m = 0; m < sizeP; m++) {
+													Node param = params.item(m);
+													if (signature.length() > 0) {
+														signature.append(", ");
+													}
+													signature.append(param.getTextContent()).append(" ")
+															.append(param.getNodeName());
+												}
+											}
+										}
+										if(signature.length() > 0){
+											signature.append(")");
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		return list;
+	}
+}

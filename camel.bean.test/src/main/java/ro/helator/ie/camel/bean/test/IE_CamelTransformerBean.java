@@ -22,7 +22,7 @@ import ro.helator.ie.camel.bean.BeanElement;
 import ro.helator.ie.camel.bean.ParamDesc;
 import ro.helator.ie.camel.interfaces.BeanRegistryService;
 
-@Component(name = "IE_CamelTransformerBean", immediate = true)
+@Component(name = "IE_CamelTransformerBean", immediate = true, service = IE_CamelTransformerBean.class)
 public class IE_CamelTransformerBean implements BeanElement {
 
 	private static final Logger log = LoggerFactory.getLogger(IE_CamelBeanTest.class);
@@ -56,7 +56,7 @@ public class IE_CamelTransformerBean implements BeanElement {
 	}
 
 	public String getBeanName() {
-		return "IE_CamelBeanTest";
+		return "ro.helator.ie.camel.bean.test.IE_CamelBeanTest";
 	}
 
 	public String[] getMethods() {

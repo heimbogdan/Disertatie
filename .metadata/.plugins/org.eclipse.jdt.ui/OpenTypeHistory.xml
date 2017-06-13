@@ -4,4 +4,5 @@
 <typeInfo handle="=camel/C:\/Users\/Bogdan\/.m2\/repository\/org\/osgi\/org.osgi.core\/6.0.0\/org.osgi.core-6.0.0.jar&lt;org.osgi.framework(BundleActivator.class[BundleActivator" modifiers="1537" timestamp="1492800400982"/>
 <typeInfo handle="=camel/src\/main\/java&lt;ro.helator.ie.camel.interfaces{TemplateScanerService.java[TemplateScanerService" modifiers="513" timestamp="1493472585110"/>
 <typeInfo handle="=camel/src\/main\/java&lt;ro.helator.ie.camel.interfaces{TemplateRegistryService.java[TemplateRegistryService" modifiers="513" timestamp="1493836543819"/>
+<typeInfo handle="=camel/C:\/Users\/Bogdan\/.m2\/repository\/org\/apache\/camel\/camel-core\/2.18.3\/camel-core-2.18.3.jar&lt;org.apache.camel.builder(RouteBuilder.class[RouteBuilder" modifiers="1057" timestamp="1492712930981"/>
 </typeInfoHistroy>

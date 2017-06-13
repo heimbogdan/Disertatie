@@ -52,7 +52,7 @@ public class ScreensContoller implements ApplicationContextAware{
     public void init(Stage stage) {
         this.stage = stage;
         Group root = new Group();
-        this.stage.setTitle("Alpin Self Check-In");
+        this.stage.setTitle("Motor de integrare - Aplicatie Demo");
         Scene baseScene = new Scene(root);
         this.stage.setScene(baseScene);
         this.stage.initStyle(StageStyle.UNIFIED);

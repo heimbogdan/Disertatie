@@ -1,0 +1,12 @@
+package ro.helator.dia.entity;
+
+public class Route {
+
+	private String context;
+	private String id;
+	private String endpoint;
+	private String state;
+	private String uptime;
+	
+	
+}

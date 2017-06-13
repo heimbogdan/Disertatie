@@ -27,6 +27,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.control.ContextMenu;
 import javafx.scene.control.Dialog;
 import javafx.scene.control.MenuItem;
+import javafx.scene.control.SeparatorMenuItem;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 import javafx.scene.control.TableColumn;
@@ -46,7 +47,7 @@ import ro.helator.dia.server.Server;
 public class ServersController extends BaseScreenController {
 
 	private static final Logger log = Logger.getLogger(ServersController.class);
-	
+
 	@FXML
 	private AnchorPane serversPane;
 
@@ -98,57 +99,59 @@ public class ServersController extends BaseScreenController {
 		final ContextMenu menu = new ContextMenu();
 
 		final MenuItem connect = new MenuItem("Connect");
-		connect.setOnAction(new EventHandler<ActionEvent>() {
-			@Override
-			public void handle(ActionEvent event) {
-				TabPane tabs = (TabPane) serversPane.getParent().getParent();
-				Server server = serversTable.getSelectionModel().getSelectedItem();
-				loadTabPane("KarafAdmin", server);
-			}
+		connect.setOnAction(event -> {
+			TabPane tabs = (TabPane) serversPane.getParent().getParent();
+			Server server = serversTable.getSelectionModel().getSelectedItem();
+			loadTabPane("KarafAdmin", server);
 		});
 		connect.visibleProperty().bind(Bindings.isNotEmpty(serversTable.getSelectionModel().getSelectedItems()));
 
-//		final MenuItem fileTransfer = new MenuItem("File Transfer");
-//		fileTransfer.setOnAction(new EventHandler<ActionEvent>() {
-//			@Override
-//			public void handle(ActionEvent event) {
-//				
-//			}
-//		});
-//		fileTransfer.visibleProperty().bind(Bindings.isNotEmpty(serversTable.getSelectionModel().getSelectedItems()));
-
 		final MenuItem add = new MenuItem("Add...");
-		add.setOnAction(new EventHandler<ActionEvent>() {
-			@Override
-			public void handle(ActionEvent event) {
-				Dialog<Server> dialog = PopupFactory.newOKCancelFormDialog(new Server(), "Add new server");
-				dialog.initOwner(serversPane.getScene().getWindow());
-				dialog.initModality(Modality.APPLICATION_MODAL);
-				Optional<Server> result = dialog.showAndWait();
-				Server s = result.isPresent() ? result.get() : null;
-				if (s != null) {
-					ObservableList<Server> data = serversTable.getItems();
-					data.add(s);
-					List<Server> servers = new ArrayList<Server>();
-					for (Server server : data) {
-						servers.add(server);
-					}
-					saveList(servers);
+		add.setOnAction(event -> {
+			Dialog<Server> dialog = PopupFactory.newOKCancelFormDialog(new Server(), "Add new server");
+			dialog.initOwner(serversPane.getScene().getWindow());
+			dialog.initModality(Modality.APPLICATION_MODAL);
+			Optional<Server> result = dialog.showAndWait();
+			Server s = result.isPresent() ? result.get() : null;
+			if (s != null) {
+				ObservableList<Server> data = serversTable.getItems();
+				data.add(s);
+				List<Server> servers = new ArrayList<Server>();
+				for (Server server : data) {
+					servers.add(server);
 				}
+				saveList(servers);
 			}
 		});
 
-		final MenuItem delete = new MenuItem("Delete");
-		delete.setOnAction(new EventHandler<ActionEvent>() {
-			@Override
-			public void handle(ActionEvent event) {
-				serversTable.getItems().removeAll(serversTable.getSelectionModel().getSelectedItems());
-				saveList();
+		final MenuItem edit = new MenuItem("Edit");
+		edit.setOnAction(event -> {
+			Dialog<Server> dialog = PopupFactory.newOKCancelFormDialog(serversTable.getSelectionModel().getSelectedItem(), "Edit server");
+			dialog.initOwner(serversPane.getScene().getWindow());
+			dialog.initModality(Modality.APPLICATION_MODAL);
+			Optional<Server> result = dialog.showAndWait();
+			Server s = result.isPresent() ? result.get() : null;
+			if (s != null) {
+				ObservableList<Server> data = serversTable.getItems();
+//				data.add(s);
+				serversTable.refresh();
+				List<Server> servers = new ArrayList<Server>();
+				for (Server server : data) {
+					servers.add(server);
+				}
+				saveList(servers);
 			}
+		});
+		edit.visibleProperty().bind(Bindings.isNotEmpty(serversTable.getSelectionModel().getSelectedItems()));
+		
+		final MenuItem delete = new MenuItem("Delete");
+		delete.setOnAction(event -> {
+			serversTable.getItems().removeAll(serversTable.getSelectionModel().getSelectedItems());
+			saveList();
 		});
 		delete.visibleProperty().bind(Bindings.isNotEmpty(serversTable.getSelectionModel().getSelectedItems()));
 
-		menu.getItems().addAll(connect, /*fileTransfer,*/ add, delete);
+		menu.getItems().addAll(connect, new SeparatorMenuItem(), add, new SeparatorMenuItem(), edit, delete);
 
 		menu.setOnHiding(new EventHandler<WindowEvent>() {
 
@@ -174,7 +177,7 @@ public class ServersController extends BaseScreenController {
 		}
 	}
 
-	private void saveList(){
+	private void saveList() {
 		ObservableList<Server> data = serversTable.getItems();
 		List<Server> servers = new ArrayList<Server>();
 		for (Server server : data) {
@@ -182,6 +185,7 @@ public class ServersController extends BaseScreenController {
 		}
 		saveList(servers);
 	}
+
 	private void saveList(List<Server> list) {
 		try {
 			File servers = new File("config/servers/servers.bin");
@@ -194,14 +198,15 @@ public class ServersController extends BaseScreenController {
 			e.printStackTrace();
 		}
 	}
-	
+
 	private void loadTabPane(String name, Server server) {
 		if (log.isTraceEnabled()) {
 			log.trace(">>loadTabPane()");
 		}
 		try {
 			FXMLLoader loader = new FXMLLoader();
-			Pane newLoadedPane = loader.load(getClass().getResource(FXML_TAB_FOLDER + name + FXML_EXTENSION).openStream());
+			Pane newLoadedPane = loader
+					.load(getClass().getResource(FXML_TAB_FOLDER + name + FXML_EXTENSION).openStream());
 			Tab newTab = new Tab(name, newLoadedPane);
 			newTab.setId(server.getName());
 			TabPane tabs = (TabPane) serversPane.getParent().getParent();

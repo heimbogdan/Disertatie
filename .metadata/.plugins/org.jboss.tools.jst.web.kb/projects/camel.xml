@@ -44,9 +44,9 @@
    <linked-el length="25" name="%5" offset="2195" path="%6"/>
    <linked-el length="25" name="%7" offset="2195" path="%6"/>
    <linked-el length="31" name="%8" offset="2262" path="%1"/>
-   <linked-el length="46" name="%9" offset="1646" path="%10"/>
-   <linked-el length="34" name="%9" offset="1790" path="%10"/>
-   <linked-el length="29" name="%9" offset="1740" path="%10"/>
+   <linked-el length="29" name="%9" offset="1705" path="%10"/>
+   <linked-el length="46" name="%9" offset="1611" path="%10"/>
+   <linked-el length="34" name="%9" offset="1755" path="%10"/>
    <linked-el length="62" name="%11" offset="2179" path="%1"/>
    <linked-el length="62" name="%11" offset="2445" path="%2"/>
    <linked-el length="64" name="%12" offset="2394" path="%6"/>
@@ -55,17 +55,18 @@
    <linked-el length="40" name="%12" offset="1893" path="%6"/>
    <linked-el length="21" name="%13" offset="2268" path="%6"/>
    <linked-el length="40" name="%13" offset="1893" path="%6"/>
+   <linked-el length="9" name="%14" offset="2718" path="%15"/>
    <linked-el length="9" name="%14" offset="3477" path="%2"/>
-   <linked-el length="34" name="%14" offset="1790" path="%10"/>
    <linked-el length="9" name="%14" offset="2738" path="%1"/>
-   <linked-el length="64" name="%15" offset="2394" path="%6"/>
-   <linked-el length="18" name="%15" offset="2335" path="%6"/>
-   <linked-el length="40" name="%16" offset="1893" path="%6"/>
-   <linked-el length="46" name="%17" offset="1646" path="%10"/>
-   <linked-el length="34" name="%17" offset="1790" path="%10"/>
-   <linked-el length="29" name="%17" offset="1740" path="%10"/>
-   <linked-el length="46" name="%18" offset="1646" path="%10"/>
-   <linked-el length="25" name="%19" offset="2195" path="%6"/>
+   <linked-el length="34" name="%14" offset="1755" path="%10"/>
+   <linked-el length="64" name="%16" offset="2394" path="%6"/>
+   <linked-el length="18" name="%16" offset="2335" path="%6"/>
+   <linked-el length="40" name="%17" offset="1893" path="%6"/>
+   <linked-el length="29" name="%18" offset="1705" path="%10"/>
+   <linked-el length="46" name="%18" offset="1611" path="%10"/>
+   <linked-el length="34" name="%18" offset="1755" path="%10"/>
+   <linked-el length="46" name="%19" offset="1611" path="%10"/>
+   <linked-el length="25" name="%20" offset="2195" path="%6"/>
   </el>
  </validation>
  <aliases>
@@ -82,16 +83,18 @@
   <alias path="project" value="%12"/>
   <alias path="project.artifactId" value="%13"/>
   <alias path="body" value="%14"/>
-  <alias path="project.version" value="%15"/>
+  <alias path="project.version" value="%16"/>
   <alias
    path="/camel/src/main/java/ro/helator/ie/camel/deploy/IE_CamelTemplateServiceRoute.java" value="%2"/>
   <alias path="/camel/pom.xml" value="%6"/>
-  <alias path="project.groupId" value="%16"/>
-  <alias path="file" value="%17"/>
+  <alias path="project.groupId" value="%17"/>
+  <alias path="file" value="%18"/>
   <alias
    path="/camel/src/main/java/ro/helator/ie/camel/deploy/IE_CamelBeanServiceRoute.java" value="%1"/>
-  <alias path="file.modified" value="%18"/>
-  <alias path="bunble" value="%19"/>
+  <alias
+   path="/camel/src/main/java/ro/helator/ie/camel/deploy/IE_CamelRoutesServiceRoute.java" value="%15"/>
+  <alias path="file.modified" value="%19"/>
+  <alias path="bunble" value="%20"/>
  </aliases>
  <includes/>
  <uris/>

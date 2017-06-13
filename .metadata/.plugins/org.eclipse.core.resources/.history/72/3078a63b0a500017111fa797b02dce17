@@ -1,0 +1,15 @@
+package ro.helator.dia.util;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import ro.helator.dia.entity.BeanElement;
+
+public class BeanListParser {
+
+	public static synchronized List<BeanElement> parseResponse(String response) {
+		List<BeanElement> list = new ArrayList<BeanElement>();
+		
+		return list;
+	}
+}

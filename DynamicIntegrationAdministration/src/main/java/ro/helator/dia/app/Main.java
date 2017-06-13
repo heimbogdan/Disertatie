@@ -2,8 +2,6 @@ package ro.helator.dia.app;
 
 import java.io.PrintStream;
 
-import javax.jms.JMSException;
-
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -13,7 +11,6 @@ import javafx.application.Platform;
 import javafx.stage.Stage;
 import ro.helator.dia.config.AppContextConfig;
 import ro.helator.dia.screen.ScreensContoller;
-import ro.helator.dia.util.BrokerConnector;
 
 /**
  * 

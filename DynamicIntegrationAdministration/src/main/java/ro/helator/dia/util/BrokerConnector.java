@@ -26,6 +26,10 @@ public class BrokerConnector {
 	
 	private static MessageProducer brokerProducer_RouteTemplates;
 	private static Queue ROUTE_TEMPLATES_OUT;
+	private static MessageProducer brokerProducer_RouteList;
+	private static Queue ROUTE_LIST_OUT;
+	private static MessageProducer brokerProducer_BeanList;
+	private static Queue BEAN_LIST_OUT;
 	
 	private Server server;
 	
@@ -51,9 +55,12 @@ public class BrokerConnector {
 	public void initQueues() throws JMSException {
 		createSession();
 		brokerProducer_RouteTemplates = session.createProducer(getDestination("SYSTEM.TEMPLATE.LIST.IN", DestinationType.QUEUE));
-
+		brokerProducer_RouteList = session.createProducer(getDestination("SYSTEM.ROUTE.LIST.IN", DestinationType.QUEUE));
+		brokerProducer_BeanList = session.createProducer(getDestination("SYSTEM.BUNDLE.LIST.IN", DestinationType.QUEUE));
+		
 		ROUTE_TEMPLATES_OUT = session.createQueue("SYSTEM.TEMPLATE.LIST.OUT");
-
+		ROUTE_LIST_OUT = session.createQueue("SYSTEM.ROUTE.LIST.OUT");
+		BEAN_LIST_OUT = session.createQueue("SYSTEM.BUNDLE.LIST.OUT");
 	}
 	
 	private void createConnection() {
@@ -222,6 +229,14 @@ public class BrokerConnector {
 		case ROUTE_TEMPLATE_LIST:
 			brokerProducer_RouteTemplates.send(message);
 			response = getMessageAsString(ROUTE_TEMPLATES_OUT, selector,waitTime);
+			break;
+		case ROUTE_LIST:
+			brokerProducer_RouteList.send(message);
+			response = getMessageAsString(ROUTE_LIST_OUT, selector, waitTime);
+			break;
+		case BEAN_LIST:
+			brokerProducer_BeanList.send(message);
+			response = getMessageAsString(BEAN_LIST_OUT, selector, waitTime);
 			break;
 		default:
 			break;
